@@ -163,10 +163,8 @@ header {
                         font-size: 1.2rem;
                         text-align: center;
 
-                        img {
-                            
-                        }
-                       
+                        img {}
+
 
                         .pro-count {
                             position: absolute;
@@ -186,33 +184,35 @@ header {
                         .blue {
                             background-color: green;
                         }
-                        span{
+
+                        span {
                             font-weight: 700;
                         }
 
                         .account {
                             position: relative;
 
-                            ul li  span {
-                                display:none;
+                            ul li span {
+                                display: none;
 
                             }
 
                             li {
                                 list-style-type: none;
-                                
+
                             }
 
-                            
+
 
                         }
+
                         .account:hover {
                             position: absolute;
                             color: green;
-                            
-                            ul li  span {
+
+                            ul li span {
                                 display: block;
-                                
+
 
                             }
 
@@ -220,7 +220,7 @@ header {
                                 background-color: aquamarine;
                                 padding: 10px 8px;
                                 border-radius: 5px;
-                                
+
                                 li {
                                     list-style-type: none;
                                     padding-bottom: 20px;
@@ -258,7 +258,7 @@ header {
 /* responsive media query for small device*/
 @media screen and (max-width:576px) {
     header {
-        margin: 0px 10px;
+        margin: 0px 0px;
 
         .header-top-container {
             display: flex;
@@ -340,6 +340,172 @@ header {
 
                 }
             }
+        }
+
+        .header-middle-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: montserrat;
+            gap: 0px;
+            padding: 30px 0px;
+            border-top: 1px solid rgba(128, 128, 128, 0.34);
+            border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+
+            .logo-container {
+                display: none;
+                img {
+                    max-width: 60%;
+                }
+            }
+
+            .search-icons-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0px;
+
+                .search-category-container {
+                    display: flex;
+                    align-items: center;
+                    border: 3px solid rgba(0, 128, 0, 0.249);
+                    padding: 2px;
+                    border-radius: 10px;
+                    justify-content: center;
+                    
+                    .all-category {
+
+                        select {
+                            padding: 8px 0px;
+                            padding-right: 0px;
+                            border: transparent;
+                            font-size: 1rem;
+                            border-right: 1px solid gray;
+                            outline: none;
+                            padding-right: 0px;
+                            overflow: hidden;
+
+
+                        }
+                    }
+
+                    .search {
+
+                        opacity: 0.35;
+                        padding-left: 0px;
+                        display: flex;
+                        align-items: center;
+
+                        .search-bar,
+                        .search-bar:active {
+                            padding: 8px 0px;
+                            border: none;
+                            font-size: 1rem;
+                            margin-right: 0px;
+                            outline: none;
+
+                        }
+
+                        i {
+                            font-size: 1rem;
+                            padding-left: 0px;
+                            padding-right: 0px;
+                        }
+                    }
+                }
+
+                .icons-container {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    display: none;
+                    .icon {
+                        padding: 10px 0px;
+                        padding-right: 0px;
+                        display: flex;
+                        align-items: center;
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            font-size: 1rem;
+                            text-align: center;
+
+                            img {}
+
+
+                            .pro-count {
+                                display: none;
+                                position: absolute;
+                                height: 20px;
+                                width: 20px;
+                                top: 110px;
+                                color: white;
+                                border-radius: 50%;
+                                font-weight: 500;
+                                font-size: 12px;
+                                text-align: center;
+                                align-items: center;
+
+                                justify-content: center;
+                            }
+
+                            .blue {
+                                display: none;
+                                background-color: green;
+                            }
+
+                            span {
+                                font-weight: 700;
+                            }
+
+                            .account {
+                                position: relative; 
+                                display: none;
+                                ul li span {
+                                    display: none;
+
+                                }
+
+                                li {
+                                    list-style-type: none;
+
+                                }
+
+
+
+                            }
+
+                            .account:hover {
+                                position: absolute;
+                                color: green;
+                                display: none;
+
+                                ul li span {
+                                    display: block;
+
+
+                                }
+
+                                ul {
+                                    background-color: aquamarine;
+                                    padding: 10px 8px;
+                                    border-radius: 5px;
+
+                                    li {
+                                        list-style-type: none;
+                                        padding-bottom: 20px;
+                                        transition: all 2s ease-in-out 0s;
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+
+
         }
     }
 }
@@ -427,6 +593,170 @@ header {
                 }
             }
         }
+
+        .header-middle-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: montserrat;
+            gap: 20px;
+            padding: 30px 0px;
+            border-top: 1px solid rgba(128, 128, 128, 0.34);
+            border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+
+            .logo-container {
+                img {
+                    max-width: 80%;
+                }
+            }
+
+            .search-icons-container {
+                display: flex;
+                align-items: center;
+                
+                gap: 0px;
+
+                .search-category-container {
+                    display: flex;
+                    align-items: center;
+                    border: 3px solid rgba(0, 128, 0, 0.249);
+                    padding: 12px 15px;
+                    border-radius: 10px;
+
+                    .all-category {
+
+                        select {
+                            padding: 8px 10px;
+                            padding-right: 0px;
+                            border: transparent;
+                            font-size: 1.2rem;
+                            border-right: 1px solid gray;
+                            outline: none;
+                            padding-right: 20px;
+                            overflow: hidden;
+
+
+                        }
+                    }
+
+                    .search {
+
+                        opacity: 0.35;
+                        padding-left: 10px;
+                        display: flex;
+                        align-items: center;
+
+                        .search-bar,
+                        .search-bar:active {
+                            padding: 8px 10px;
+                            border: none;
+                            font-size: 1.2rem;
+                            margin-right: 10px;
+                            outline: none;
+
+                        }
+
+                        i {
+                            font-size: 1.2rem;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                        }
+                    }
+                }
+
+                .icons-container {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    display: none;
+                    .icon {
+                        padding: 10px 20px;
+                        padding-right: 20px;
+                        display: flex;
+                        align-items: center;
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            font-size: 1.2rem;
+                            text-align: center;
+
+                            img {}
+
+
+                            .pro-count {
+                                display: none;
+                                position: absolute;
+                                height: 20px;
+                                width: 20px;
+                                top: 110px;
+                                color: white;
+                                border-radius: 50%;
+                                font-weight: 500;
+                                font-size: 12px;
+                                text-align: center;
+                                align-items: center;
+
+                                justify-content: center;
+                            }
+
+                            .blue {
+                                display: none;
+                                background-color: green;
+                            }
+
+                            span {
+                                font-weight: 700;
+                            }
+
+                            .account {
+                                position: relative; 
+                                display: none;
+                                ul li span {
+                                    display: none;
+
+                                }
+
+                                li {
+                                    list-style-type: none;
+
+                                }
+
+
+
+                            }
+
+                            .account:hover {
+                                position: absolute;
+                                color: green;
+                                display: none;
+
+                                ul li span {
+                                    display: block;
+
+
+                                }
+
+                                ul {
+                                    background-color: aquamarine;
+                                    padding: 10px 8px;
+                                    border-radius: 5px;
+
+                                    li {
+                                        list-style-type: none;
+                                        padding-bottom: 20px;
+                                        transition: all 2s ease-in-out 0s;
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
     }
 }
 
@@ -513,6 +843,168 @@ header {
                 }
             }
         }
+
+        .header-middle-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: montserrat;
+            gap: 20px;
+            padding: 30px 0px;
+            border-top: 1px solid rgba(128, 128, 128, 0.34);
+            border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+
+            .logo-container {
+                img {}
+            }
+
+            .search-icons-container {
+                display: flex;
+                align-items: center;
+                
+                gap: 0px;
+
+                .search-category-container {
+                    display: flex;
+                    align-items: center;
+                    border: 3px solid rgba(0, 128, 0, 0.249);
+                    padding: 12px 15px;
+                    border-radius: 10px;
+
+                    .all-category {
+
+                        select {
+                            padding: 8px 10px;
+                            padding-right: 0px;
+                            border: transparent;
+                            font-size: 1.2rem;
+                            border-right: 1px solid gray;
+                            outline: none;
+                            padding-right: 20px;
+                            overflow: hidden;
+
+
+                        }
+                    }
+
+                    .search {
+
+                        opacity: 0.35;
+                        padding-left: 10px;
+                        display: flex;
+                        align-items: center;
+
+                        .search-bar,
+                        .search-bar:active {
+                            padding: 8px 10px;
+                            border: none;
+                            font-size: 1.2rem;
+                            margin-right: 10px;
+                            outline: none;
+
+                        }
+
+                        i {
+                            font-size: 1.2rem;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                        }
+                    }
+                }
+
+                .icons-container {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    display: none;
+                    .icon {
+                        padding: 10px 20px;
+                        padding-right: 20px;
+                        display: flex;
+                        align-items: center;
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            font-size: 1.2rem;
+                            text-align: center;
+
+                            img {}
+
+
+                            .pro-count {
+                                display: none;
+                                position: absolute;
+                                height: 20px;
+                                width: 20px;
+                                top: 110px;
+                                color: white;
+                                border-radius: 50%;
+                                font-weight: 500;
+                                font-size: 12px;
+                                text-align: center;
+                                align-items: center;
+
+                                justify-content: center;
+                            }
+
+                            .blue {
+                                display: none;
+                                background-color: green;
+                            }
+
+                            span {
+                                font-weight: 700;
+                            }
+
+                            .account {
+                                position: relative; 
+                                display: none;
+                                ul li span {
+                                    display: none;
+
+                                }
+
+                                li {
+                                    list-style-type: none;
+
+                                }
+
+
+
+                            }
+
+                            .account:hover {
+                                position: absolute;
+                                color: green;
+                                display: none;
+
+                                ul li span {
+                                    display: block;
+
+
+                                }
+
+                                ul {
+                                    background-color: aquamarine;
+                                    padding: 10px 8px;
+                                    border-radius: 5px;
+
+                                    li {
+                                        list-style-type: none;
+                                        padding-bottom: 20px;
+                                        transition: all 2s ease-in-out 0s;
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
     }
 }
 
@@ -598,6 +1090,160 @@ header {
 
                 }
             }
+        }
+
+        .header-middle-container {
+            display: flex;
+            align-items: center;
+            font-family: montserrat;
+            gap: 100px;
+            padding: 50px 0px;
+            border-top: 1px solid rgba(128, 128, 128, 0.34);
+            border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+
+            .logo-container {
+                img {}
+            }
+
+            .search-icons-container {
+                display: flex;
+                align-items: center;
+                gap: 0px;
+
+                .search-category-container {
+                    display: flex;
+                    align-items: center;
+                    border: 3px solid rgba(0, 128, 0, 0.249);
+                    padding: 12px 15px;
+                    border-radius: 10px;
+
+                    .all-category {
+
+                        select {
+                            padding: 8px 10px;
+                            padding-right: 0px;
+                            border: transparent;
+                            font-size: 1.2rem;
+                            border-right: 1px solid gray;
+                            outline: none;
+                            padding-right: 20px;
+                            overflow: hidden;
+
+
+                        }
+                    }
+
+                    .search {
+
+                        opacity: 0.35;
+                        padding-left: 20px;
+
+                        .search-bar,
+                        .search-bar:active {
+                            padding: 8px 10px;
+                            border: none;
+                            font-size: 1.2rem;
+                            margin-right: 10px;
+                            outline: none;
+
+                        }
+
+                        i {
+                            font-size: 1.2rem;
+                            padding-left: 70px;
+                            padding-right: 20px;
+                        }
+                    }
+                }
+
+                .icons-container {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+
+                    .icon {
+                        padding: 10px 30px;
+                        padding-right: 40px;
+
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            font-size: 1.2rem;
+                            text-align: center;
+
+                            img {}
+
+
+                            .pro-count {
+                                position: absolute;
+                                height: 20px;
+                                width: 20px;
+                                top: 150px;
+                                color: white;
+                                border-radius: 50%;
+                                font-weight: 500;
+                                font-size: 12px;
+                                text-align: center;
+                                align-items: center;
+                                display: flex;
+                                justify-content: center;
+                            }
+
+                            .blue {
+                                background-color: green;
+                            }
+
+                            span {
+                                font-weight: 700;
+                            }
+
+                            .account {
+                                position: relative;
+
+                                ul li span {
+                                    display: none;
+
+                                }
+
+                                li {
+                                    list-style-type: none;
+
+                                }
+
+
+
+                            }
+
+                            .account:hover {
+                                position: absolute;
+                                color: green;
+
+                                ul li span {
+                                    display: block;
+
+
+                                }
+
+                                ul {
+                                    background-color: aquamarine;
+                                    padding: 10px 8px;
+                                    border-radius: 5px;
+
+                                    li {
+                                        list-style-type: none;
+                                        padding-bottom: 20px;
+                                        transition: all 2s ease-in-out 0s;
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+
+
         }
     }
 }

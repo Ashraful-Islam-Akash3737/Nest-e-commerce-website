@@ -174,7 +174,7 @@ header .header-middle-container .search-icons-container .icons-container .icon a
 /* responsive media query for small device*/
 @media screen and (max-width: 576px) {
   header {
-    margin: 0px 10px;
+    margin: 0px 0px;
   }
   header .header-top-container {
     display: flex;
@@ -233,6 +233,132 @@ header .header-middle-container .search-icons-container .icons-container .icon a
     border-left: 1px solid black;
     padding-left: 10px;
     font-size: 1rem;
+  }
+  header .header-middle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: montserrat;
+    gap: 0px;
+    padding: 30px 0px;
+    border-top: 1px solid rgba(128, 128, 128, 0.34);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+  }
+  header .header-middle-container .logo-container {
+    display: none;
+  }
+  header .header-middle-container .logo-container img {
+    max-width: 60%;
+  }
+  header .header-middle-container .search-icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+  }
+  header .header-middle-container .search-icons-container .search-category-container {
+    display: flex;
+    align-items: center;
+    border: 3px solid rgba(0, 128, 0, 0.249);
+    padding: 2px;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .all-category select {
+    padding: 8px 0px;
+    padding-right: 0px;
+    border: transparent;
+    font-size: 1rem;
+    border-right: 1px solid gray;
+    outline: none;
+    padding-right: 0px;
+    overflow: hidden;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .search {
+    opacity: 0.35;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .search .search-bar,
+  header .header-middle-container .search-icons-container .search-category-container .search .search-bar:active {
+    padding: 8px 0px;
+    border: none;
+    font-size: 1rem;
+    margin-right: 0px;
+    outline: none;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .search i {
+    font-size: 1rem;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  header .header-middle-container .search-icons-container .icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon {
+    padding: 10px 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .pro-count {
+    display: none;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 110px;
+    color: white;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .blue {
+    display: none;
+    background-color: green;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a span {
+    font-weight: 700;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account {
+    position: relative;
+    display: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account ul li span {
+    display: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account li {
+    list-style-type: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account:hover {
+    position: absolute;
+    color: green;
+    display: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account:hover ul li span {
+    display: block;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account:hover ul {
+    background-color: aquamarine;
+    padding: 10px 8px;
+    border-radius: 5px;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account:hover ul li {
+    list-style-type: none;
+    padding-bottom: 20px;
+    transition: all 2s ease-in-out 0s;
   }
 }
 /* responsive media query for medium device*/
@@ -295,6 +421,127 @@ header .header-middle-container .search-icons-container .icons-container .icon a
     padding-left: 10px;
     font-size: 1rem;
   }
+  header .header-middle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: montserrat;
+    gap: 20px;
+    padding: 30px 0px;
+    border-top: 1px solid rgba(128, 128, 128, 0.34);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+  }
+  header .header-middle-container .logo-container img {
+    max-width: 80%;
+  }
+  header .header-middle-container .search-icons-container {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+  }
+  header .header-middle-container .search-icons-container .search-category-container {
+    display: flex;
+    align-items: center;
+    border: 3px solid rgba(0, 128, 0, 0.249);
+    padding: 12px 15px;
+    border-radius: 10px;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .all-category select {
+    padding: 8px 10px;
+    padding-right: 0px;
+    border: transparent;
+    font-size: 1.2rem;
+    border-right: 1px solid gray;
+    outline: none;
+    padding-right: 20px;
+    overflow: hidden;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .search {
+    opacity: 0.35;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .search .search-bar,
+  header .header-middle-container .search-icons-container .search-category-container .search .search-bar:active {
+    padding: 8px 10px;
+    border: none;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    outline: none;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .search i {
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  header .header-middle-container .search-icons-container .icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon {
+    padding: 10px 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .pro-count {
+    display: none;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 110px;
+    color: white;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .blue {
+    display: none;
+    background-color: green;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a span {
+    font-weight: 700;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account {
+    position: relative;
+    display: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account ul li span {
+    display: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account li {
+    list-style-type: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account:hover {
+    position: absolute;
+    color: green;
+    display: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account:hover ul li span {
+    display: block;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account:hover ul {
+    background-color: aquamarine;
+    padding: 10px 8px;
+    border-radius: 5px;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account:hover ul li {
+    list-style-type: none;
+    padding-bottom: 20px;
+    transition: all 2s ease-in-out 0s;
+  }
 }
 /* responsive media query for large device*/
 @media screen and (min-width: 992px) and (max-width: 1400px) {
@@ -353,6 +600,124 @@ header .header-middle-container .search-icons-container .icons-container .icon a
     padding-left: 10px;
     font-size: 1.2rem;
   }
+  header .header-middle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: montserrat;
+    gap: 20px;
+    padding: 30px 0px;
+    border-top: 1px solid rgba(128, 128, 128, 0.34);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+  }
+  header .header-middle-container .search-icons-container {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+  }
+  header .header-middle-container .search-icons-container .search-category-container {
+    display: flex;
+    align-items: center;
+    border: 3px solid rgba(0, 128, 0, 0.249);
+    padding: 12px 15px;
+    border-radius: 10px;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .all-category select {
+    padding: 8px 10px;
+    padding-right: 0px;
+    border: transparent;
+    font-size: 1.2rem;
+    border-right: 1px solid gray;
+    outline: none;
+    padding-right: 20px;
+    overflow: hidden;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .search {
+    opacity: 0.35;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .search .search-bar,
+  header .header-middle-container .search-icons-container .search-category-container .search .search-bar:active {
+    padding: 8px 10px;
+    border: none;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    outline: none;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .search i {
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  header .header-middle-container .search-icons-container .icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon {
+    padding: 10px 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .pro-count {
+    display: none;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 110px;
+    color: white;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .blue {
+    display: none;
+    background-color: green;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a span {
+    font-weight: 700;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account {
+    position: relative;
+    display: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account ul li span {
+    display: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account li {
+    list-style-type: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account:hover {
+    position: absolute;
+    color: green;
+    display: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account:hover ul li span {
+    display: block;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account:hover ul {
+    background-color: aquamarine;
+    padding: 10px 8px;
+    border-radius: 5px;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account:hover ul li {
+    list-style-type: none;
+    padding-bottom: 20px;
+    transition: all 2s ease-in-out 0s;
+  }
 }
 /* responsive media query for extra-large device*/
 @media screen and (min-width: 1400px) {
@@ -407,5 +772,114 @@ header .header-middle-container .search-icons-container .icons-container .icon a
     border-left: 1px solid black;
     padding-left: 10px;
     font-size: 1.2rem;
+  }
+  header .header-middle-container {
+    display: flex;
+    align-items: center;
+    font-family: montserrat;
+    gap: 100px;
+    padding: 50px 0px;
+    border-top: 1px solid rgba(128, 128, 128, 0.34);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+  }
+  header .header-middle-container .search-icons-container {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+  }
+  header .header-middle-container .search-icons-container .search-category-container {
+    display: flex;
+    align-items: center;
+    border: 3px solid rgba(0, 128, 0, 0.249);
+    padding: 12px 15px;
+    border-radius: 10px;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .all-category select {
+    padding: 8px 10px;
+    padding-right: 0px;
+    border: transparent;
+    font-size: 1.2rem;
+    border-right: 1px solid gray;
+    outline: none;
+    padding-right: 20px;
+    overflow: hidden;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .search {
+    opacity: 0.35;
+    padding-left: 20px;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .search .search-bar,
+  header .header-middle-container .search-icons-container .search-category-container .search .search-bar:active {
+    padding: 8px 10px;
+    border: none;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    outline: none;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .search i {
+    font-size: 1.2rem;
+    padding-left: 70px;
+    padding-right: 20px;
+  }
+  header .header-middle-container .search-icons-container .icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon {
+    padding: 10px 30px;
+    padding-right: 40px;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .pro-count {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 150px;
+    color: white;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .blue {
+    background-color: green;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a span {
+    font-weight: 700;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account {
+    position: relative;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account ul li span {
+    display: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account li {
+    list-style-type: none;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account:hover {
+    position: absolute;
+    color: green;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account:hover ul li span {
+    display: block;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account:hover ul {
+    background-color: aquamarine;
+    padding: 10px 8px;
+    border-radius: 5px;
+  }
+  header .header-middle-container .search-icons-container .icons-container .icon a .account:hover ul li {
+    list-style-type: none;
+    padding-bottom: 20px;
+    transition: all 2s ease-in-out 0s;
   }
 }/*# sourceMappingURL=style.css.map */
