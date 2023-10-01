@@ -5,10 +5,11 @@
 /* header section start*/
 header {
     margin: 10px 10px;
+
     .header-top-container {
         display: flex;
         align-items: flex-start;
-        
+
         position: relative;
         gap: 100px;
 
@@ -25,13 +26,14 @@ header {
         }
 
         .header-top-middle {
-            
+
             align-items: center;
             display: flex;
+
             p {
                 text-align: center;
                 font-size: 1.2rem;
-               
+
             }
         }
 
@@ -42,9 +44,9 @@ header {
             gap: 80px;
 
             .header-top-right-left {
-                
-                
-                
+
+
+
 
                 p {
                     strong {
@@ -63,22 +65,178 @@ header {
                 text-align: center;
                 gap: 20px;
                 display: inline-flex;
-                select{
+
+                select {
                     border: none;
                     border-left: 1px solid black;
                     padding-left: 10px;
                     font-size: 1.2rem;
-                    option{
-                        
-                    }
+
+                    option {}
                 }
 
-               
+
 
 
             }
         }
     }
+
+
+    .header-middle-container {
+        display: flex;
+        align-items: center;
+        font-family: montserrat;
+        gap: 100px;
+        padding: 50px 0px;
+        border-top: 1px solid rgba(128, 128, 128, 0.34);
+        border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+
+        .logo-container {
+            img {}
+        }
+
+        .search-icons-container {
+            display: flex;
+            align-items: center;
+            gap: 0px;
+
+            .search-category-container {
+                display: flex;
+                align-items: center;
+                border: 3px solid rgba(0, 128, 0, 0.249);
+                padding: 12px 15px;
+                border-radius: 10px;
+
+                .all-category {
+
+                    select {
+                        padding: 8px 10px;
+                        padding-right: 0px;
+                        border: transparent;
+                        font-size: 1.2rem;
+                        border-right: 1px solid gray;
+                        outline: none;
+                        padding-right: 20px;
+                        overflow: hidden;
+
+
+                    }
+                }
+
+                .search {
+
+                    opacity: 0.35;
+                    padding-left: 20px;
+
+                    .search-bar,
+                    .search-bar:active {
+                        padding: 8px 10px;
+                        border: none;
+                        font-size: 1.2rem;
+                        margin-right: 10px;
+                        outline: none;
+
+                    }
+
+                    i {
+                        font-size: 1.2rem;
+                        padding-left: 70px;
+                        padding-right: 20px;
+                    }
+                }
+            }
+
+            .icons-container {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+
+                .icon {
+                    padding: 10px 30px;
+                    padding-right: 40px;
+
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        font-size: 1.2rem;
+                        text-align: center;
+
+                        img {
+                            
+                        }
+                       
+
+                        .pro-count {
+                            position: absolute;
+                            height: 20px;
+                            width: 20px;
+                            top: 150px;
+                            color: white;
+                            border-radius: 50%;
+                            font-weight: 500;
+                            font-size: 12px;
+                            text-align: center;
+                            align-items: center;
+                            display: flex;
+                            justify-content: center;
+                        }
+
+                        .blue {
+                            background-color: green;
+                        }
+                        span{
+                            font-weight: 700;
+                        }
+
+                        .account {
+                            position: relative;
+
+                            ul li  span {
+                                display:none;
+
+                            }
+
+                            li {
+                                list-style-type: none;
+                                
+                            }
+
+                            
+
+                        }
+                        .account:hover {
+                            position: absolute;
+                            color: green;
+                            
+                            ul li  span {
+                                display: block;
+                                
+
+                            }
+
+                            ul {
+                                background-color: aquamarine;
+                                padding: 10px 8px;
+                                border-radius: 5px;
+                                
+                                li {
+                                    list-style-type: none;
+                                    padding-bottom: 20px;
+                                    transition: all 2s ease-in-out 0s;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+
 }
 
 /* header section end*/
@@ -101,82 +259,85 @@ header {
 @media screen and (max-width:576px) {
     header {
         margin: 0px 10px;
+
         .header-top-container {
             display: flex;
             align-items: center;
             justify-content: center;
             position: relative;
             gap: 20px;
-    
+
             .header-top-left {
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
-                
-    
+
+
                 h3 {
                     border-right: 1px solid gray;
                     padding-right: 10px;
                     font-size: 0.6rem;
-                    .last-child{
+
+                    .last-child {
                         border-right: none;
                     }
                 }
             }
-    
+
             .header-top-middle {
                 display: none;
                 align-items: center;
-                
+
                 p {
                     text-align: center;
                     font-size: 1.2rem;
-                   
+
                 }
             }
-    
+
             .header-top-right {
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 gap: 40px;
                 display: none;
+
                 .header-top-right-left {
-                    
+
                     display: none;
-                    
-    
+
+
                     p {
                         strong {
                             color: green;
                             font-size: 1rem;
                             padding-left: 20px;
                         }
-    
+
                         strong:hover {
                             color: blue;
                         }
                     }
                 }
-    
+
                 .header-top-right-right {
                     text-align: center;
                     gap: 20px;
                     display: inline-flex;
                     align-items: center;
-                    select{
+
+                    select {
                         border: none;
                         border-left: 1px solid black;
                         padding-left: 10px;
                         font-size: 1rem;
-                        option{
-                            
-                        }
+
+                        option {}
                     }
-    
-                   
-    
-    
+
+
+
+
                 }
             }
         }
@@ -189,79 +350,80 @@ header {
 @media screen and (min-width:576px) and (max-width:992px) {
     header {
         margin: 0px 10px;
+
         .header-top-container {
             display: flex;
             align-items: center;
             justify-content: space-evenly;
             position: relative;
             gap: 20px;
-    
+
             .header-top-left {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 gap: 30px;
-    
+
                 h3 {
                     border-right: 1px solid gray;
                     padding-right: 10px;
                     font-size: 1rem;
                 }
             }
-    
+
             .header-top-middle {
                 display: none;
                 align-items: center;
-                
+
                 p {
                     text-align: center;
                     font-size: 1.2rem;
-                   
+
                 }
             }
-    
+
             .header-top-right {
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 gap: 40px;
-    
+
                 .header-top-right-left {
-                    
+
                     display: none;
-                    
-    
+
+
                     p {
                         strong {
                             color: green;
                             font-size: 1rem;
                             padding-left: 20px;
                         }
-    
+
                         strong:hover {
                             color: blue;
                         }
                     }
                 }
-    
+
                 .header-top-right-right {
                     text-align: center;
                     gap: 20px;
                     display: inline-flex;
                     align-items: center;
-                    select{
+
+                    select {
                         border: none;
                         border-left: 1px solid black;
                         padding-left: 10px;
                         font-size: 1rem;
-                        option{
-                            
-                        }
+
+                        option {}
                     }
-    
-                   
-    
-    
+
+
+
+
                 }
             }
         }
@@ -274,48 +436,49 @@ header {
 @media screen and (min-width:992px) and (max-width:1400px) {
     header {
         margin: 0px 10px;
+
         .header-top-container {
             display: flex;
             align-items: flex-start;
             justify-content: space-evenly;
             position: relative;
             gap: 40px;
-    
+
             .header-top-left {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 gap: 20px;
-    
+
                 h3 {
                     border-right: 1px solid gray;
                     padding-right: 10px;
                     font-size: 1rem;
                 }
             }
-    
+
             .header-top-middle {
                 display: none;
                 align-items: center;
-                
+
                 p {
                     text-align: center;
                     font-size: 1.2rem;
-                   
+
                 }
             }
-    
+
             .header-top-right {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 gap: 40px;
-    
+
                 .header-top-right-left {
-                    
-                    
-                    
-    
+
+
+
+
                     p {
                         strong {
                             color: green;
@@ -323,34 +486,34 @@ header {
                             padding-left: 0px;
                             text-align: center;
                         }
-    
+
                         strong:hover {
                             color: blue;
                         }
                     }
                 }
-    
+
                 .header-top-right-right {
                     text-align: center;
                     gap: 20px;
                     display: inline-flex;
-                    select{
+
+                    select {
                         border: none;
                         border-left: 1px solid black;
                         padding-left: 10px;
                         font-size: 1.2rem;
-                        option{
-                            
-                        }
+
+                        option {}
                     }
-    
-                   
-    
-    
+
+
+
+
                 }
             }
         }
-    } 
+    }
 }
 
 
@@ -360,77 +523,79 @@ header {
 @media screen and (min-width:1400px) {
     header {
         margin: 0px 10px;
+
         .header-top-container {
             display: flex;
             align-items: flex-start;
-            
+
             position: relative;
             gap: 100px;
-    
+
             .header-top-left {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 gap: 50px;
-    
+
                 h3 {
                     border-right: 1px solid gray;
                     padding-right: 20px;
                 }
             }
-    
+
             .header-top-middle {
-                
+
                 align-items: center;
                 display: flex;
+
                 p {
                     text-align: center;
                     font-size: 1.2rem;
-                   
+
                 }
             }
-    
+
             .header-top-right {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 gap: 80px;
-    
+
                 .header-top-right-left {
-                    
-                    
-                    
-    
+
+
+
+
                     p {
                         strong {
                             color: green;
                             font-size: 1.5rem;
                             padding-left: 20px;
                         }
-    
+
                         strong:hover {
                             color: blue;
                         }
                     }
                 }
-    
+
                 .header-top-right-right {
                     text-align: center;
                     gap: 20px;
                     display: inline-flex;
-                    select{
+
+                    select {
                         border: none;
                         border-left: 1px solid black;
                         padding-left: 10px;
                         font-size: 1.2rem;
-                        option{
-                            
-                        }
+
+                        option {}
                     }
-    
-                   
-    
-    
+
+
+
+
                 }
             }
         }
