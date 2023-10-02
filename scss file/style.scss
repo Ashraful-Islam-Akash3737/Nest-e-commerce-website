@@ -220,6 +220,12 @@ header {
         padding-bottom: 30px;
         padding-top: 30px;
         border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+        .three-dot-menu{
+            display: none;
+            i{
+                font-size: 3rem;
+            }
+        }
         .header-bottom-nav-container {
             display: inline-flex;
 
@@ -579,7 +585,7 @@ header {
 
             .logo-container {
                 img {
-                    max-width: 90px;
+                    max-width: 150px;
                 }
             }
 
@@ -694,6 +700,266 @@ header {
             }
 
 
+        }
+
+        .header-bottom-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+            .three-dot-menu{
+                display: block;
+                i{
+                    font-size: 3rem;
+                }
+            }
+            .header-bottom-nav-container {
+                display: inline-flex;
+    
+                align-items: center;
+                display: none;
+    
+                ul {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 15px;
+    
+                    li {
+                        list-style-type: none;
+    
+                        a {
+                            background-color: green;
+                            color: white;
+                            font-weight: 700;
+                            font-size: 1.5rem;
+                            border-radius: 10px;
+                            padding: 5px 10px;
+                            text-decoration: none;
+                            border: 1px solid transparent;
+    
+    
+                        }
+    
+                        /*.home {
+                            background-color: white;
+                            color: green;
+                            font-weight: 700;
+                            font-size: 1.5rem;
+                            border-radius: 10px;
+                            padding: 5px 10px;
+    
+                        }*/
+    
+    
+    
+    
+                    }
+    
+                    .home-main {
+                        position: relative;
+    
+                        ul {
+                            display: none;
+                            display: flex;
+                            flex-direction: column;
+    
+                            li {
+                                display: none;
+                            }
+                        }
+                    }
+    
+                    .home-main:hover {
+    
+                        ul {
+                            position: absolute;
+                            display: block;
+                            display: flex;
+                            flex-direction: column;
+                            top: 32px;
+                            right: -55px;
+                            background-color: green;
+                            padding: 20px 20px;
+                            border-radius: 10px;
+    
+                            width: 200px;
+    
+                            li {
+                                display: block;
+    
+                                a {
+                                    background-color: green;
+                                    color: white;
+                                    font-weight: 700;
+                                    font-size: 1.5rem;
+                                    border-radius: 10px;
+                                    padding: 5px 20px;
+                                    text-decoration: none;
+                                    border: 1px solid transparent;
+                                }
+                            }
+                        }
+                    }
+    
+                    .home-shop {
+                        position: relative;
+    
+                        ul {
+                            display: none;
+                            display: flex;
+                            flex-direction: column;
+    
+                            li {
+                                display: none;
+                            }
+                        }
+                    }
+    
+                    .home-shop:hover {
+    
+                        ul {
+                            position: absolute;
+                            display: block;
+                            display: flex;
+                            align-items: center;
+                            flex-direction: column;
+                            top: 32px;
+                            right: -55px;
+                            background-color: green;
+                            padding: 20px 20px;
+                            border-radius: 10px;
+                            height: 500px;
+                            width: 300px;
+                            overflow: auto;
+    
+                            li {
+                                display: block;
+    
+                                a {
+                                    background-color: green;
+                                    color: white;
+                                    font-weight: 700;
+                                    font-size: 1.5rem;
+                                    border-radius: 10px;
+                                    padding: 5px 20px;
+                                    text-decoration: none;
+                                    border: 1px solid transparent;
+                                }
+                            }
+                        }
+                    }
+    
+                    .home-mega-menu {
+                        position: relative;
+    
+                        ul {
+    
+                            display: flex;
+                            flex-direction: row;
+                            display: none;
+    
+                            li {
+    
+                                display: flex;
+                                flex-direction: column;
+                                display: none;
+    
+    
+    
+                            }
+                        }
+                    }
+    
+                    .home-mega-menu:hover {
+                        text-align: center;
+    
+                        ul {
+                            position: absolute;
+                            display: block;
+                            text-align: start;
+                            align-items: center;
+                            display: flex;
+                            flex-direction: row;
+                            top: 32px;
+                            right: -300px;
+                            background-color: green;
+                            padding: 20px 20px;
+                            border-radius: 10px;
+    
+                            width: 800px;
+    
+    
+                            li {
+                                display: block;
+                                display: flex;
+                                text-align: start;
+                                align-items: center;
+                                flex-direction: column;
+                                height: 500px;
+    
+                                h1 {
+                                    font-size: 1.5rem;
+                                    font-weight: 800;
+                                    color: white;
+                                    text-align: center;
+                                }
+    
+                                h1 {
+                                    background-color: green;
+                                    color: white;
+                                    font-weight: 800;
+                                    font-size: 1.5rem;
+                                    border-radius: 10px;
+                                    padding: 5px 20px;
+                                    text-decoration: none;
+                                    border: 1px solid white;
+                                }
+    
+                                .meat-dairy-fruit {
+                                    p {
+                                        color: white;
+                                        font-weight: 600;
+                                        font-size: 1rem;
+                                        border-radius: 10px;
+                                        padding: 5px 20px;
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+    
+                }
+            }
+    
+    
+    
+            .header-bottom-support-container {
+                display:flex;
+                align-items: center;
+                
+                gap: 10px;
+    
+                img {
+                    width: 10%;
+                }
+    
+                p {
+                    font-size: 1.3rem;
+                    color: green;
+                    font-weight: 700;
+    
+                    span {
+                        font-size: 1rem;
+                        color: black;
+                        font-weight: 300;
+                    }
+                }
+            }
         }
     }
 }
@@ -909,6 +1175,264 @@ header {
 
 
         }
+
+        .header-bottom-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+            .three-dot-menu{
+                display: block;
+                i{
+                    font-size: 3rem;
+                }
+            }
+            .header-bottom-nav-container {
+                display: inline-flex;
+    
+                align-items: center;
+                display: none;
+    
+                ul {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 15px;
+    
+                    li {
+                        list-style-type: none;
+    
+                        a {
+                            background-color: green;
+                            color: white;
+                            font-weight: 700;
+                            font-size: 1.5rem;
+                            border-radius: 10px;
+                            padding: 5px 10px;
+                            text-decoration: none;
+                            border: 1px solid transparent;
+    
+    
+                        }
+    
+                        /*.home {
+                            background-color: white;
+                            color: green;
+                            font-weight: 700;
+                            font-size: 1.5rem;
+                            border-radius: 10px;
+                            padding: 5px 10px;
+    
+                        }*/
+    
+    
+    
+    
+                    }
+    
+                    .home-main {
+                        position: relative;
+    
+                        ul {
+                            display: none;
+                            display: flex;
+                            flex-direction: column;
+    
+                            li {
+                                display: none;
+                            }
+                        }
+                    }
+    
+                    .home-main:hover {
+    
+                        ul {
+                            position: absolute;
+                            display: block;
+                            display: flex;
+                            flex-direction: column;
+                            top: 32px;
+                            right: -55px;
+                            background-color: green;
+                            padding: 20px 20px;
+                            border-radius: 10px;
+    
+                            width: 200px;
+    
+                            li {
+                                display: block;
+    
+                                a {
+                                    background-color: green;
+                                    color: white;
+                                    font-weight: 700;
+                                    font-size: 1.5rem;
+                                    border-radius: 10px;
+                                    padding: 5px 20px;
+                                    text-decoration: none;
+                                    border: 1px solid transparent;
+                                }
+                            }
+                        }
+                    }
+    
+                    .home-shop {
+                        position: relative;
+    
+                        ul {
+                            display: none;
+                            display: flex;
+                            flex-direction: column;
+    
+                            li {
+                                display: none;
+                            }
+                        }
+                    }
+    
+                    .home-shop:hover {
+    
+                        ul {
+                            position: absolute;
+                            display: block;
+                            display: flex;
+                            align-items: center;
+                            flex-direction: column;
+                            top: 32px;
+                            right: -55px;
+                            background-color: green;
+                            padding: 20px 20px;
+                            border-radius: 10px;
+                            height: 500px;
+                            width: 300px;
+                            overflow: auto;
+    
+                            li {
+                                display: block;
+    
+                                a {
+                                    background-color: green;
+                                    color: white;
+                                    font-weight: 700;
+                                    font-size: 1.5rem;
+                                    border-radius: 10px;
+                                    padding: 5px 20px;
+                                    text-decoration: none;
+                                    border: 1px solid transparent;
+                                }
+                            }
+                        }
+                    }
+    
+                    .home-mega-menu {
+                        position: relative;
+    
+                        ul {
+    
+                            display: flex;
+                            flex-direction: row;
+                            display: none;
+    
+                            li {
+    
+                                display: flex;
+                                flex-direction: column;
+                                display: none;
+    
+    
+    
+                            }
+                        }
+                    }
+    
+                    .home-mega-menu:hover {
+                        text-align: center;
+    
+                        ul {
+                            position: absolute;
+                            display: block;
+                            text-align: start;
+                            align-items: center;
+                            display: flex;
+                            flex-direction: row;
+                            top: 32px;
+                            right: -300px;
+                            background-color: green;
+                            padding: 20px 20px;
+                            border-radius: 10px;
+    
+                            width: 800px;
+    
+    
+                            li {
+                                display: block;
+                                display: flex;
+                                text-align: start;
+                                align-items: center;
+                                flex-direction: column;
+                                height: 500px;
+    
+                                h1 {
+                                    font-size: 1.5rem;
+                                    font-weight: 800;
+                                    color: white;
+                                    text-align: center;
+                                }
+    
+                                h1 {
+                                    background-color: green;
+                                    color: white;
+                                    font-weight: 800;
+                                    font-size: 1.5rem;
+                                    border-radius: 10px;
+                                    padding: 5px 20px;
+                                    text-decoration: none;
+                                    border: 1px solid white;
+                                }
+    
+                                .meat-dairy-fruit {
+                                    p {
+                                        color: white;
+                                        font-weight: 600;
+                                        font-size: 1rem;
+                                        border-radius: 10px;
+                                        padding: 5px 20px;
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+    
+                }
+            }
+    
+    
+    
+            .header-bottom-support-container {
+                display:flex;
+                align-items: center;
+                
+                gap: 20px;
+    
+                img {}
+    
+                p {
+                    font-size: 1.7rem;
+                    color: green;
+                    font-weight: 700;
+    
+                    span {
+                        font-size: 1rem;
+                        color: black;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -997,6 +1521,256 @@ header {
         }
 
 
+        .header-bottom-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+            .header-bottom-nav-container {
+                display: inline-flex;
+    
+                align-items: center;
+    
+                ul {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 15px;
+    
+                    li {
+                        list-style-type: none;
+    
+                        a {
+                            background-color: green;
+                            color: white;
+                            font-weight: 700;
+                            font-size: 1.5rem;
+                            border-radius: 10px;
+                            padding: 5px 10px;
+                            text-decoration: none;
+                            border: 1px solid transparent;
+    
+    
+                        }
+    
+                        /*.home {
+                            background-color: white;
+                            color: green;
+                            font-weight: 700;
+                            font-size: 1.5rem;
+                            border-radius: 10px;
+                            padding: 5px 10px;
+    
+                        }*/
+    
+    
+    
+    
+                    }
+    
+                    .home-main {
+                        position: relative;
+    
+                        ul {
+                            display: none;
+                            display: flex;
+                            flex-direction: column;
+    
+                            li {
+                                display: none;
+                            }
+                        }
+                    }
+    
+                    .home-main:hover {
+    
+                        ul {
+                            position: absolute;
+                            display: block;
+                            display: flex;
+                            flex-direction: column;
+                            top: 32px;
+                            right: -55px;
+                            background-color: green;
+                            padding: 20px 20px;
+                            border-radius: 10px;
+    
+                            width: 200px;
+    
+                            li {
+                                display: block;
+    
+                                a {
+                                    background-color: green;
+                                    color: white;
+                                    font-weight: 700;
+                                    font-size: 1.5rem;
+                                    border-radius: 10px;
+                                    padding: 5px 20px;
+                                    text-decoration: none;
+                                    border: 1px solid transparent;
+                                }
+                            }
+                        }
+                    }
+    
+                    .home-shop {
+                        position: relative;
+    
+                        ul {
+                            display: none;
+                            display: flex;
+                            flex-direction: column;
+    
+                            li {
+                                display: none;
+                            }
+                        }
+                    }
+    
+                    .home-shop:hover {
+    
+                        ul {
+                            position: absolute;
+                            display: block;
+                            display: flex;
+                            align-items: center;
+                            flex-direction: column;
+                            top: 32px;
+                            right: -55px;
+                            background-color: green;
+                            padding: 20px 20px;
+                            border-radius: 10px;
+                            height: 500px;
+                            width: 300px;
+                            overflow: auto;
+    
+                            li {
+                                display: block;
+    
+                                a {
+                                    background-color: green;
+                                    color: white;
+                                    font-weight: 700;
+                                    font-size: 1.5rem;
+                                    border-radius: 10px;
+                                    padding: 5px 20px;
+                                    text-decoration: none;
+                                    border: 1px solid transparent;
+                                }
+                            }
+                        }
+                    }
+    
+                    .home-mega-menu {
+                        position: relative;
+    
+                        ul {
+    
+                            display: flex;
+                            flex-direction: row;
+                            display: none;
+    
+                            li {
+    
+                                display: flex;
+                                flex-direction: column;
+                                display: none;
+    
+    
+    
+                            }
+                        }
+                    }
+    
+                    .home-mega-menu:hover {
+                        text-align: center;
+    
+                        ul {
+                            position: absolute;
+                            display: block;
+                            text-align: start;
+                            align-items: center;
+                            display: flex;
+                            flex-direction: row;
+                            top: 32px;
+                            right: -300px;
+                            background-color: green;
+                            padding: 20px 20px;
+                            border-radius: 10px;
+    
+                            width: 800px;
+    
+    
+                            li {
+                                display: block;
+                                display: flex;
+                                text-align: start;
+                                align-items: center;
+                                flex-direction: column;
+                                height: 500px;
+    
+                                h1 {
+                                    font-size: 1.5rem;
+                                    font-weight: 800;
+                                    color: white;
+                                    text-align: center;
+                                }
+    
+                                h1 {
+                                    background-color: green;
+                                    color: white;
+                                    font-weight: 800;
+                                    font-size: 1.5rem;
+                                    border-radius: 10px;
+                                    padding: 5px 20px;
+                                    text-decoration: none;
+                                    border: 1px solid white;
+                                }
+    
+                                .meat-dairy-fruit {
+                                    p {
+                                        color: white;
+                                        font-weight: 600;
+                                        font-size: 1rem;
+                                        border-radius: 10px;
+                                        padding: 5px 20px;
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+    
+                }
+            }
+    
+    
+    
+            .header-bottom-support-container {
+                display: inline-flex;
+                align-items: center;
+                display: none;
+                gap: 20px;
+    
+                img {}
+    
+                p {
+                    font-size: 1.7rem;
+                    color: green;
+                    font-weight: 700;
+    
+                    span {
+                        font-size: 1rem;
+                        color: black;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -1085,6 +1859,256 @@ header {
         }
 
 
+        .header-bottom-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+            .header-bottom-nav-container {
+                display: inline-flex;
+    
+                align-items: center;
+    
+                ul {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 50px;
+    
+                    li {
+                        list-style-type: none;
+    
+                        a {
+                            background-color: green;
+                            color: white;
+                            font-weight: 700;
+                            font-size: 1.5rem;
+                            border-radius: 10px;
+                            padding: 5px 10px;
+                            text-decoration: none;
+                            border: 1px solid transparent;
+    
+    
+                        }
+    
+                        /*.home {
+                            background-color: white;
+                            color: green;
+                            font-weight: 700;
+                            font-size: 1.5rem;
+                            border-radius: 10px;
+                            padding: 5px 10px;
+    
+                        }*/
+    
+    
+    
+    
+                    }
+    
+                    .home-main {
+                        position: relative;
+    
+                        ul {
+                            display: none;
+                            display: flex;
+                            flex-direction: column;
+    
+                            li {
+                                display: none;
+                            }
+                        }
+                    }
+    
+                    .home-main:hover {
+    
+                        ul {
+                            position: absolute;
+                            display: block;
+                            display: flex;
+                            flex-direction: column;
+                            top: 32px;
+                            right: -55px;
+                            background-color: green;
+                            padding: 20px 20px;
+                            border-radius: 10px;
+    
+                            width: 200px;
+    
+                            li {
+                                display: block;
+    
+                                a {
+                                    background-color: green;
+                                    color: white;
+                                    font-weight: 700;
+                                    font-size: 1.5rem;
+                                    border-radius: 10px;
+                                    padding: 5px 20px;
+                                    text-decoration: none;
+                                    border: 1px solid transparent;
+                                }
+                            }
+                        }
+                    }
+    
+                    .home-shop {
+                        position: relative;
+    
+                        ul {
+                            display: none;
+                            display: flex;
+                            flex-direction: column;
+    
+                            li {
+                                display: none;
+                            }
+                        }
+                    }
+    
+                    .home-shop:hover {
+    
+                        ul {
+                            position: absolute;
+                            display: block;
+                            display: flex;
+                            align-items: center;
+                            flex-direction: column;
+                            top: 32px;
+                            right: -55px;
+                            background-color: green;
+                            padding: 20px 20px;
+                            border-radius: 10px;
+                            height: 500px;
+                            width: 300px;
+                            overflow: auto;
+    
+                            li {
+                                display: block;
+    
+                                a {
+                                    background-color: green;
+                                    color: white;
+                                    font-weight: 700;
+                                    font-size: 1.5rem;
+                                    border-radius: 10px;
+                                    padding: 5px 20px;
+                                    text-decoration: none;
+                                    border: 1px solid transparent;
+                                }
+                            }
+                        }
+                    }
+    
+                    .home-mega-menu {
+                        position: relative;
+    
+                        ul {
+    
+                            display: flex;
+                            flex-direction: row;
+                            display: none;
+    
+                            li {
+    
+                                display: flex;
+                                flex-direction: column;
+                                display: none;
+    
+    
+    
+                            }
+                        }
+                    }
+    
+                    .home-mega-menu:hover {
+                        text-align: center;
+    
+                        ul {
+                            position: absolute;
+                            display: block;
+                            text-align: start;
+                            align-items: center;
+                            display: flex;
+                            flex-direction: row;
+                            top: 32px;
+                            right: -300px;
+                            background-color: green;
+                            padding: 20px 20px;
+                            border-radius: 10px;
+    
+                            width: 800px;
+    
+    
+                            li {
+                                display: block;
+                                display: flex;
+                                text-align: start;
+                                align-items: center;
+                                flex-direction: column;
+                                height: 500px;
+    
+                                h1 {
+                                    font-size: 1.5rem;
+                                    font-weight: 800;
+                                    color: white;
+                                    text-align: center;
+                                }
+    
+                                h1 {
+                                    background-color: green;
+                                    color: white;
+                                    font-weight: 800;
+                                    font-size: 1.5rem;
+                                    border-radius: 10px;
+                                    padding: 5px 20px;
+                                    text-decoration: none;
+                                    border: 1px solid white;
+                                }
+    
+                                .meat-dairy-fruit {
+                                    p {
+                                        color: white;
+                                        font-weight: 600;
+                                        font-size: 1rem;
+                                        border-radius: 10px;
+                                        padding: 5px 20px;
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+    
+                }
+            }
+    
+    
+    
+            .header-bottom-support-container {
+                display: inline-flex;
+                align-items: center;
+    
+                gap: 20px;
+    
+                img {}
+    
+                p {
+                    font-size: 1.7rem;
+                    color: green;
+                    font-weight: 700;
+    
+                    span {
+                        font-size: 1rem;
+                        color: black;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
 
 
     }
