@@ -150,6 +150,8 @@ header .header-bottom-container {
   padding-bottom: 30px;
   padding-top: 30px;
   border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+  position: sticky;
+  top: 0px;
 }
 header .header-bottom-container .three-dot-menu {
   display: none;
@@ -355,6 +357,73 @@ header .header-bottom-container .header-bottom-support-container p span {
 
 /* header section end*/
 /* main section start*/
+main {
+  padding: 30px 0px;
+  margin: 0px 10px;
+}
+main .banner-container {
+  background-image: url(../Assets/images/hero-slider-1.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+main .banner-container .banner-heading {
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: montserrat;
+  padding: 10px 15px;
+  text-align: center;
+  width: 50%;
+}
+main .banner-container .banner-paragraph {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: montserrat;
+  padding: 10px 55px;
+}
+main .banner-container .sign-up {
+  align-items: center;
+  padding: 0px 50px;
+}
+main .banner-container .sign-up span input {
+  padding: 10px 15px;
+  padding-left: 40px;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: montserrat;
+  border: 1px solid green;
+  border-radius: 10px;
+  color: green;
+}
+main .banner-container .sign-up .btn-primary {
+  padding: 10px 15px;
+  background-color: green;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: montserrat;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: all 2s ease-in-out 0s;
+}
+main .banner-container .sign-up .btn-primary:hover {
+  padding: 10px 15px;
+  background-color: white;
+  color: green;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: montserrat;
+  border: 1px solid green;
+  border-radius: 10px;
+  transition: all 2s ease-in-out 0s;
+}
+
 /* main section end*/
 /* footer section start*/
 /* footer section end*/

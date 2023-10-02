@@ -220,12 +220,17 @@ header {
         padding-bottom: 30px;
         padding-top: 30px;
         border-bottom: 1px solid rgba(128, 128, 128, 0.34);
-        .three-dot-menu{
+        position: sticky;
+        top: 0px;
+
+        .three-dot-menu {
             display: none;
-            i{
+
+            i {
                 font-size: 3rem;
             }
         }
+
         .header-bottom-nav-container {
             display: inline-flex;
 
@@ -252,6 +257,7 @@ header {
                         transition: all 2s ease-in-out 0s;
 
                     }
+
                     a:hover {
                         background-color: white;
                         color: green;
@@ -447,7 +453,7 @@ header {
                                     font-size: 1rem;
                                     border-radius: 10px;
                                     padding: 5px 20px;
-                                    
+
                                 }
                             }
                         }
@@ -487,6 +493,83 @@ header {
 
 
 /* main section start*/
+main {
+    padding: 30px 0px;
+    margin: 0px 10px;
+
+    .banner-container {
+        background-image: url(../Assets/images/hero-slider-1.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 600px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content:center;
+        .banner-heading {
+            font-size: 4rem;
+            font-weight: 900;
+            font-family: montserrat;
+            padding: 10px 15px;
+            text-align: center;
+            width: 50%;
+            
+        }
+
+        .banner-paragraph {
+            font-size: 2rem;
+            font-weight: 400;
+            font-family: montserrat;
+            padding: 10px 55px;
+        }
+
+        .sign-up {
+            align-items: center;
+            padding: 0px 50px;
+            span {
+                
+
+                input {
+                    
+                    padding: 10px 15px;
+                    padding-left: 40px;
+                    font-size: 2rem;
+                    font-weight: 400;
+                    font-family: montserrat;
+                    border: 1px solid green;
+                    border-radius: 10px;
+                    color: green;
+                }
+            }
+
+            .btn-primary {
+                padding: 10px 15px;
+                background-color: green;
+                color: white;
+                font-size: 2rem;
+                font-weight: 600;
+                font-family: montserrat;
+                border-radius: 10px;
+                border: 1px solid transparent;
+                transition: all 2s ease-in-out 0s;
+            }
+            .btn-primary:hover{
+                padding: 10px 15px;
+                background-color: white;
+                color: green;
+                font-size: 2rem;
+                font-weight: 600;
+                font-family: montserrat;
+                border:1px solid green ;
+                border-radius: 10px;
+                transition: all 2s ease-in-out 0s;
+            }
+        }
+    }
+}
+
 /* main section end*/
 
 
@@ -721,27 +804,30 @@ header {
             padding-bottom: 0px;
             padding-top: 0px;
             border-bottom: 1px solid rgba(128, 128, 128, 0.34);
-            .three-dot-menu{
+
+            .three-dot-menu {
                 display: block;
-                i{
+
+                i {
                     font-size: 3rem;
                 }
             }
+
             .header-bottom-nav-container {
                 display: inline-flex;
-    
+
                 align-items: center;
                 display: none;
-    
+
                 ul {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     gap: 15px;
-    
+
                     li {
                         list-style-type: none;
-    
+
                         a {
                             background-color: green;
                             color: white;
@@ -751,10 +837,10 @@ header {
                             padding: 5px 10px;
                             text-decoration: none;
                             border: 1px solid transparent;
-    
-    
+
+
                         }
-    
+
                         /*.home {
                             background-color: white;
                             color: green;
@@ -764,28 +850,28 @@ header {
                             padding: 5px 10px;
     
                         }*/
-    
-    
-    
-    
+
+
+
+
                     }
-    
+
                     .home-main {
                         position: relative;
-    
+
                         ul {
                             display: none;
                             display: flex;
                             flex-direction: column;
-    
+
                             li {
                                 display: none;
                             }
                         }
                     }
-    
+
                     .home-main:hover {
-    
+
                         ul {
                             position: absolute;
                             display: block;
@@ -796,12 +882,12 @@ header {
                             background-color: green;
                             padding: 20px 20px;
                             border-radius: 10px;
-    
+
                             width: 200px;
-    
+
                             li {
                                 display: block;
-    
+
                                 a {
                                     background-color: green;
                                     color: white;
@@ -815,23 +901,23 @@ header {
                             }
                         }
                     }
-    
+
                     .home-shop {
                         position: relative;
-    
+
                         ul {
                             display: none;
                             display: flex;
                             flex-direction: column;
-    
+
                             li {
                                 display: none;
                             }
                         }
                     }
-    
+
                     .home-shop:hover {
-    
+
                         ul {
                             position: absolute;
                             display: block;
@@ -846,10 +932,10 @@ header {
                             height: 500px;
                             width: 300px;
                             overflow: auto;
-    
+
                             li {
                                 display: block;
-    
+
                                 a {
                                     background-color: green;
                                     color: white;
@@ -863,31 +949,31 @@ header {
                             }
                         }
                     }
-    
+
                     .home-mega-menu {
                         position: relative;
-    
+
                         ul {
-    
+
                             display: flex;
                             flex-direction: row;
                             display: none;
-    
+
                             li {
-    
+
                                 display: flex;
                                 flex-direction: column;
                                 display: none;
-    
-    
-    
+
+
+
                             }
                         }
                     }
-    
+
                     .home-mega-menu:hover {
                         text-align: center;
-    
+
                         ul {
                             position: absolute;
                             display: block;
@@ -900,10 +986,10 @@ header {
                             background-color: green;
                             padding: 20px 20px;
                             border-radius: 10px;
-    
+
                             width: 800px;
-    
-    
+
+
                             li {
                                 display: block;
                                 display: flex;
@@ -911,14 +997,14 @@ header {
                                 align-items: center;
                                 flex-direction: column;
                                 height: 500px;
-    
+
                                 h1 {
                                     font-size: 1.5rem;
                                     font-weight: 800;
                                     color: white;
                                     text-align: center;
                                 }
-    
+
                                 h1 {
                                     background-color: green;
                                     color: white;
@@ -929,7 +1015,7 @@ header {
                                     text-decoration: none;
                                     border: 1px solid white;
                                 }
-    
+
                                 .meat-dairy-fruit {
                                     p {
                                         color: white;
@@ -937,34 +1023,34 @@ header {
                                         font-size: 1rem;
                                         border-radius: 10px;
                                         padding: 5px 20px;
-                                        
+
                                     }
                                 }
                             }
                         }
                     }
-    
-    
+
+
                 }
             }
-    
-    
-    
+
+
+
             .header-bottom-support-container {
-                display:flex;
+                display: flex;
                 align-items: center;
-                
+
                 gap: 10px;
-    
+
                 img {
                     width: 10%;
                 }
-    
+
                 p {
                     font-size: 1.3rem;
                     color: green;
                     font-weight: 700;
-    
+
                     span {
                         font-size: 1rem;
                         color: black;
@@ -1195,27 +1281,30 @@ header {
             padding-bottom: 30px;
             padding-top: 30px;
             border-bottom: 1px solid rgba(128, 128, 128, 0.34);
-            .three-dot-menu{
+
+            .three-dot-menu {
                 display: block;
-                i{
+
+                i {
                     font-size: 3rem;
                 }
             }
+
             .header-bottom-nav-container {
                 display: inline-flex;
-    
+
                 align-items: center;
                 display: none;
-    
+
                 ul {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     gap: 15px;
-    
+
                     li {
                         list-style-type: none;
-    
+
                         a {
                             background-color: green;
                             color: white;
@@ -1225,10 +1314,10 @@ header {
                             padding: 5px 10px;
                             text-decoration: none;
                             border: 1px solid transparent;
-    
-    
+
+
                         }
-    
+
                         /*.home {
                             background-color: white;
                             color: green;
@@ -1238,28 +1327,28 @@ header {
                             padding: 5px 10px;
     
                         }*/
-    
-    
-    
-    
+
+
+
+
                     }
-    
+
                     .home-main {
                         position: relative;
-    
+
                         ul {
                             display: none;
                             display: flex;
                             flex-direction: column;
-    
+
                             li {
                                 display: none;
                             }
                         }
                     }
-    
+
                     .home-main:hover {
-    
+
                         ul {
                             position: absolute;
                             display: block;
@@ -1270,12 +1359,12 @@ header {
                             background-color: green;
                             padding: 20px 20px;
                             border-radius: 10px;
-    
+
                             width: 200px;
-    
+
                             li {
                                 display: block;
-    
+
                                 a {
                                     background-color: green;
                                     color: white;
@@ -1289,23 +1378,23 @@ header {
                             }
                         }
                     }
-    
+
                     .home-shop {
                         position: relative;
-    
+
                         ul {
                             display: none;
                             display: flex;
                             flex-direction: column;
-    
+
                             li {
                                 display: none;
                             }
                         }
                     }
-    
+
                     .home-shop:hover {
-    
+
                         ul {
                             position: absolute;
                             display: block;
@@ -1320,10 +1409,10 @@ header {
                             height: 500px;
                             width: 300px;
                             overflow: auto;
-    
+
                             li {
                                 display: block;
-    
+
                                 a {
                                     background-color: green;
                                     color: white;
@@ -1337,31 +1426,31 @@ header {
                             }
                         }
                     }
-    
+
                     .home-mega-menu {
                         position: relative;
-    
+
                         ul {
-    
+
                             display: flex;
                             flex-direction: row;
                             display: none;
-    
+
                             li {
-    
+
                                 display: flex;
                                 flex-direction: column;
                                 display: none;
-    
-    
-    
+
+
+
                             }
                         }
                     }
-    
+
                     .home-mega-menu:hover {
                         text-align: center;
-    
+
                         ul {
                             position: absolute;
                             display: block;
@@ -1374,10 +1463,10 @@ header {
                             background-color: green;
                             padding: 20px 20px;
                             border-radius: 10px;
-    
+
                             width: 800px;
-    
-    
+
+
                             li {
                                 display: block;
                                 display: flex;
@@ -1385,14 +1474,14 @@ header {
                                 align-items: center;
                                 flex-direction: column;
                                 height: 500px;
-    
+
                                 h1 {
                                     font-size: 1.5rem;
                                     font-weight: 800;
                                     color: white;
                                     text-align: center;
                                 }
-    
+
                                 h1 {
                                     background-color: green;
                                     color: white;
@@ -1403,7 +1492,7 @@ header {
                                     text-decoration: none;
                                     border: 1px solid white;
                                 }
-    
+
                                 .meat-dairy-fruit {
                                     p {
                                         color: white;
@@ -1411,32 +1500,32 @@ header {
                                         font-size: 1rem;
                                         border-radius: 10px;
                                         padding: 5px 20px;
-                                        
+
                                     }
                                 }
                             }
                         }
                     }
-    
-    
+
+
                 }
             }
-    
-    
-    
+
+
+
             .header-bottom-support-container {
-                display:flex;
+                display: flex;
                 align-items: center;
-                
+
                 gap: 20px;
-    
+
                 img {}
-    
+
                 p {
                     font-size: 1.7rem;
                     color: green;
                     font-weight: 700;
-    
+
                     span {
                         font-size: 1rem;
                         color: black;
@@ -1540,20 +1629,21 @@ header {
             padding-bottom: 30px;
             padding-top: 30px;
             border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+
             .header-bottom-nav-container {
                 display: inline-flex;
-    
+
                 align-items: center;
-    
+
                 ul {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     gap: 15px;
-    
+
                     li {
                         list-style-type: none;
-    
+
                         a {
                             background-color: green;
                             color: white;
@@ -1563,10 +1653,10 @@ header {
                             padding: 5px 10px;
                             text-decoration: none;
                             border: 1px solid transparent;
-    
-    
+
+
                         }
-    
+
                         /*.home {
                             background-color: white;
                             color: green;
@@ -1576,28 +1666,28 @@ header {
                             padding: 5px 10px;
     
                         }*/
-    
-    
-    
-    
+
+
+
+
                     }
-    
+
                     .home-main {
                         position: relative;
-    
+
                         ul {
                             display: none;
                             display: flex;
                             flex-direction: column;
-    
+
                             li {
                                 display: none;
                             }
                         }
                     }
-    
+
                     .home-main:hover {
-    
+
                         ul {
                             position: absolute;
                             display: block;
@@ -1608,12 +1698,12 @@ header {
                             background-color: green;
                             padding: 20px 20px;
                             border-radius: 10px;
-    
+
                             width: 200px;
-    
+
                             li {
                                 display: block;
-    
+
                                 a {
                                     background-color: green;
                                     color: white;
@@ -1627,23 +1717,23 @@ header {
                             }
                         }
                     }
-    
+
                     .home-shop {
                         position: relative;
-    
+
                         ul {
                             display: none;
                             display: flex;
                             flex-direction: column;
-    
+
                             li {
                                 display: none;
                             }
                         }
                     }
-    
+
                     .home-shop:hover {
-    
+
                         ul {
                             position: absolute;
                             display: block;
@@ -1658,10 +1748,10 @@ header {
                             height: 500px;
                             width: 300px;
                             overflow: auto;
-    
+
                             li {
                                 display: block;
-    
+
                                 a {
                                     background-color: green;
                                     color: white;
@@ -1675,31 +1765,31 @@ header {
                             }
                         }
                     }
-    
+
                     .home-mega-menu {
                         position: relative;
-    
+
                         ul {
-    
+
                             display: flex;
                             flex-direction: row;
                             display: none;
-    
+
                             li {
-    
+
                                 display: flex;
                                 flex-direction: column;
                                 display: none;
-    
-    
-    
+
+
+
                             }
                         }
                     }
-    
+
                     .home-mega-menu:hover {
                         text-align: center;
-    
+
                         ul {
                             position: absolute;
                             display: block;
@@ -1712,10 +1802,10 @@ header {
                             background-color: green;
                             padding: 20px 20px;
                             border-radius: 10px;
-    
+
                             width: 800px;
-    
-    
+
+
                             li {
                                 display: block;
                                 display: flex;
@@ -1723,14 +1813,14 @@ header {
                                 align-items: center;
                                 flex-direction: column;
                                 height: 500px;
-    
+
                                 h1 {
                                     font-size: 1.5rem;
                                     font-weight: 800;
                                     color: white;
                                     text-align: center;
                                 }
-    
+
                                 h1 {
                                     background-color: green;
                                     color: white;
@@ -1741,7 +1831,7 @@ header {
                                     text-decoration: none;
                                     border: 1px solid white;
                                 }
-    
+
                                 .meat-dairy-fruit {
                                     p {
                                         color: white;
@@ -1749,32 +1839,32 @@ header {
                                         font-size: 1rem;
                                         border-radius: 10px;
                                         padding: 5px 20px;
-                                        
+
                                     }
                                 }
                             }
                         }
                     }
-    
-    
+
+
                 }
             }
-    
-    
-    
+
+
+
             .header-bottom-support-container {
                 display: inline-flex;
                 align-items: center;
                 display: none;
                 gap: 20px;
-    
+
                 img {}
-    
+
                 p {
                     font-size: 1.7rem;
                     color: green;
                     font-weight: 700;
-    
+
                     span {
                         font-size: 1rem;
                         color: black;
@@ -1878,20 +1968,21 @@ header {
             padding-bottom: 30px;
             padding-top: 30px;
             border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+
             .header-bottom-nav-container {
                 display: inline-flex;
-    
+
                 align-items: center;
-    
+
                 ul {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     gap: 50px;
-    
+
                     li {
                         list-style-type: none;
-    
+
                         a {
                             background-color: green;
                             color: white;
@@ -1901,10 +1992,10 @@ header {
                             padding: 5px 10px;
                             text-decoration: none;
                             border: 1px solid transparent;
-    
-    
+
+
                         }
-    
+
                         /*.home {
                             background-color: white;
                             color: green;
@@ -1914,28 +2005,28 @@ header {
                             padding: 5px 10px;
     
                         }*/
-    
-    
-    
-    
+
+
+
+
                     }
-    
+
                     .home-main {
                         position: relative;
-    
+
                         ul {
                             display: none;
                             display: flex;
                             flex-direction: column;
-    
+
                             li {
                                 display: none;
                             }
                         }
                     }
-    
+
                     .home-main:hover {
-    
+
                         ul {
                             position: absolute;
                             display: block;
@@ -1946,12 +2037,12 @@ header {
                             background-color: green;
                             padding: 20px 20px;
                             border-radius: 10px;
-    
+
                             width: 200px;
-    
+
                             li {
                                 display: block;
-    
+
                                 a {
                                     background-color: green;
                                     color: white;
@@ -1965,23 +2056,23 @@ header {
                             }
                         }
                     }
-    
+
                     .home-shop {
                         position: relative;
-    
+
                         ul {
                             display: none;
                             display: flex;
                             flex-direction: column;
-    
+
                             li {
                                 display: none;
                             }
                         }
                     }
-    
+
                     .home-shop:hover {
-    
+
                         ul {
                             position: absolute;
                             display: block;
@@ -1996,10 +2087,10 @@ header {
                             height: 500px;
                             width: 300px;
                             overflow: auto;
-    
+
                             li {
                                 display: block;
-    
+
                                 a {
                                     background-color: green;
                                     color: white;
@@ -2013,31 +2104,31 @@ header {
                             }
                         }
                     }
-    
+
                     .home-mega-menu {
                         position: relative;
-    
+
                         ul {
-    
+
                             display: flex;
                             flex-direction: row;
                             display: none;
-    
+
                             li {
-    
+
                                 display: flex;
                                 flex-direction: column;
                                 display: none;
-    
-    
-    
+
+
+
                             }
                         }
                     }
-    
+
                     .home-mega-menu:hover {
                         text-align: center;
-    
+
                         ul {
                             position: absolute;
                             display: block;
@@ -2050,10 +2141,10 @@ header {
                             background-color: green;
                             padding: 20px 20px;
                             border-radius: 10px;
-    
+
                             width: 800px;
-    
-    
+
+
                             li {
                                 display: block;
                                 display: flex;
@@ -2061,14 +2152,14 @@ header {
                                 align-items: center;
                                 flex-direction: column;
                                 height: 500px;
-    
+
                                 h1 {
                                     font-size: 1.5rem;
                                     font-weight: 800;
                                     color: white;
                                     text-align: center;
                                 }
-    
+
                                 h1 {
                                     background-color: green;
                                     color: white;
@@ -2079,7 +2170,7 @@ header {
                                     text-decoration: none;
                                     border: 1px solid white;
                                 }
-    
+
                                 .meat-dairy-fruit {
                                     p {
                                         color: white;
@@ -2087,32 +2178,32 @@ header {
                                         font-size: 1rem;
                                         border-radius: 10px;
                                         padding: 5px 20px;
-                                        
+
                                     }
                                 }
                             }
                         }
                     }
-    
-    
+
+
                 }
             }
-    
-    
-    
+
+
+
             .header-bottom-support-container {
                 display: inline-flex;
                 align-items: center;
-    
+
                 gap: 20px;
-    
+
                 img {}
-    
+
                 p {
                     font-size: 1.7rem;
                     color: green;
                     font-weight: 700;
-    
+
                     span {
                         font-size: 1rem;
                         color: black;
