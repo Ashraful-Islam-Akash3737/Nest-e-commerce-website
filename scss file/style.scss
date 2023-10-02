@@ -1060,6 +1060,88 @@ main {
             }
         }
     }
+
+
+    main {
+        padding: 30px 0px;
+        margin: 0px 10px;
+    
+        .banner-container {
+            background-image: url(../Assets/images/hero-slider-1.png);
+            background-position: center;
+            background-size: cover;
+            border-radius: 5px;
+            height: 300px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:center;
+            .banner-heading {
+                font-size: 1.5rem;
+                font-weight: 900;
+                font-family: montserrat;
+                padding: 0px 10px;
+                padding-right: 20px;
+                text-align: center;
+                width: 70%;
+                
+            }
+    
+            .banner-paragraph {
+                font-size: 1.2rem;
+                font-weight: 400;
+                font-family: montserrat;
+                padding: 0px 55px;
+            }
+    
+            .sign-up {
+                align-items: center;
+                padding: 0px 0px;
+                text-align: center;
+                span {
+                    
+    
+                    input {
+                        
+                        padding: 10px 10px;
+                        padding-left: 40px;
+                        font-size: 1rem;
+                        font-weight: 400;
+                        font-family: montserrat;
+                        border: 1px solid green;
+                        border-radius: 10px;
+                        color: green;
+                    }
+                }
+    
+                .btn-primary {
+                    padding: 10px 10px;
+                    background-color: green;
+                    color: white;
+                    font-size: 1rem;
+                    font-weight: 600;
+                    font-family: montserrat;
+                    border-radius: 10px;
+                    border: 1px solid transparent;
+                    transition: all 2s ease-in-out 0s;
+                    text-align: center;
+                }
+                .btn-primary:hover{
+                    padding: 10px 10px;
+                    background-color: white;
+                    color: green;
+                    font-size: 1rem;
+                    font-weight: 600;
+                    font-family: montserrat;
+                    border:1px solid green ;
+                    border-radius: 10px;
+                    transition: all 2s ease-in-out 0s;
+                    text-align: center;
+                }
+            }
+        }
+    }
 }
 
 
@@ -1535,6 +1617,84 @@ main {
             }
         }
     }
+
+
+    main {
+        padding: 30px 0px;
+        margin: 0px 10px;
+    
+        .banner-container {
+            background-image: url(../Assets/images/hero-slider-1.png);
+            background-position: center;
+            background-size: cover;
+            border-radius: 5px;
+            height: 400px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content:center;
+            .banner-heading {
+                font-size: 2.5rem;
+                font-weight: 900;
+                font-family: montserrat;
+                padding: 0px 15px;
+                text-align: center;
+                width: 70%;
+                
+            }
+    
+            .banner-paragraph {
+                font-size: 1.7rem;
+                font-weight: 400;
+                font-family: montserrat;
+                padding: 10px 55px;
+            }
+    
+            .sign-up {
+                align-items: center;
+                padding: 0px 50px;
+                span {
+                    
+    
+                    input {
+                        
+                        padding: 10px 15px;
+                        padding-left: 40px;
+                        font-size: 1rem;
+                        font-weight: 400;
+                        font-family: montserrat;
+                        border: 1px solid green;
+                        border-radius: 10px;
+                        color: green;
+                    }
+                }
+    
+                .btn-primary {
+                    padding: 10px 15px;
+                    background-color: green;
+                    color: white;
+                    font-size: 1rem;
+                    font-weight: 600;
+                    font-family: montserrat;
+                    border-radius: 10px;
+                    border: 1px solid transparent;
+                    transition: all 2s ease-in-out 0s;
+                }
+                .btn-primary:hover{
+                    padding: 10px 15px;
+                    background-color: white;
+                    color: green;
+                    font-size: 1rem;
+                    font-weight: 600;
+                    font-family: montserrat;
+                    border:1px solid green ;
+                    border-radius: 10px;
+                    transition: all 2s ease-in-out 0s;
+                }
+            }
+        }
+    }
 }
 
 
@@ -1870,6 +2030,84 @@ main {
                         color: black;
                         font-weight: 300;
                     }
+                }
+            }
+        }
+    }
+
+
+    main {
+        padding: 30px 0px;
+        margin: 0px 10px;
+    
+        .banner-container {
+            background-image: url(../Assets/images/hero-slider-1.png);
+            background-position: center;
+            background-size: cover;
+            border-radius: 5px;
+            height: 500px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content:center;
+            .banner-heading {
+                font-size: 3.5rem;
+                font-weight: 900;
+                font-family: montserrat;
+                padding: 10px 15px;
+                text-align: center;
+                width: 70%;
+                
+            }
+    
+            .banner-paragraph {
+                font-size: 2rem;
+                font-weight: 400;
+                font-family: montserrat;
+                padding: 10px 55px;
+            }
+    
+            .sign-up {
+                align-items: center;
+                padding: 0px 50px;
+                span {
+                    
+    
+                    input {
+                        
+                        padding: 10px 15px;
+                        padding-left: 40px;
+                        font-size: 1.5rem;
+                        font-weight: 400;
+                        font-family: montserrat;
+                        border: 1px solid green;
+                        border-radius: 10px;
+                        color: green;
+                    }
+                }
+    
+                .btn-primary {
+                    padding: 10px 15px;
+                    background-color: green;
+                    color: white;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    font-family: montserrat;
+                    border-radius: 10px;
+                    border: 1px solid transparent;
+                    transition: all 2s ease-in-out 0s;
+                }
+                .btn-primary:hover{
+                    padding: 10px 15px;
+                    background-color: white;
+                    color: green;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    font-family: montserrat;
+                    border:1px solid green ;
+                    border-radius: 10px;
+                    transition: all 2s ease-in-out 0s;
                 }
             }
         }
@@ -2214,5 +2452,83 @@ main {
         }
 
 
+    }
+
+
+    main {
+        padding: 30px 0px;
+        margin: 0px 10px;
+    
+        .banner-container {
+            background-image: url(../Assets/images/hero-slider-1.png);
+            background-position: center;
+            background-size: cover;
+            border-radius: 5px;
+            height: 600px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content:center;
+            .banner-heading {
+                font-size: 4rem;
+                font-weight: 900;
+                font-family: montserrat;
+                padding: 10px 15px;
+                text-align: center;
+                width: 50%;
+                
+            }
+    
+            .banner-paragraph {
+                font-size: 2rem;
+                font-weight: 400;
+                font-family: montserrat;
+                padding: 10px 55px;
+            }
+    
+            .sign-up {
+                align-items: center;
+                padding: 0px 50px;
+                span {
+                    
+    
+                    input {
+                        
+                        padding: 10px 15px;
+                        padding-left: 40px;
+                        font-size: 2rem;
+                        font-weight: 400;
+                        font-family: montserrat;
+                        border: 1px solid green;
+                        border-radius: 10px;
+                        color: green;
+                    }
+                }
+    
+                .btn-primary {
+                    padding: 10px 15px;
+                    background-color: green;
+                    color: white;
+                    font-size: 2rem;
+                    font-weight: 600;
+                    font-family: montserrat;
+                    border-radius: 10px;
+                    border: 1px solid transparent;
+                    transition: all 2s ease-in-out 0s;
+                }
+                .btn-primary:hover{
+                    padding: 10px 15px;
+                    background-color: white;
+                    color: green;
+                    font-size: 2rem;
+                    font-weight: 600;
+                    font-family: montserrat;
+                    border:1px solid green ;
+                    border-radius: 10px;
+                    transition: all 2s ease-in-out 0s;
+                }
+            }
+        }
     }
 }
