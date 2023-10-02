@@ -92,15 +92,17 @@ header {
         justify-content: space-between;
         border-top: 1px solid rgba(128, 128, 128, 0.34);
         border-bottom: 1px solid rgba(128, 128, 128, 0.34);
-        .logo-container{
-            img{
+
+        .logo-container {
+            img {
                 max-width: 200px;
             }
         }
+
         .search-icons-container {
             display: flex;
             align-items: center;
-            
+
 
             .search-category-container {
                 display: flex;
@@ -108,7 +110,7 @@ header {
                 border: 3px solid rgba(0, 128, 0, 0.249);
                 padding: 12px 15px;
                 border-radius: 10px;
-                
+
 
                 .all-category {
 
@@ -119,7 +121,7 @@ header {
                         font-size: 1.2rem;
                         border-right: 1px solid gray;
                         outline: none;
-                       
+
                         overflow: hidden;
 
 
@@ -142,41 +144,47 @@ header {
 
                     i {
                         font-size: 1.2rem;
-                        
-                        
+
+
                     }
                 }
             }
-            
-            
+
+
         }
-        .account-container{
-            h3{
+
+        .account-container {
+            h3 {
                 text-align: center;
-                i{
+
+                i {
                     padding-right: 10px;
                 }
             }
-            ul{
+
+            ul {
                 display: none;
                 position: relative;
-                li{
-                  list-style-type: none;  
-                  
-                  a{
-                    text-decoration: none;
-                    color: black;
-                    font-family: montserrat;
-                  }
+
+                li {
+                    list-style-type: none;
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        font-family: montserrat;
+                    }
                 }
             }
-            
+
         }
-        .account-container:hover{
-            i{
+
+        .account-container:hover {
+            i {
                 padding-right: 10px;
             }
-            ul{
+
+            ul {
                 display: block;
                 position: absolute;
                 top: 140px;
@@ -184,21 +192,21 @@ header {
                 background-color: green;
                 padding: 20px 10px;
                 border-radius: 10px;
-                transition: all 2s ease 0s; 
-                
-                li{
-                  list-style-type: none; 
-                  padding: 10px;
-                 
-                  a{
-                    text-decoration: none;
-                    color: white;
-                    font-family: montserrat;
-                    font-weight: 500;
-                  }
+                transition: all 2s ease 0s;
+
+                li {
+                    list-style-type: none;
+                    padding: 10px;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-family: montserrat;
+                        font-weight: 500;
+                    }
                 }
             }
-            
+
         }
 
 
@@ -207,17 +215,22 @@ header {
 
     .header-bottom-container {
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: space-around;
-
+        padding-bottom: 30px;
+        padding-top: 30px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.34);
         .header-bottom-nav-container {
-            
+            display: inline-flex;
+
+            align-items: center;
 
             ul {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                gap: 20px;
+                gap: 50px;
+
                 li {
                     list-style-type: none;
 
@@ -230,22 +243,207 @@ header {
                         padding: 5px 10px;
                         text-decoration: none;
                         border: 1px solid transparent;
+
+
                     }
-                    .home {
+
+                    /*.home {
                         background-color: white;
                         color: green;
                         font-weight: 700;
                         font-size: 1.5rem;
                         border-radius: 10px;
-                        padding: 5px 10px; 
-                    }
-                    
+                        padding: 5px 10px;
+
+                    }*/
+
+
+
+
                 }
+
+                .home-main {
+                    position: relative;
+
+                    ul {
+                        display: none;
+                        display: flex;
+                        flex-direction: column;
+
+                        li {
+                            display: none;
+                        }
+                    }
+                }
+
+                .home-main:hover {
+
+                    ul {
+                        position: absolute;
+                        display: block;
+                        display: flex;
+                        flex-direction: column;
+                        top: 32px;
+                        right: -55px;
+                        background-color: green;
+                        padding: 20px 20px;
+                        border-radius: 10px;
+
+                        width: 200px;
+
+                        li {
+                            display: block;
+
+                            a {
+                                background-color: green;
+                                color: white;
+                                font-weight: 700;
+                                font-size: 1.5rem;
+                                border-radius: 10px;
+                                padding: 5px 20px;
+                                text-decoration: none;
+                                border: 1px solid transparent;
+                            }
+                        }
+                    }
+                }
+
+                .home-shop {
+                    position: relative;
+
+                    ul {
+                        display: none;
+                        display: flex;
+                        flex-direction: column;
+
+                        li {
+                            display: none;
+                        }
+                    }
+                }
+
+                .home-shop:hover {
+
+                    ul {
+                        position: absolute;
+                        display: block;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        top: 32px;
+                        right: -55px;
+                        background-color: green;
+                        padding: 20px 20px;
+                        border-radius: 10px;
+                        height: 500px;
+                        width: 300px;
+                        overflow: auto;
+
+                        li {
+                            display: block;
+
+                            a {
+                                background-color: green;
+                                color: white;
+                                font-weight: 700;
+                                font-size: 1.5rem;
+                                border-radius: 10px;
+                                padding: 5px 20px;
+                                text-decoration: none;
+                                border: 1px solid transparent;
+                            }
+                        }
+                    }
+                }
+
+                .home-mega-menu {
+                    position: relative;
+
+                    ul {
+
+                        display: flex;
+                        flex-direction: row;
+                        display: none;
+
+                        li {
+
+                            display: flex;
+                            flex-direction: column;
+                            display: none;
+
+
+
+                        }
+                    }
+                }
+
+                .home-mega-menu:hover {
+                    text-align: center;
+
+                    ul {
+                        position: absolute;
+                        display: block;
+                        text-align: start;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        top: 32px;
+                        right: -300px;
+                        background-color: green;
+                        padding: 20px 20px;
+                        border-radius: 10px;
+
+                        width: 800px;
+
+
+                        li {
+                            display: block;
+                            display: flex;
+                            text-align: start;
+                            align-items: center;
+                            flex-direction: column;
+                            height: 500px;
+
+                            h1 {
+                                font-size: 1.5rem;
+                                font-weight: 800;
+                                color: white;
+                                text-align: center;
+                            }
+
+                            h1 {
+                                background-color: green;
+                                color: white;
+                                font-weight: 800;
+                                font-size: 1.5rem;
+                                border-radius: 10px;
+                                padding: 5px 20px;
+                                text-decoration: none;
+                                border: 1px solid white;
+                            }
+
+                            .meat-dairy-fruit {
+                                p {
+                                    color: white;
+                                    font-weight: 600;
+                                    font-size: 1rem;
+                                    border-radius: 10px;
+                                    padding: 5px 20px;
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+
+
             }
         }
 
+
+
         .header-bottom-support-container {
-            display: flex;
+            display: inline-flex;
             align-items: center;
 
             gap: 20px;
@@ -378,26 +576,28 @@ header {
             justify-content: space-between;
             border-top: 1px solid rgba(128, 128, 128, 0.34);
             border-bottom: 1px solid rgba(128, 128, 128, 0.34);
-            .logo-container{
-                img{
+
+            .logo-container {
+                img {
                     max-width: 90px;
                 }
             }
+
             .search-icons-container {
                 display: flex;
                 align-items: center;
                 display: none;
-    
+
                 .search-category-container {
                     display: flex;
                     align-items: center;
                     border: 3px solid rgba(0, 128, 0, 0.249);
                     padding: 10px 5px;
                     border-radius: 10px;
-                    
-    
+
+
                     .all-category {
-    
+
                         select {
                             padding: 8px 5px;
                             padding-right: 0px;
@@ -405,64 +605,70 @@ header {
                             font-size: 1rem;
                             border-right: 1px solid gray;
                             outline: none;
-                           
+
                             overflow: hidden;
-    
-    
+
+
                         }
                     }
-    
+
                     .search {
-    
+
                         opacity: 0.35;
                         padding-left: 10px;
-    
+
                         .search-bar {
                             padding: 8px 5px;
                             border: none;
                             font-size: 1rem;
                             margin-right: 10px;
                             outline: none;
-    
+
                         }
-    
+
                         i {
                             font-size: 1rem;
-                            
-                            
+
+
                         }
                     }
                 }
-                
-                
+
+
             }
-            .account-container{
-                h3{
+
+            .account-container {
+                h3 {
                     text-align: center;
-                    i{
+
+                    i {
                         padding-right: 10px;
                     }
                 }
-                ul{
+
+                ul {
                     display: none;
                     position: relative;
-                    li{
-                      list-style-type: none;  
-                      
-                      a{
-                        text-decoration: none;
-                        color: black;
-                        font-family: montserrat;
-                      }
+
+                    li {
+                        list-style-type: none;
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            font-family: montserrat;
+                        }
                     }
                 }
-                
+
             }
-            .account-container:hover{
-                i{
+
+            .account-container:hover {
+                i {
                     padding-right: 10px;
                 }
-                ul{
+
+                ul {
                     display: block;
                     position: absolute;
                     top: 140px;
@@ -470,24 +676,24 @@ header {
                     background-color: green;
                     padding: 20px 10px;
                     border-radius: 10px;
-                    transition: all 2s ease 0s; 
-                    
-                    li{
-                      list-style-type: none; 
-                      padding: 10px;
-                     
-                      a{
-                        text-decoration: none;
-                        color: white;
-                        font-family: montserrat;
-                        font-weight: 500;
-                      }
+                    transition: all 2s ease 0s;
+
+                    li {
+                        list-style-type: none;
+                        padding: 10px;
+
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-family: montserrat;
+                            font-weight: 500;
+                        }
                     }
                 }
-                
+
             }
-    
-    
+
+
         }
     }
 }
@@ -584,26 +790,28 @@ header {
             justify-content: space-between;
             border-top: 1px solid rgba(128, 128, 128, 0.34);
             border-bottom: 1px solid rgba(128, 128, 128, 0.34);
-            .logo-container{
-                img{
+
+            .logo-container {
+                img {
                     max-width: 90px;
                 }
             }
+
             .search-icons-container {
                 display: flex;
                 align-items: center;
-                
-    
+
+
                 .search-category-container {
                     display: flex;
                     align-items: center;
                     border: 3px solid rgba(0, 128, 0, 0.249);
                     padding: 10px 5px;
                     border-radius: 10px;
-                    
-    
+
+
                     .all-category {
-    
+
                         select {
                             padding: 8px 5px;
                             padding-right: 0px;
@@ -611,64 +819,70 @@ header {
                             font-size: 1rem;
                             border-right: 1px solid gray;
                             outline: none;
-                           
+
                             overflow: hidden;
-    
-    
+
+
                         }
                     }
-    
+
                     .search {
-    
+
                         opacity: 0.35;
                         padding-left: 10px;
-    
+
                         .search-bar {
                             padding: 8px 5px;
                             border: none;
                             font-size: 1rem;
                             margin-right: 10px;
                             outline: none;
-    
+
                         }
-    
+
                         i {
                             font-size: 1rem;
-                            
-                            
+
+
                         }
                     }
                 }
-                
-                
+
+
             }
-            .account-container{
-                h3{
+
+            .account-container {
+                h3 {
                     text-align: center;
-                    i{
+
+                    i {
                         padding-right: 10px;
                     }
                 }
-                ul{
+
+                ul {
                     display: none;
                     position: relative;
-                    li{
-                      list-style-type: none;  
-                      
-                      a{
-                        text-decoration: none;
-                        color: black;
-                        font-family: montserrat;
-                      }
+
+                    li {
+                        list-style-type: none;
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            font-family: montserrat;
+                        }
                     }
                 }
-                
+
             }
-            .account-container:hover{
-                i{
+
+            .account-container:hover {
+                i {
                     padding-right: 10px;
                 }
-                ul{
+
+                ul {
                     display: block;
                     position: absolute;
                     top: 140px;
@@ -676,24 +890,24 @@ header {
                     background-color: green;
                     padding: 20px 10px;
                     border-radius: 10px;
-                    transition: all 2s ease 0s; 
-                    
-                    li{
-                      list-style-type: none; 
-                      padding: 10px;
-                     
-                      a{
-                        text-decoration: none;
-                        color: white;
-                        font-family: montserrat;
-                        font-weight: 500;
-                      }
+                    transition: all 2s ease 0s;
+
+                    li {
+                        list-style-type: none;
+                        padding: 10px;
+
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-family: montserrat;
+                            font-weight: 500;
+                        }
                     }
                 }
-                
+
             }
-    
-    
+
+
         }
     }
 }
@@ -782,7 +996,7 @@ header {
             }
         }
 
-        
+
     }
 }
 
@@ -870,8 +1084,8 @@ header {
             }
         }
 
-        
 
-       
+
+
     }
 }
