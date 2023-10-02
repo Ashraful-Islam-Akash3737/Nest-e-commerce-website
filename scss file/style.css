@@ -457,6 +457,67 @@ main .featured-container .featured-header .featured-header-right p a:hover {
   transition: all 1.5s ease-in-out 0s;
   border-bottom: 1px solid green;
 }
+main .featured-container .featured-main {
+  display: flex;
+  justify-content: space-between;
+}
+main .featured-container .featured-main .featured-main-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  background-color: #FEEFEA;
+  width: 150px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+main .featured-container .featured-main .featured-main-item .featured-main-item-img {
+  width: 100%;
+  height: 50%;
+}
+main .featured-container .featured-main .featured-main-item .featured-main-item-img img {
+  width: 100%;
+  height: 100%;
+  transition: all 1s ease-in-out 0s;
+}
+main .featured-container .featured-main .featured-main-item .featured-main-item-img img:hover {
+  width: 110%;
+  height: 110%;
+  transition: all 1s ease-in-out 0s;
+}
+main .featured-container .featured-main .featured-main-item .featured-main-item-content .content-heading {
+  font-size: 1.3rem;
+  font-weight: 900;
+  font-family: montserrat;
+  padding: 5px 0px;
+  text-align: center;
+}
+main .featured-container .featured-main .featured-main-item .featured-main-item-content .content-heading:hover {
+  font-size: 1.3rem;
+  font-weight: 900;
+  font-family: montserrat;
+  padding: 5px 0px;
+  text-align: center;
+  color: green;
+}
+main .featured-container .featured-main .featured-main-item .featured-main-item-content .content-paragraph {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: montserrat;
+  padding: 5px 0px;
+  text-align: center;
+}
+main .featured-container .featured-main .featured-main-item:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  background-color: #FEEFEA;
+  width: 150px;
+  transition: all 1s ease-in-out 0s;
+  box-shadow: 2px 2px 2px green;
+  border-radius: 10px;
+}
 
 /* main section end*/
 /* footer section start*/
@@ -883,6 +944,10 @@ main .featured-container .featured-header .featured-header-right p a:hover {
     border-radius: 10px;
     transition: all 2s ease-in-out 0s;
     text-align: center;
+  }
+  main .featured-container {
+    display: flex;
+    flex-direction: column;
   }
   main .featured-container .featured-header {
     display: flex;
@@ -1716,6 +1781,69 @@ main .featured-container .featured-header .featured-header-right p a:hover {
     transition: all 1.5s ease-in-out 0s;
     border-bottom: 1px solid green;
   }
+  main .featured-container .featured-main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+  }
+  main .featured-container .featured-main .featured-main-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    background-color: #FEEFEA;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+  }
+  main .featured-container .featured-main .featured-main-item .featured-main-item-img {
+    width: 100%;
+    height: 50%;
+  }
+  main .featured-container .featured-main .featured-main-item .featured-main-item-img img {
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in-out 0s;
+  }
+  main .featured-container .featured-main .featured-main-item .featured-main-item-img img:hover {
+    width: 110%;
+    height: 110%;
+    transition: all 1s ease-in-out 0s;
+  }
+  main .featured-container .featured-main .featured-main-item .featured-main-item-content .content-heading {
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-family: montserrat;
+    padding: 5px 0px;
+    text-align: center;
+  }
+  main .featured-container .featured-main .featured-main-item .featured-main-item-content .content-heading:hover {
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-family: montserrat;
+    padding: 5px 0px;
+    text-align: center;
+    color: green;
+  }
+  main .featured-container .featured-main .featured-main-item .featured-main-item-content .content-paragraph {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: montserrat;
+    padding: 5px 0px;
+    text-align: center;
+  }
+  main .featured-container .featured-main .featured-main-item:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    background-color: #FEEFEA;
+    width: 150px;
+    transition: all 1s ease-in-out 0s;
+    box-shadow: 2px 2px 2px green;
+    border-radius: 10px;
+  }
 }
 /* responsive media query for extra-large device*/
 @media screen and (min-width: 1400px) {
@@ -2027,5 +2155,66 @@ main .featured-container .featured-header .featured-header-right p a:hover {
     border: 1px solid green;
     border-radius: 10px;
     transition: all 2s ease-in-out 0s;
+  }
+  main .featured-main {
+    display: flex;
+    justify-content: space-between;
+  }
+  main .featured-main .featured-main-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    background-color: #FEEFEA;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+  }
+  main .featured-main .featured-main-item .featured-main-item-img {
+    width: 100%;
+    height: 50%;
+  }
+  main .featured-main .featured-main-item .featured-main-item-img img {
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in-out 0s;
+  }
+  main .featured-main .featured-main-item .featured-main-item-img img:hover {
+    width: 110%;
+    height: 110%;
+    transition: all 1s ease-in-out 0s;
+  }
+  main .featured-main .featured-main-item .featured-main-item-content .content-heading {
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-family: montserrat;
+    padding: 5px 0px;
+    text-align: center;
+  }
+  main .featured-main .featured-main-item .featured-main-item-content .content-heading:hover {
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-family: montserrat;
+    padding: 5px 0px;
+    text-align: center;
+    color: green;
+  }
+  main .featured-main .featured-main-item .featured-main-item-content .content-paragraph {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: montserrat;
+    padding: 5px 0px;
+    text-align: center;
+  }
+  main .featured-main .featured-main-item:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    background-color: #FEEFEA;
+    width: 150px;
+    transition: all 1s ease-in-out 0s;
+    box-shadow: 2px 2px 2px green;
+    border-radius: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -574,6 +574,7 @@ main {
 
 
     .featured-container {
+
         .featured-header {
             display: flex;
             align-items: center;
@@ -586,7 +587,7 @@ main {
                     font-family: montserrat;
                     padding: 10px 15px;
                     text-align: center;
-                    
+
                 }
             }
 
@@ -606,6 +607,7 @@ main {
                         border-bottom: 1px solid transparent;
                         transition: all 1.5s ease-in-out 0s;
                     }
+
                     a:hover {
                         text-decoration: none;
                         color: green;
@@ -613,11 +615,85 @@ main {
                         font-size: 1.5rem;
                         transition: all 1.5s ease-in-out 0s;
                         border-bottom: 1px solid green;
-                        
+
                     }
                 }
             }
         }
+
+
+
+        .featured-main {
+            display: flex;
+            justify-content: space-between;
+            .featured-main-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 250px;
+                background-color: #FEEFEA;
+                width: 150px;
+                border-radius: 10px;
+                border: 1px solid transparent;
+                .featured-main-item-img {
+                    width: 100%;
+                    height: 50%;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        transition: all 1s ease-in-out 0s;
+                    }
+                    img:hover {
+                        width: 110%;
+                        height: 110%;
+                        transition: all 1s ease-in-out 0s;
+                    }
+                }
+
+                .featured-main-item-content {
+                    .content-heading {
+                        font-size: 1.3rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 5px 0px;
+                        text-align: center;
+
+                    }
+                    .content-heading:hover {
+                        font-size: 1.3rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 5px 0px;
+                        text-align: center;
+                        color: green;
+
+                    }
+
+
+                    .content-paragraph {
+                        font-size: 1rem;
+                        font-weight: 400;
+                        font-family: montserrat;
+                        padding: 5px 0px;
+                        text-align: center;
+                    }
+                }
+
+
+            }
+            .featured-main-item:hover {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 250px;
+                background-color: #FEEFEA;
+                width: 150px;
+                transition: all 1s ease-in-out 0s;
+                box-shadow: 2px 2px 2px green;
+                border-radius: 10px;
+            }
+        }
+
     }
 }
 
@@ -1197,11 +1273,14 @@ main {
         }
 
         .featured-container {
+            display: flex;
+            flex-direction: column;
+
             .featured-header {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-    
+
                 .featured-header-left {
                     h1 {
                         font-size: 1.7rem;
@@ -1209,18 +1288,18 @@ main {
                         font-family: montserrat;
                         padding: 10px 15px;
                         text-align: center;
-                        
+
                     }
                 }
-    
+
                 .featured-header-right {
                     display: flex;
                     align-items: center;
                     gap: 50px;
                     display: none;
-    
+
                     p {
-    
+
                         a {
                             text-decoration: none;
                             color: black;
@@ -1230,6 +1309,7 @@ main {
                             border-bottom: 1px solid transparent;
                             transition: all 1.5s ease-in-out 0s;
                         }
+
                         a:hover {
                             text-decoration: none;
                             color: green;
@@ -1237,12 +1317,16 @@ main {
                             font-size: 1.5rem;
                             transition: all 1.5s ease-in-out 0s;
                             border-bottom: 1px solid green;
-                            
+
                         }
                     }
                 }
             }
+
+
         }
+
+
     }
 }
 
@@ -1806,7 +1890,7 @@ main {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-    
+
                 .featured-header-left {
                     h1 {
                         font-size: 2.5rem;
@@ -1814,18 +1898,18 @@ main {
                         font-family: montserrat;
                         padding: 10px 15px;
                         text-align: center;
-                        
+
                     }
                 }
-    
+
                 .featured-header-right {
                     display: flex;
                     align-items: center;
                     gap: 50px;
                     display: none;
-    
+
                     p {
-    
+
                         a {
                             text-decoration: none;
                             color: black;
@@ -1835,6 +1919,7 @@ main {
                             border-bottom: 1px solid transparent;
                             transition: all 1.5s ease-in-out 0s;
                         }
+
                         a:hover {
                             text-decoration: none;
                             color: green;
@@ -1842,7 +1927,7 @@ main {
                             font-size: 1.5rem;
                             transition: all 1.5s ease-in-out 0s;
                             border-bottom: 1px solid green;
-                            
+
                         }
                     }
                 }
@@ -2275,7 +2360,7 @@ main {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-    
+
                 .featured-header-left {
                     h1 {
                         font-size: 2.5rem;
@@ -2283,17 +2368,17 @@ main {
                         font-family: montserrat;
                         padding: 10px 15px;
                         text-align: center;
-                        
+
                     }
                 }
-    
+
                 .featured-header-right {
                     display: flex;
                     align-items: center;
                     gap: 50px;
-    
+
                     p {
-    
+
                         a {
                             text-decoration: none;
                             color: black;
@@ -2303,6 +2388,7 @@ main {
                             border-bottom: 1px solid transparent;
                             transition: all 1.5s ease-in-out 0s;
                         }
+
                         a:hover {
                             text-decoration: none;
                             color: green;
@@ -2310,9 +2396,82 @@ main {
                             font-size: 1.5rem;
                             transition: all 1.5s ease-in-out 0s;
                             border-bottom: 1px solid green;
-                            
+
                         }
                     }
+                }
+            }
+
+            .featured-main {
+                display: grid;
+                grid-template-columns: repeat(5,1fr);
+                gap: 30px;
+                .featured-main-item {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    align-items: center;
+                    height: 250px;
+                    background-color: #FEEFEA;
+                    width: 150px;
+                    border-radius: 10px;
+                    border: 1px solid transparent;
+                    .featured-main-item-img {
+                        width: 100%;
+                        height: 50%;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                        img:hover {
+                            width: 110%;
+                            height: 110%;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                    .featured-main-item-content {
+                        .content-heading {
+                            font-size: 1.3rem;
+                            font-weight: 900;
+                            font-family: montserrat;
+                            padding: 5px 0px;
+                            text-align: center;
+    
+                        }
+                        .content-heading:hover {
+                            font-size: 1.3rem;
+                            font-weight: 900;
+                            font-family: montserrat;
+                            padding: 5px 0px;
+                            text-align: center;
+                            color: green;
+    
+                        }
+    
+    
+                        .content-paragraph {
+                            font-size: 1rem;
+                            font-weight: 400;
+                            font-family: montserrat;
+                            padding: 5px 0px;
+                            text-align: center;
+                        }
+                    }
+    
+    
+                }
+                .featured-main-item:hover {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    height: 250px;
+                    background-color: #FEEFEA;
+                    width: 150px;
+                    transition: all 1s ease-in-out 0s;
+                    box-shadow: 2px 2px 2px green;
+                    border-radius: 10px;
                 }
             }
         }
@@ -2736,6 +2895,77 @@ main {
                     border-radius: 10px;
                     transition: all 2s ease-in-out 0s;
                 }
+            }
+        }
+
+        .featured-main {
+            display: flex;
+            justify-content: space-between;
+            .featured-main-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 250px;
+                background-color: #FEEFEA;
+                width: 150px;
+                border-radius: 10px;
+                border: 1px solid transparent;
+                .featured-main-item-img {
+                    width: 100%;
+                    height: 50%;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        transition: all 1s ease-in-out 0s;
+                    }
+                    img:hover {
+                        width: 110%;
+                        height: 110%;
+                        transition: all 1s ease-in-out 0s;
+                    }
+                }
+
+                .featured-main-item-content {
+                    .content-heading {
+                        font-size: 1.3rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 5px 0px;
+                        text-align: center;
+
+                    }
+                    .content-heading:hover {
+                        font-size: 1.3rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 5px 0px;
+                        text-align: center;
+                        color: green;
+
+                    }
+
+
+                    .content-paragraph {
+                        font-size: 1rem;
+                        font-weight: 400;
+                        font-family: montserrat;
+                        padding: 5px 0px;
+                        text-align: center;
+                    }
+                }
+
+
+            }
+            .featured-main-item:hover {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 250px;
+                background-color: #FEEFEA;
+                width: 150px;
+                transition: all 1s ease-in-out 0s;
+                box-shadow: 2px 2px 2px green;
+                border-radius: 10px;
             }
         }
     }
