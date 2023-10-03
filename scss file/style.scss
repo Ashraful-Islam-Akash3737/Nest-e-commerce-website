@@ -939,6 +939,55 @@ main {
 
 
     }
+
+
+    .popular-product-container{
+        .popular-product-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .popular-product-top-left {
+                h1 {
+                    font-size: 2.5rem;
+                    font-weight: 800;
+                    font-family: montserrat;
+                    padding: 10px 15px;
+                    text-align: center;
+
+                }
+            }
+
+            .popular-product-top-right {
+                display: flex;
+                align-items: center;
+                gap: 50px;
+
+                p {
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        font-family: montserrat;
+                        font-size: 1.5rem;
+                        position: relative;
+                        border-bottom: 1px solid transparent;
+                        transition: all 1.5s ease-in-out 0s;
+                    }
+
+                    a:hover {
+                        text-decoration: none;
+                        color: green;
+                        font-family: montserrat;
+                        font-size: 1.5rem;
+                        transition: all 1.5s ease-in-out 0s;
+                        border-bottom: 1px solid green;
+
+                    }
+                }
+            }
+        }
+    }
 }
 
 /* main section end*/
