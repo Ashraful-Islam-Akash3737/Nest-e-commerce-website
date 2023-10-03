@@ -3205,7 +3205,7 @@ main {
 
             .popular-product-bottom {
                 display: grid;
-                grid-template-columns: repeat(4, 1fr);
+                grid-template-columns: repeat(3, 1fr);
                 gap: 20px;
     
                 .popular-product-main-item {
@@ -4162,7 +4162,7 @@ main {
 
             .popular-product-bottom {
                 display: grid;
-                grid-template-columns: repeat(5, 1fr);
+                grid-template-columns: repeat(4, 1fr);
                 gap: 20px;
     
                 .popular-product-main-item {
@@ -4240,7 +4240,7 @@ main {
                             }
     
                             .btn-primary {
-                                display: none;
+                                
                                 padding: 0px 20px;
                                 background-color: green;
                                 color: white;

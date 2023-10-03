@@ -2444,7 +2444,7 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
   }
   main .popular-product-container .popular-product-bottom {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
   main .popular-product-container .popular-product-bottom .popular-product-main-item {
@@ -3187,7 +3187,7 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
   }
   main .popular-product-container .popular-product-bottom {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
   }
   main .popular-product-container .popular-product-bottom .popular-product-main-item {
@@ -3252,7 +3252,6 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
     color: gray;
   }
   main .popular-product-container .popular-product-bottom .popular-product-main-item .popular-product-main-item-content .price-container .btn-primary {
-    display: none;
     padding: 0px 20px;
     background-color: green;
     color: white;
