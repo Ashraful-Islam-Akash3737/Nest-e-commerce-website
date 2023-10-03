@@ -744,6 +744,102 @@ main .popular-product-container .popular-product-top .popular-product-top-right 
   transition: all 1.5s ease-in-out 0s;
   border-bottom: 1px solid green;
 }
+main .popular-product-container .popular-product-bottom {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+main .popular-product-container .popular-product-bottom .popular-product-main-item {
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+main .popular-product-container .popular-product-bottom .popular-product-main-item .popular-product-main-item-img {
+  height: 40%;
+}
+main .popular-product-container .popular-product-bottom .popular-product-main-item .popular-product-main-item-img .open {
+  display: block;
+  width: 100%;
+  transition: all 1s ease-in-out 0s;
+}
+main .popular-product-container .popular-product-bottom .popular-product-main-item .popular-product-main-item-img .close {
+  display: none;
+  width: 100%;
+  transition: all 1s ease-in-out 0s;
+}
+main .popular-product-container .popular-product-bottom .popular-product-main-item .popular-product-main-item-img:hover .open {
+  display: none;
+  width: 100%;
+  transition: all 2s ease-in-out 0s;
+}
+main .popular-product-container .popular-product-bottom .popular-product-main-item .popular-product-main-item-img:hover .close {
+  display: block;
+  width: 100%;
+  transition: all 2s ease-in-out 0s;
+}
+main .popular-product-container .popular-product-bottom .popular-product-main-item .popular-product-main-item-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+main .popular-product-container .popular-product-bottom .popular-product-main-item .popular-product-main-item-content .content-heading {
+  font-size: 1rem;
+  font-weight: 900;
+  font-family: montserrat;
+  padding: 10px 15px;
+  text-align: center;
+  width: 100%;
+}
+main .popular-product-container .popular-product-bottom .popular-product-main-item .popular-product-main-item-content .content-paragraph {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: montserrat;
+  padding: 10px 15px;
+  text-align: center;
+  width: 100%;
+}
+main .popular-product-container .popular-product-bottom .popular-product-main-item .popular-product-main-item-content .price-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .popular-product-container .popular-product-bottom .popular-product-main-item .popular-product-main-item-content .price-container del {
+  color: gray;
+}
+main .popular-product-container .popular-product-bottom .popular-product-main-item .popular-product-main-item-content .price-container .btn-primary {
+  padding: 0px 20px;
+  background-color: green;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: montserrat;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: all 2s ease-in-out 0s;
+}
+main .popular-product-container .popular-product-bottom .popular-product-main-item .popular-product-main-item-content .price-container .btn-primary:hover {
+  padding: 0px 20px;
+  background-color: white;
+  color: green;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: montserrat;
+  border: 1px solid green;
+  border-radius: 10px;
+  transition: all 2s ease-in-out 0s;
+}
+main .popular-product-container .popular-product-bottom .popular-product-main-item:hover {
+  border: 1px solid gray;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 
 /* main section end*/
 /* footer section start*/
