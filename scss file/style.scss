@@ -716,7 +716,7 @@ main {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
-                justify-content: center;
+                justify-content: flex-start;
 
                 .featured-heading {
                     font-size: 2rem;
@@ -724,7 +724,7 @@ main {
                     font-family: montserrat;
                     padding: 10px 15px;
                     text-align: center;
-                    width: 50%;
+                    width: 65%;
 
                 }
 
@@ -734,7 +734,7 @@ main {
                     font-family: montserrat;
                     padding: 10px 15px;
                     text-align: center;
-                    width: 50%;
+                    width: 65%;
 
                 }
 
@@ -801,7 +801,7 @@ main {
                     font-family: montserrat;
                     padding: 10px 15px;
                     text-align: center;
-                    width: 50%;
+                    width: 70%;
 
                 }
 
@@ -811,7 +811,7 @@ main {
                     font-family: montserrat;
                     padding: 10px 15px;
                     text-align: center;
-                    width: 50%;
+                    width: 70%;
 
                 }
 
@@ -1650,7 +1650,243 @@ main {
                 }
             }
 
-
+            .featured-footer {
+                margin-top: 100px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: center;
+                
+    
+                .featured-footer-item-container {
+                    background-image: url(../Assets/images/featured-catagory/featured-banner/featured-banner-1.png);
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 10px;
+                    height: 200px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+    
+                    .featured-heading {
+                        font-size: 1rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 65%;
+    
+                    }
+    
+                    .featured-heading:hover {
+                        font-size: 1rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 65%;
+    
+                    }
+    
+    
+    
+    
+    
+                    .btn-primary {
+                        padding: 10px 15px;
+                        background-color: green;
+                        color: white;
+                        text-align: center;
+                        font-size: .5rem;
+                        font-weight: 600;
+                        font-family: montserrat;
+                        border-radius: 10px;
+                        border: 1px solid transparent;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 10px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                    .btn-primary:hover {
+                        padding: 10px 15px;
+                        background-color: white;
+                        color: green;
+                        font-size: .5rem;
+                        font-weight: 600;
+                        text-align: center;
+                        font-family: montserrat;
+                        border: 1px solid green;
+                        border-radius: 10px;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 15px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                }
+    
+                
+                .featured-footer-item-container-1 {
+                    background-image: url(../Assets/images/featured-catagory/featured-banner/featured-banner-2.png);
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 10px;
+                    height: 200px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+    
+                    .featured-heading {
+                        font-size: 1rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 70%;
+    
+                    }
+    
+                    .featured-heading:hover {
+                        font-size: 1rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 70%;
+    
+                    }
+    
+    
+    
+    
+    
+                    .btn-primary {
+                        padding: 10px 15px;
+                        background-color: green;
+                        color: white;
+                        text-align: center;
+                        font-size: .5rem;
+                        font-weight: 600;
+                        font-family: montserrat;
+                        border-radius: 10px;
+                        border: 1px solid transparent;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 10px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                    .btn-primary:hover {
+                        padding: 10px 15px;
+                        background-color: white;
+                        color: green;
+                        font-size: .5rem;
+                        font-weight: 600;
+                        text-align: center;
+                        font-family: montserrat;
+                        border: 1px solid green;
+                        border-radius: 10px;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 15px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                }
+    
+                .featured-footer-item-container-2 {
+                    background-image: url(../Assets/images/featured-catagory/featured-banner/featured-banner-3.png) ;
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 10px;
+                    height: 200px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+    
+                    .featured-heading {
+                        font-size: 1rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 65%;
+    
+                    }
+    
+                    .featured-heading:hover {
+                        font-size: 1rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 65%;
+    
+                    }
+    
+    
+    
+    
+    
+                    .btn-primary {
+                        padding: 10px 15px;
+                        background-color: green;
+                        color: white;
+                        text-align: center;
+                        font-size: .5rem;
+                        font-weight: 600;
+                        font-family: montserrat;
+                        border-radius: 10px;
+                        border: 1px solid transparent;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 10px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                    .btn-primary:hover {
+                        padding: 10px 15px;
+                        background-color: white;
+                        color: green;
+                        font-size: .5rem;
+                        font-weight: 600;
+                        text-align: center;
+                        font-family: montserrat;
+                        border: 1px solid green;
+                        border-radius: 10px;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 15px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                }
+            }
         }
 
 
@@ -2345,6 +2581,244 @@ main {
                     border-radius: 10px;
                 }
             }
+
+            .featured-footer {
+                margin-top: 100px;
+                display: flex;
+                flex-wrap: nowrap;
+                gap: 20px;
+                justify-content: center;
+                
+    
+                .featured-footer-item-container {
+                    background-image: url(../Assets/images/featured-catagory/featured-banner/featured-banner-1.png);
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 10px;
+                    height: 200px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+    
+                    .featured-heading {
+                        font-size: 1rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 65%;
+    
+                    }
+    
+                    .featured-heading:hover {
+                        font-size: 1rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 65%;
+    
+                    }
+    
+    
+    
+    
+    
+                    .btn-primary {
+                        padding: 10px 15px;
+                        background-color: green;
+                        color: white;
+                        text-align: center;
+                        font-size: .5rem;
+                        font-weight: 600;
+                        font-family: montserrat;
+                        border-radius: 10px;
+                        border: 1px solid transparent;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 10px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                    .btn-primary:hover {
+                        padding: 10px 15px;
+                        background-color: white;
+                        color: green;
+                        font-size: .5rem;
+                        font-weight: 600;
+                        text-align: center;
+                        font-family: montserrat;
+                        border: 1px solid green;
+                        border-radius: 10px;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 15px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                }
+    
+                
+                .featured-footer-item-container-1 {
+                    background-image: url(../Assets/images/featured-catagory/featured-banner/featured-banner-2.png);
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 10px;
+                    height: 200px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+    
+                    .featured-heading {
+                        font-size: 1rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 70%;
+    
+                    }
+    
+                    .featured-heading:hover {
+                        font-size: 1rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 70%;
+    
+                    }
+    
+    
+    
+    
+    
+                    .btn-primary {
+                        padding: 10px 15px;
+                        background-color: green;
+                        color: white;
+                        text-align: center;
+                        font-size: .5rem;
+                        font-weight: 600;
+                        font-family: montserrat;
+                        border-radius: 10px;
+                        border: 1px solid transparent;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 10px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                    .btn-primary:hover {
+                        padding: 10px 15px;
+                        background-color: white;
+                        color: green;
+                        font-size: .5rem;
+                        font-weight: 600;
+                        text-align: center;
+                        font-family: montserrat;
+                        border: 1px solid green;
+                        border-radius: 10px;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 15px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                }
+    
+                .featured-footer-item-container-2 {
+                    background-image: url(../Assets/images/featured-catagory/featured-banner/featured-banner-3.png) ;
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 10px;
+                    height: 200px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+    
+                    .featured-heading {
+                        font-size: 1rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 65%;
+    
+                    }
+    
+                    .featured-heading:hover {
+                        font-size: 1rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 65%;
+    
+                    }
+    
+    
+    
+    
+    
+                    .btn-primary {
+                        padding: 10px 15px;
+                        background-color: green;
+                        color: white;
+                        text-align: center;
+                        font-size: .5rem;
+                        font-weight: 600;
+                        font-family: montserrat;
+                        border-radius: 10px;
+                        border: 1px solid transparent;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 10px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                    .btn-primary:hover {
+                        padding: 10px 15px;
+                        background-color: white;
+                        color: green;
+                        font-size: .5rem;
+                        font-weight: 600;
+                        text-align: center;
+                        font-family: montserrat;
+                        border: 1px solid green;
+                        border-radius: 10px;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 15px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                }
+            }
         }
     }
 }
@@ -2901,7 +3375,242 @@ main {
                 }
             }
 
-
+            .featured-footer {
+                margin-top: 100px;
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+                
+    
+                .featured-footer-item-container {
+                    background-image: url(../Assets/images/featured-catagory/featured-banner/featured-banner-1.png);
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 10px;
+                    height: 250px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+    
+                    .featured-heading {
+                        font-size: 1.5rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 65%;
+    
+                    }
+    
+                    .featured-heading:hover {
+                        font-size: 1.5rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 65%;
+    
+                    }
+    
+    
+    
+    
+    
+                    .btn-primary {
+                        padding: 10px 15px;
+                        background-color: green;
+                        color: white;
+                        text-align: center;
+                        font-size: .8rem;
+                        font-weight: 600;
+                        font-family: montserrat;
+                        border-radius: 10px;
+                        border: 1px solid transparent;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 10px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                    .btn-primary:hover {
+                        padding: 10px 15px;
+                        background-color: white;
+                        color: green;
+                        font-size: .8rem;
+                        font-weight: 600;
+                        text-align: center;
+                        font-family: montserrat;
+                        border: 1px solid green;
+                        border-radius: 10px;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 15px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                }
+    
+                
+                .featured-footer-item-container-1 {
+                    background-image: url(../Assets/images/featured-catagory/featured-banner/featured-banner-2.png);
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 10px;
+                    height: 250px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+    
+                    .featured-heading {
+                        font-size: 1.5rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 70%;
+    
+                    }
+    
+                    .featured-heading:hover {
+                        font-size: 1.5rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 70%;
+    
+                    }
+    
+    
+    
+    
+    
+                    .btn-primary {
+                        padding: 10px 15px;
+                        background-color: green;
+                        color: white;
+                        text-align: center;
+                        font-size: .8rem;
+                        font-weight: 600;
+                        font-family: montserrat;
+                        border-radius: 10px;
+                        border: 1px solid transparent;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 10px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                    .btn-primary:hover {
+                        padding: 10px 15px;
+                        background-color: white;
+                        color: green;
+                        font-size: .8rem;
+                        font-weight: 600;
+                        text-align: center;
+                        font-family: montserrat;
+                        border: 1px solid green;
+                        border-radius: 10px;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 15px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                }
+    
+                .featured-footer-item-container-2 {
+                    background-image: url(../Assets/images/featured-catagory/featured-banner/featured-banner-3.png) ;
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 10px;
+                    height: 250px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+    
+                    .featured-heading {
+                        font-size: 1.5rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 65%;
+    
+                    }
+    
+                    .featured-heading:hover {
+                        font-size: 1.5rem;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+                        width: 65%;
+    
+                    }
+    
+    
+    
+    
+    
+                    .btn-primary {
+                        padding: 10px 15px;
+                        background-color: green;
+                        color: white;
+                        text-align: center;
+                        font-size: .8rem;
+                        font-weight: 600;
+                        font-family: montserrat;
+                        border-radius: 10px;
+                        border: 1px solid transparent;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 10px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                    .btn-primary:hover {
+                        padding: 10px 15px;
+                        background-color: white;
+                        color: green;
+                        font-size: .8rem;
+                        font-weight: 600;
+                        text-align: center;
+                        font-family: montserrat;
+                        border: 1px solid green;
+                        border-radius: 10px;
+                        transition: all 2s ease-in-out 0s;
+                        margin-left: 30px;
+    
+                        i {
+                            margin-left: 15px;
+                            transition: all 1s ease-in-out 0s;
+                        }
+                    }
+    
+                }
+            }
         }
     }
 
@@ -3450,8 +4159,6 @@ main {
                     }
                 }
             }
-
-
 
             .featured-main {
                 display: flex;
