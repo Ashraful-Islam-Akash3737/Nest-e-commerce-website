@@ -1468,6 +1468,41 @@ main .popular-product-container .popular-product-top .popular-product-top-right 
     margin-left: 15px;
     transition: all 1s ease-in-out 0s;
   }
+  main .popular-product-container .popular-product-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .popular-product-container .popular-product-top .popular-product-top-left h1 {
+    font-size: 1.7rem;
+    font-weight: 800;
+    font-family: montserrat;
+    padding: 10px 15px;
+    text-align: center;
+  }
+  main .popular-product-container .popular-product-top .popular-product-top-right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    display: none;
+  }
+  main .popular-product-container .popular-product-top .popular-product-top-right p a {
+    text-decoration: none;
+    color: black;
+    font-family: montserrat;
+    font-size: 1.5rem;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .popular-product-container .popular-product-top .popular-product-top-right p a:hover {
+    text-decoration: none;
+    color: green;
+    font-family: montserrat;
+    font-size: 1.5rem;
+    transition: all 1.5s ease-in-out 0s;
+    border-bottom: 1px solid green;
+  }
 }
 /* responsive media query for medium device*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -2177,6 +2212,41 @@ main .popular-product-container .popular-product-top .popular-product-top-right 
     margin-left: 15px;
     transition: all 1s ease-in-out 0s;
   }
+  main .popular-product-container .popular-product-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .popular-product-container .popular-product-top .popular-product-top-left h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: montserrat;
+    padding: 10px 15px;
+    text-align: center;
+  }
+  main .popular-product-container .popular-product-top .popular-product-top-right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    display: none;
+  }
+  main .popular-product-container .popular-product-top .popular-product-top-right p a {
+    text-decoration: none;
+    color: black;
+    font-family: montserrat;
+    font-size: 1.5rem;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .popular-product-container .popular-product-top .popular-product-top-right p a:hover {
+    text-decoration: none;
+    color: green;
+    font-family: montserrat;
+    font-size: 1.5rem;
+    transition: all 1.5s ease-in-out 0s;
+    border-bottom: 1px solid green;
+  }
 }
 /* responsive media query for large device*/
 @media screen and (min-width: 992px) and (max-width: 1400px) {
@@ -2787,6 +2857,40 @@ main .popular-product-container .popular-product-top .popular-product-top-right 
   main .featured-container .featured-footer .featured-footer-item-container-2 .btn-primary:hover i {
     margin-left: 15px;
     transition: all 1s ease-in-out 0s;
+  }
+  main .popular-product-container .popular-product-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .popular-product-container .popular-product-top .popular-product-top-left h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: montserrat;
+    padding: 10px 15px;
+    text-align: center;
+  }
+  main .popular-product-container .popular-product-top .popular-product-top-right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  main .popular-product-container .popular-product-top .popular-product-top-right p a {
+    text-decoration: none;
+    color: black;
+    font-family: montserrat;
+    font-size: 1.5rem;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .popular-product-container .popular-product-top .popular-product-top-right p a:hover {
+    text-decoration: none;
+    color: green;
+    font-family: montserrat;
+    font-size: 1.5rem;
+    transition: all 1.5s ease-in-out 0s;
+    border-bottom: 1px solid green;
   }
 }
 /* responsive media query for extra-large device*/
