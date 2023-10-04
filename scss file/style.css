@@ -545,6 +545,7 @@ main .featured-container .featured-footer .featured-footer-item-container .featu
   padding: 10px 15px;
   text-align: center;
   width: 65%;
+  transition: all 1.5s ease-in-out 0s;
 }
 main .featured-container .featured-footer .featured-footer-item-container .featured-heading:hover {
   font-size: 2rem;
@@ -553,6 +554,8 @@ main .featured-container .featured-footer .featured-footer-item-container .featu
   padding: 10px 15px;
   text-align: center;
   width: 65%;
+  transform: translateY(-20px);
+  transition: all 1.5s ease-in-out 0s;
 }
 main .featured-container .featured-footer .featured-footer-item-container .btn-primary {
   padding: 10px 15px;
@@ -607,6 +610,7 @@ main .featured-container .featured-footer .featured-footer-item-container-1 .fea
   padding: 10px 15px;
   text-align: center;
   width: 70%;
+  transition: all 1.5s ease-in-out 0s;
 }
 main .featured-container .featured-footer .featured-footer-item-container-1 .featured-heading:hover {
   font-size: 2rem;
@@ -615,6 +619,8 @@ main .featured-container .featured-footer .featured-footer-item-container-1 .fea
   padding: 10px 15px;
   text-align: center;
   width: 70%;
+  transform: translateY(-20px);
+  transition: all 1.5s ease-in-out 0s;
 }
 main .featured-container .featured-footer .featured-footer-item-container-1 .btn-primary {
   padding: 10px 15px;
@@ -669,6 +675,7 @@ main .featured-container .featured-footer .featured-footer-item-container-2 .fea
   padding: 10px 15px;
   text-align: center;
   width: 65%;
+  transition: all 1.5s ease-in-out 0s;
 }
 main .featured-container .featured-footer .featured-footer-item-container-2 .featured-heading:hover {
   font-size: 2rem;
@@ -677,6 +684,8 @@ main .featured-container .featured-footer .featured-footer-item-container-2 .fea
   padding: 10px 15px;
   text-align: center;
   width: 65%;
+  transform: translateY(-20px);
+  transition: all 1.5s ease-in-out 0s;
 }
 main .featured-container .featured-footer .featured-footer-item-container-2 .btn-primary {
   padding: 10px 15px;
@@ -973,6 +982,353 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
   transition: all 2s ease-in-out 0s;
 }
 main .popular-product-container .popular-product-bottom .popular-product-main-item:hover {
+  border: 1px solid gray;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+main .daily-best-sells-container .popular-product-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+main .daily-best-sells-container .popular-product-top .popular-product-top-left h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: montserrat;
+  padding: 10px 15px;
+  text-align: center;
+}
+main .daily-best-sells-container .popular-product-top .popular-product-top-right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+main .daily-best-sells-container .popular-product-top .popular-product-top-right p a {
+  text-decoration: none;
+  color: black;
+  font-family: montserrat;
+  font-size: 1.5rem;
+  position: relative;
+  border-bottom: 1px solid transparent;
+  transition: all 1.5s ease-in-out 0s;
+}
+main .daily-best-sells-container .popular-product-top .popular-product-top-right p a:hover {
+  text-decoration: none;
+  color: green;
+  font-family: montserrat;
+  font-size: 1.5rem;
+  transition: all 1.5s ease-in-out 0s;
+  border-bottom: 1px solid green;
+}
+main .daily-best-sells-container .daily-best-sells-bottom {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  height: 100%;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner {
+  background-image: url(../Assets/images/banner-4.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  height: 100%;
+  width: 600px;
+  display: flex 0, 0, auto;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .featured-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Quicksand", sans-serif;
+  padding: 10px 15px;
+  text-align: center;
+  width: 65%;
+  color: #253D4E;
+  padding: 50px 0px;
+  margin-bottom: 120px;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .featured-heading:hover {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  padding: 10px 15px;
+  text-align: center;
+  width: 65%;
+  color: #253D4E;
+  padding: 50px 0px;
+  margin-bottom: 120px;
+  transform: translateY(-20px);
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .btn-primary {
+  padding: 20px 15px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: montserrat;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: all 2s ease-in-out 0s;
+  margin-left: 30px;
+  margin-bottom: 120px;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .btn-primary i {
+  margin-left: 10px;
+  transition: all 1s ease-in-out 0s;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .btn-primary:hover {
+  padding: 10px 15px;
+  background-color: white;
+  color: green;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  font-family: montserrat;
+  border: 1px solid green;
+  border-radius: 10px;
+  transition: all 2s ease-in-out 0s;
+  margin-left: 30px;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .btn-primary:hover i {
+  margin-left: 15px;
+  transition: all 1s ease-in-out 0s;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  position: relative;
+  height: 100%;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item {
+  border: 1px solid gray;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img {
+  height: 40%;
+  position: relative;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .open {
+  height: 100%;
+  display: block;
+  width: 90%;
+  transition: all 2s ease-in-out 0s;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .close {
+  height: 100%;
+  display: none;
+  width: 90%;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  background-color: white;
+  position: relative;
+  background-color: white;
+  border: 1px solid rgba(242, 245, 243, 0.904);
+  padding: 30px 20px;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action i {
+  gap: 20px;
+  padding: 10px 10px;
+  border-left: 1px solid green;
+  color: green;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action i span {
+  font-size: 0.7rem;
+  display: none;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action .fa-heart {
+  gap: 20px;
+  padding: 10px 10px;
+  border-left: 1px solid green;
+  color: green;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action .fa-heart span {
+  font-size: 0.7rem;
+  display: none;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover {
+  height: 40%;
+  transition: all 2s ease-in-out 0s;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .open {
+  height: 100%;
+  display: none;
+  width: 90%;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .close {
+  height: 100%;
+  display: block;
+  width: 90%;
+  transition: all 2s ease-in-out 0s;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action {
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  display: block;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 5px;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action i:hover {
+  transition: all 1.5s ease-in-out 0s;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action i:hover span {
+  position: absolute;
+  top: 10px;
+  left: 80px;
+  font-size: 0.5rem;
+  display: block;
+  background-color: #3BB77E;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 1.5s ease-in-out 0s;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action .fa-heart:hover {
+  transition: all 1.5s ease-in-out 0s;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action .fa-heart:hover span {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  font-size: 0.5rem;
+  display: block;
+  background-color: #3BB77E;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 1.5s ease-in-out 0s;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 60%;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .trend p {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #f74b81;
+  color: white;
+  font-size: 1.3rem;
+  padding: 10px 30px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .trend-1 p {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #67bcee;
+  color: white;
+  font-size: 1.3rem;
+  padding: 10px 30px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .trend-2 p {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #3BB77E;
+  color: white;
+  font-size: 1.3rem;
+  padding: 10px 30px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .trend-3 p {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #f59758;
+  color: white;
+  font-size: 1.3rem;
+  padding: 10px 30px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .content-heading {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: montserrat;
+  padding: 10px 15px;
+  text-align: center;
+  width: 100%;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .content-paragraph {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: montserrat;
+  padding: 10px 15px;
+  text-align: center;
+  width: 100%;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content h3 {
+  margin-top: 10px;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .price-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .price-container del {
+  color: gray;
+  font-size: 1rem;
+  padding-left: 5px;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .price-container .btn-primary {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: montserrat;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: all 2s ease-in-out 0s;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .price-container .btn-primary:hover {
+  padding: 10px 20px;
+  background-color: white;
+  color: green;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: montserrat;
+  border: 1px solid green;
+  border-radius: 10px;
+  transition: all 2s ease-in-out 0s;
+}
+main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item:hover {
   border: 1px solid gray;
   box-shadow: 2px 2px 5px gray;
   border-radius: 20px;
@@ -1418,6 +1774,7 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
   }
   main .featured-container .featured-header .featured-header-left h1 {
     font-size: 1.7rem;
@@ -1429,14 +1786,13 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
   main .featured-container .featured-header .featured-header-right {
     display: flex;
     align-items: center;
-    gap: 50px;
-    display: none;
+    gap: 40px;
   }
   main .featured-container .featured-header .featured-header-right p a {
     text-decoration: none;
     color: black;
     font-family: montserrat;
-    font-size: 1.5rem;
+    font-size: 1rem;
     position: relative;
     border-bottom: 1px solid transparent;
     transition: all 1.5s ease-in-out 0s;
@@ -1445,7 +1801,7 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
     text-decoration: none;
     color: green;
     font-family: montserrat;
-    font-size: 1.5rem;
+    font-size: 1rem;
     transition: all 1.5s ease-in-out 0s;
     border-bottom: 1px solid green;
   }
@@ -1711,9 +2067,10 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
   }
   main .popular-product-container .popular-product-top .popular-product-top-left h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 800;
     font-family: montserrat;
     padding: 10px 15px;
@@ -1722,14 +2079,13 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
   main .popular-product-container .popular-product-top .popular-product-top-right {
     display: flex;
     align-items: center;
-    gap: 50px;
-    display: none;
+    gap: 40px;
   }
   main .popular-product-container .popular-product-top .popular-product-top-right p a {
     text-decoration: none;
     color: black;
     font-family: montserrat;
-    font-size: 1.5rem;
+    font-size: 0.7rem;
     position: relative;
     border-bottom: 1px solid transparent;
     transition: all 1.5s ease-in-out 0s;
@@ -1738,7 +2094,7 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
     text-decoration: none;
     color: green;
     font-family: montserrat;
-    font-size: 1.5rem;
+    font-size: 0.7rem;
     transition: all 1.5s ease-in-out 0s;
     border-bottom: 1px solid green;
   }
@@ -1959,6 +2315,355 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
     transition: all 2s ease-in-out 0s;
   }
   main .popular-product-container .popular-product-bottom .popular-product-main-item:hover {
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .daily-best-sells-container .popular-product-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  main .daily-best-sells-container .popular-product-top .popular-product-top-left h1 {
+    font-size: 1.7rem;
+    font-weight: 800;
+    font-family: montserrat;
+    padding: 10px 15px;
+    text-align: center;
+  }
+  main .daily-best-sells-container .popular-product-top .popular-product-top-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  main .daily-best-sells-container .popular-product-top .popular-product-top-right p a {
+    text-decoration: none;
+    color: black;
+    font-family: montserrat;
+    font-size: 1.5rem;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .popular-product-top .popular-product-top-right p a:hover {
+    text-decoration: none;
+    color: green;
+    font-family: montserrat;
+    font-size: 1.5rem;
+    transition: all 1.5s ease-in-out 0s;
+    border-bottom: 1px solid green;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    height: 100%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner {
+    background-image: url(../Assets/images/banner-4.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex 0, 0, auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .featured-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Quicksand", sans-serif;
+    padding: 10px 15px;
+    text-align: center;
+    width: 65%;
+    color: #253D4E;
+    padding: 50px 0px;
+    margin-bottom: 120px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .featured-heading:hover {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    padding: 10px 15px;
+    text-align: center;
+    width: 65%;
+    color: #253D4E;
+    padding: 50px 0px;
+    margin-bottom: 120px;
+    transform: translateY(-20px);
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .btn-primary {
+    padding: 20px 15px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: montserrat;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all 2s ease-in-out 0s;
+    margin-left: 30px;
+    margin-bottom: 120px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .btn-primary i {
+    margin-left: 10px;
+    transition: all 1s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .btn-primary:hover {
+    padding: 10px 15px;
+    background-color: white;
+    color: green;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: montserrat;
+    border: 1px solid green;
+    border-radius: 10px;
+    transition: all 2s ease-in-out 0s;
+    margin-left: 30px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .btn-primary:hover i {
+    margin-left: 15px;
+    transition: all 1s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    position: relative;
+    height: 100%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item {
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img {
+    height: 40%;
+    position: relative;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .open {
+    height: 100%;
+    display: block;
+    width: 90%;
+    transition: all 2s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .close {
+    height: 100%;
+    display: none;
+    width: 90%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    background-color: white;
+    position: relative;
+    background-color: white;
+    border: 1px solid rgba(242, 245, 243, 0.904);
+    padding: 30px 20px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action i {
+    gap: 20px;
+    padding: 10px 10px;
+    border-left: 1px solid green;
+    color: green;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action i span {
+    font-size: 0.7rem;
+    display: none;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action .fa-heart {
+    gap: 20px;
+    padding: 10px 10px;
+    border-left: 1px solid green;
+    color: green;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action .fa-heart span {
+    font-size: 0.7rem;
+    display: none;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover {
+    height: 40%;
+    transition: all 2s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .open {
+    height: 100%;
+    display: none;
+    width: 90%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .close {
+    height: 100%;
+    display: block;
+    width: 90%;
+    transition: all 2s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 5px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action i:hover {
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action i:hover span {
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    font-size: 0.5rem;
+    display: block;
+    background-color: #3BB77E;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action .fa-heart:hover {
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action .fa-heart:hover span {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 0.5rem;
+    display: block;
+    background-color: #3BB77E;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 60%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .trend p {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #f74b81;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .trend-1 p {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #67bcee;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .trend-2 p {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #3BB77E;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .trend-3 p {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #f59758;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .content-heading {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: montserrat;
+    padding: 10px 15px;
+    text-align: center;
+    width: 100%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .content-paragraph {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: montserrat;
+    padding: 10px 15px;
+    text-align: center;
+    width: 100%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content h3 {
+    margin-top: 10px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .price-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .price-container del {
+    color: gray;
+    font-size: 1rem;
+    padding-left: 5px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .price-container .btn-primary {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: montserrat;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all 2s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .price-container .btn-primary:hover {
+    padding: 10px 20px;
+    background-color: white;
+    color: green;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: montserrat;
+    border: 1px solid green;
+    border-radius: 10px;
+    transition: all 2s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item:hover {
     border: 1px solid gray;
     box-shadow: 2px 2px 5px gray;
     border-radius: 20px;
@@ -2389,6 +3094,7 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
   }
   main .featured-container .featured-header .featured-header-left h1 {
     font-size: 2.5rem;
@@ -2400,8 +3106,7 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
   main .featured-container .featured-header .featured-header-right {
     display: flex;
     align-items: center;
-    gap: 50px;
-    display: none;
+    gap: 40px;
   }
   main .featured-container .featured-header .featured-header-right p a {
     text-decoration: none;
@@ -2683,6 +3388,7 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
   }
   main .popular-product-container .popular-product-top .popular-product-top-left h1 {
     font-size: 2.5rem;
@@ -2694,8 +3400,7 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
   main .popular-product-container .popular-product-top .popular-product-top-right {
     display: flex;
     align-items: center;
-    gap: 50px;
-    display: none;
+    gap: 40px;
   }
   main .popular-product-container .popular-product-top .popular-product-top-right p a {
     text-decoration: none;
@@ -2817,6 +3522,355 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
     transition: all 2s ease-in-out 0s;
   }
   main .popular-product-container .popular-product-bottom .popular-product-main-item:hover {
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .daily-best-sells-container .popular-product-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  main .daily-best-sells-container .popular-product-top .popular-product-top-left h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: montserrat;
+    padding: 10px 15px;
+    text-align: center;
+  }
+  main .daily-best-sells-container .popular-product-top .popular-product-top-right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  main .daily-best-sells-container .popular-product-top .popular-product-top-right p a {
+    text-decoration: none;
+    color: black;
+    font-family: montserrat;
+    font-size: 1.5rem;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .popular-product-top .popular-product-top-right p a:hover {
+    text-decoration: none;
+    color: green;
+    font-family: montserrat;
+    font-size: 1.5rem;
+    transition: all 1.5s ease-in-out 0s;
+    border-bottom: 1px solid green;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    height: 100%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner {
+    background-image: url(../Assets/images/banner-4.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex 0, 0, auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .featured-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Quicksand", sans-serif;
+    padding: 10px 15px;
+    text-align: center;
+    width: 65%;
+    color: #253D4E;
+    padding: 50px 0px;
+    margin-bottom: 120px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .featured-heading:hover {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    padding: 10px 15px;
+    text-align: center;
+    width: 65%;
+    color: #253D4E;
+    padding: 50px 0px;
+    margin-bottom: 120px;
+    transform: translateY(-20px);
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .btn-primary {
+    padding: 20px 15px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: montserrat;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all 2s ease-in-out 0s;
+    margin-left: 30px;
+    margin-bottom: 120px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .btn-primary i {
+    margin-left: 10px;
+    transition: all 1s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .btn-primary:hover {
+    padding: 10px 15px;
+    background-color: white;
+    color: green;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: montserrat;
+    border: 1px solid green;
+    border-radius: 10px;
+    transition: all 2s ease-in-out 0s;
+    margin-left: 30px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .btn-primary:hover i {
+    margin-left: 15px;
+    transition: all 1s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    position: relative;
+    height: 100%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item {
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img {
+    height: 40%;
+    position: relative;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .open {
+    height: 100%;
+    display: block;
+    width: 90%;
+    transition: all 2s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .close {
+    height: 100%;
+    display: none;
+    width: 90%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    background-color: white;
+    position: relative;
+    background-color: white;
+    border: 1px solid rgba(242, 245, 243, 0.904);
+    padding: 30px 20px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action i {
+    gap: 20px;
+    padding: 10px 10px;
+    border-left: 1px solid green;
+    color: green;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action i span {
+    font-size: 0.7rem;
+    display: none;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action .fa-heart {
+    gap: 20px;
+    padding: 10px 10px;
+    border-left: 1px solid green;
+    color: green;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action .fa-heart span {
+    font-size: 0.7rem;
+    display: none;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover {
+    height: 40%;
+    transition: all 2s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .open {
+    height: 100%;
+    display: none;
+    width: 90%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .close {
+    height: 100%;
+    display: block;
+    width: 90%;
+    transition: all 2s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 5px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action i:hover {
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action i:hover span {
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    font-size: 0.5rem;
+    display: block;
+    background-color: #3BB77E;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action .fa-heart:hover {
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action .fa-heart:hover span {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 0.5rem;
+    display: block;
+    background-color: #3BB77E;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 60%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .trend p {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #f74b81;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .trend-1 p {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #67bcee;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .trend-2 p {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #3BB77E;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .trend-3 p {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #f59758;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .content-heading {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: montserrat;
+    padding: 10px 15px;
+    text-align: center;
+    width: 100%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .content-paragraph {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: montserrat;
+    padding: 10px 15px;
+    text-align: center;
+    width: 100%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content h3 {
+    margin-top: 10px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .price-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .price-container del {
+    color: gray;
+    font-size: 1rem;
+    padding-left: 5px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .price-container .btn-primary {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: montserrat;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all 2s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .price-container .btn-primary:hover {
+    padding: 10px 20px;
+    background-color: white;
+    color: green;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: montserrat;
+    border: 1px solid green;
+    border-radius: 10px;
+    transition: all 2s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item:hover {
     border: 1px solid gray;
     box-shadow: 2px 2px 5px gray;
     border-radius: 20px;
@@ -3578,6 +4632,354 @@ main .popular-product-container .popular-product-bottom .popular-product-main-it
     transition: all 2s ease-in-out 0s;
   }
   main .popular-product-container .popular-product-bottom .popular-product-main-item:hover {
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .daily-best-sells-container .popular-product-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .daily-best-sells-container .popular-product-top .popular-product-top-left h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: montserrat;
+    padding: 10px 15px;
+    text-align: center;
+  }
+  main .daily-best-sells-container .popular-product-top .popular-product-top-right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  main .daily-best-sells-container .popular-product-top .popular-product-top-right p a {
+    text-decoration: none;
+    color: black;
+    font-family: montserrat;
+    font-size: 1.5rem;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .popular-product-top .popular-product-top-right p a:hover {
+    text-decoration: none;
+    color: green;
+    font-family: montserrat;
+    font-size: 1.5rem;
+    transition: all 1.5s ease-in-out 0s;
+    border-bottom: 1px solid green;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    height: 100%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner {
+    background-image: url(../Assets/images/banner-4.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex 0, 0, auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .featured-heading {
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: "Quicksand", sans-serif;
+    padding: 10px 15px;
+    text-align: center;
+    width: 65%;
+    color: #253D4E;
+    padding: 50px 0px;
+    margin-bottom: 120px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .featured-heading:hover {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    padding: 10px 15px;
+    text-align: center;
+    width: 65%;
+    color: #253D4E;
+    padding: 50px 0px;
+    margin-bottom: 120px;
+    transform: translateY(-20px);
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .btn-primary {
+    padding: 20px 15px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: montserrat;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all 2s ease-in-out 0s;
+    margin-left: 30px;
+    margin-bottom: 120px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .btn-primary i {
+    margin-left: 10px;
+    transition: all 1s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .btn-primary:hover {
+    padding: 10px 15px;
+    background-color: white;
+    color: green;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: montserrat;
+    border: 1px solid green;
+    border-radius: 10px;
+    transition: all 2s ease-in-out 0s;
+    margin-left: 30px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-banner .btn-primary:hover i {
+    margin-left: 15px;
+    transition: all 1s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    position: relative;
+    height: 100%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item {
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img {
+    height: 40%;
+    position: relative;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .open {
+    height: 100%;
+    display: block;
+    width: 90%;
+    transition: all 2s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .close {
+    height: 100%;
+    display: none;
+    width: 90%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    background-color: white;
+    position: relative;
+    background-color: white;
+    border: 1px solid rgba(242, 245, 243, 0.904);
+    padding: 30px 20px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action i {
+    gap: 20px;
+    padding: 10px 10px;
+    border-left: 1px solid green;
+    color: green;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action i span {
+    font-size: 0.7rem;
+    display: none;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action .fa-heart {
+    gap: 20px;
+    padding: 10px 10px;
+    border-left: 1px solid green;
+    color: green;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img .action .fa-heart span {
+    font-size: 0.7rem;
+    display: none;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover {
+    height: 40%;
+    transition: all 2s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .open {
+    height: 100%;
+    display: none;
+    width: 90%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .close {
+    height: 100%;
+    display: block;
+    width: 90%;
+    transition: all 2s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 5px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action i:hover {
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action i:hover span {
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    font-size: 0.5rem;
+    display: block;
+    background-color: #3BB77E;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action .fa-heart:hover {
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-img:hover .action .fa-heart:hover span {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 0.5rem;
+    display: block;
+    background-color: #3BB77E;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 1.5s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 60%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .trend p {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #f74b81;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .trend-1 p {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #67bcee;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .trend-2 p {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #3BB77E;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .trend-3 p {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #f59758;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .content-heading {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: montserrat;
+    padding: 10px 15px;
+    text-align: center;
+    width: 100%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .content-paragraph {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: montserrat;
+    padding: 10px 15px;
+    text-align: center;
+    width: 100%;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content h3 {
+    margin-top: 10px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .price-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .price-container del {
+    color: gray;
+    font-size: 1rem;
+    padding-left: 5px;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .price-container .btn-primary {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: montserrat;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all 2s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item .popular-product-main-item-content .price-container .btn-primary:hover {
+    padding: 10px 20px;
+    background-color: white;
+    color: green;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: montserrat;
+    border: 1px solid green;
+    border-radius: 10px;
+    transition: all 2s ease-in-out 0s;
+  }
+  main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bottom-container .popular-product-main-item:hover {
     border: 1px solid gray;
     box-shadow: 2px 2px 5px gray;
     border-radius: 20px;
