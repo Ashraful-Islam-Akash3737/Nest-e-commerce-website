@@ -2,6 +2,7 @@
     padding: 0;
     box-sizing: border-box;
     margin: auto;
+    font-family: quicksand;
 }
 
 /* header section start*/
@@ -254,7 +255,7 @@ header {
                         background-color: green;
                         color: white;
                         font-weight: 700;
-                        font-size: 1.5rem;
+                        font-size: 1.2rem;
                         border-radius: 10px;
                         padding: 5px 10px;
                         text-decoration: none;
@@ -508,32 +509,38 @@ main {
         background-size: cover;
         border-radius: 5px;
         height: 600px;
+        margin-top: 30px;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        justify-content: center;
+        justify-content: flex-start;
 
         .banner-heading {
             font-size: 4rem;
-            font-weight: 900;
-            font-family: montserrat;
-            padding: 10px 15px;
-            text-align: center;
-            width: 50%;
+            font-weight: 700;
+            font-family: quicksand;
+            padding: 10px 55px;
+            margin-left: 10px;
+            width: 60%;
+            color: #253D4E;
+
 
         }
 
         .banner-paragraph {
             font-size: 2rem;
             font-weight: 400;
-            font-family: montserrat;
+            font-family: quicksand;
             padding: 10px 55px;
+            margin-left: 10px;
+            color: #7E7E7E;
         }
 
         .sign-up {
             align-items: center;
             padding: 0px 50px;
+            margin-left: 10px;
 
             span {
 
@@ -544,7 +551,7 @@ main {
                     padding-left: 40px;
                     font-size: 2rem;
                     font-weight: 400;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     border: 1px solid green;
                     border-radius: 10px;
                     color: green;
@@ -557,7 +564,7 @@ main {
                 color: white;
                 font-size: 2rem;
                 font-weight: 600;
-                font-family: montserrat;
+                font-family: quicksand;
                 border-radius: 10px;
                 border: 1px solid transparent;
                 transition: all 2s ease-in-out 0s;
@@ -569,7 +576,7 @@ main {
                 color: green;
                 font-size: 2rem;
                 font-weight: 600;
-                font-family: montserrat;
+                font-family: quicksand;
                 border: 1px solid green;
                 border-radius: 10px;
                 transition: all 2s ease-in-out 0s;
@@ -590,7 +597,7 @@ main {
                 h1 {
                     font-size: 2.5rem;
                     font-weight: 800;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     padding: 10px 15px;
                     text-align: center;
 
@@ -607,7 +614,7 @@ main {
                     a {
                         text-decoration: none;
                         color: black;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         font-size: 1.5rem;
                         position: relative;
                         border-bottom: 1px solid transparent;
@@ -617,7 +624,7 @@ main {
                     a:hover {
                         text-decoration: none;
                         color: green;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         font-size: 1.5rem;
                         transition: all 1.5s ease-in-out 0s;
                         border-bottom: 1px solid green;
@@ -663,7 +670,7 @@ main {
                     .content-heading {
                         font-size: 1.3rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 5px 0px;
                         text-align: center;
 
@@ -672,7 +679,7 @@ main {
                     .content-heading:hover {
                         font-size: 1.3rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 5px 0px;
                         text-align: center;
                         color: green;
@@ -683,7 +690,7 @@ main {
                     .content-paragraph {
                         font-size: 1rem;
                         font-weight: 400;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 5px 0px;
                         text-align: center;
                     }
@@ -727,7 +734,7 @@ main {
                 .featured-heading {
                     font-size: 2rem;
                     font-weight: 900;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     padding: 10px 15px;
                     text-align: center;
                     width: 65%;
@@ -737,7 +744,7 @@ main {
                 .featured-heading:hover {
                     font-size: 2rem;
                     font-weight: 900;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     padding: 10px 15px;
                     text-align: center;
                     width: 65%;
@@ -756,7 +763,7 @@ main {
                     text-align: center;
                     font-size: 1rem;
                     font-weight: 600;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     border-radius: 10px;
                     border: 1px solid transparent;
                     transition: all 2s ease-in-out 0s;
@@ -775,7 +782,7 @@ main {
                     font-size: 1rem;
                     font-weight: 600;
                     text-align: center;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     border: 1px solid green;
                     border-radius: 10px;
                     transition: all 2s ease-in-out 0s;
@@ -805,7 +812,7 @@ main {
                 .featured-heading {
                     font-size: 2rem;
                     font-weight: 900;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     padding: 10px 15px;
                     text-align: center;
                     width: 70%;
@@ -815,7 +822,7 @@ main {
                 .featured-heading:hover {
                     font-size: 2rem;
                     font-weight: 900;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     padding: 10px 15px;
                     text-align: center;
                     width: 70%;
@@ -834,7 +841,7 @@ main {
                     text-align: center;
                     font-size: 1rem;
                     font-weight: 600;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     border-radius: 10px;
                     border: 1px solid transparent;
                     transition: all 2s ease-in-out 0s;
@@ -853,7 +860,7 @@ main {
                     font-size: 1rem;
                     font-weight: 600;
                     text-align: center;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     border: 1px solid green;
                     border-radius: 10px;
                     transition: all 2s ease-in-out 0s;
@@ -882,7 +889,7 @@ main {
                 .featured-heading {
                     font-size: 2rem;
                     font-weight: 900;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     padding: 10px 15px;
                     text-align: center;
                     width: 65%;
@@ -892,7 +899,7 @@ main {
                 .featured-heading:hover {
                     font-size: 2rem;
                     font-weight: 900;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     padding: 10px 15px;
                     text-align: center;
                     width: 65%;
@@ -911,7 +918,7 @@ main {
                     text-align: center;
                     font-size: 1rem;
                     font-weight: 600;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     border-radius: 10px;
                     border: 1px solid transparent;
                     transition: all 2s ease-in-out 0s;
@@ -930,7 +937,7 @@ main {
                     font-size: 1rem;
                     font-weight: 600;
                     text-align: center;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     border: 1px solid green;
                     border-radius: 10px;
                     transition: all 2s ease-in-out 0s;
@@ -962,7 +969,7 @@ main {
                 h1 {
                     font-size: 2.5rem;
                     font-weight: 800;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     padding: 10px 15px;
                     text-align: center;
 
@@ -979,7 +986,7 @@ main {
                     a {
                         text-decoration: none;
                         color: black;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         font-size: 1.5rem;
                         position: relative;
                         border-bottom: 1px solid transparent;
@@ -989,7 +996,7 @@ main {
                     a:hover {
                         text-decoration: none;
                         color: green;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         font-size: 1.5rem;
                         transition: all 1.5s ease-in-out 0s;
                         border-bottom: 1px solid green;
@@ -1211,7 +1218,7 @@ main {
                     .content-heading {
                         font-size: 1rem;
                         font-weight: 500;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 100%;
@@ -1220,7 +1227,7 @@ main {
                     .content-paragraph {
                         font-size: 1.5rem;
                         font-weight: 600;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 100%;
@@ -1251,7 +1258,7 @@ main {
                             color: white;
                             font-size: 1.3rem;
                             font-weight: 600;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             border-radius: 10px;
                             border: 1px solid transparent;
                             transition: all 2s ease-in-out 0s;
@@ -1263,7 +1270,7 @@ main {
                             color: green;
                             font-size: 1.3rem;
                             font-weight: 600;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             border: 1px solid green;
                             border-radius: 10px;
                             transition: all 2s ease-in-out 0s;
@@ -1301,7 +1308,7 @@ main {
                 h1 {
                     font-size: 2.5rem;
                     font-weight: 800;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     padding: 10px 15px;
                     text-align: center;
 
@@ -1318,7 +1325,7 @@ main {
                     a {
                         text-decoration: none;
                         color: black;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         font-size: 1.5rem;
                         position: relative;
                         border-bottom: 1px solid transparent;
@@ -1328,7 +1335,7 @@ main {
                     a:hover {
                         text-decoration: none;
                         color: green;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         font-size: 1.5rem;
                         transition: all 1.5s ease-in-out 0s;
                         border-bottom: 1px solid green;
@@ -1393,7 +1400,7 @@ main {
                     text-align: center;
                     font-size: 1.3rem;
                     font-weight: 600;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     border-radius: 10px;
                     border: 1px solid transparent;
                     transition: all 2s ease-in-out 0s;
@@ -1413,7 +1420,7 @@ main {
                     font-size: 1rem;
                     font-weight: 600;
                     text-align: center;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     border: 1px solid green;
                     border-radius: 10px;
                     transition: all 2s ease-in-out 0s;
@@ -1640,7 +1647,7 @@ main {
                         .content-heading {
                             font-size: 1rem;
                             font-weight: 500;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 10px 15px;
                             text-align: center;
                             width: 100%;
@@ -1649,7 +1656,7 @@ main {
                         .content-paragraph {
                             font-size: 1.5rem;
                             font-weight: 600;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 10px 15px;
                             text-align: center;
                             width: 100%;
@@ -1680,7 +1687,7 @@ main {
                                 color: white;
                                 font-size: 1.3rem;
                                 font-weight: 600;
-                                font-family: montserrat;
+                                font-family: quicksand;
                                 border-radius: 10px;
                                 border: 1px solid transparent;
                                 transition: all 2s ease-in-out 0s;
@@ -1696,7 +1703,7 @@ main {
                                 color: green;
                                 font-size: 1.3rem;
                                 font-weight: 600;
-                                font-family: montserrat;
+                                font-family: quicksand;
                                 border: 1px solid green;
                                 border-radius: 10px;
                                 transition: all 2s ease-in-out 0s;
@@ -2009,11 +2016,12 @@ main {
     .product-container {
 
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 20px;
+
         .product-container-1 {
-            
-            
+
+
             .product-container-1-heading {
                 font-size: 2rem;
                 font-family: Quicksand;
@@ -2034,6 +2042,7 @@ main {
                 position: relative;
                 font-family: Quicksand;
                 margin-bottom: 20px;
+
                 .popular-product-main-item-img {
 
                     width: 30%;
@@ -2067,7 +2076,7 @@ main {
                     border-radius: 20px;
                     transition: all 1s ease;
 
-                    
+
 
 
 
@@ -2095,13 +2104,14 @@ main {
                         transition: all 1s ease;
                     }
 
-                    h2{
+                    h2 {
                         color: green;
+
                         del {
                             color: gray;
                             font-size: 1rem;
                             padding-left: 5px;
-    
+
                         }
                     }
 
@@ -2121,6 +2131,7 @@ main {
                     border-radius: 20px;
                     transform: translateY(-10px);
                     transition: all 1s ease;
+
                     .content-paragraph {
                         color: green;
                         transition: all 1s ease;
@@ -2132,6 +2143,104 @@ main {
 
 
 
+        }
+    }
+
+
+    .banner-container-1 {
+        background-image: url(../Assets/images/deals-of-the-day/banner-10.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 600px;
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+
+        img {
+            z-index: -1;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            width: 50%;
+        }
+
+        .banner {
+            z-index: 1;
+            
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .banner-heading {
+                font-size: 4rem;
+                font-weight: 700;
+                font-family: quicksand;
+                padding: 10px 55px;
+                margin-left: 10px;
+                width: 60%;
+                color: #253D4E;
+
+
+            }
+
+            .banner-paragraph {
+                font-size: 2rem;
+                font-weight: 400;
+                font-family: quicksand;
+                padding: 10px 55px;
+                margin-left: 10px;
+                color: #7E7E7E;
+            }
+
+            .sign-up {
+                align-items: center;
+                padding: 0px 50px;
+                margin-left: 10px;
+
+                span {
+
+
+                    input {
+
+                        padding: 10px 15px;
+                        padding-left: 40px;
+                        font-size: 2rem;
+                        font-weight: 400;
+                        font-family: quicksand;
+                        border: 1px solid green;
+                        border-radius: 10px;
+                        color: green;
+                    }
+                }
+
+                .btn-primary {
+                    padding: 10px 15px;
+                    background-color: green;
+                    color: white;
+                    font-size: 2rem;
+                    font-weight: 600;
+                    font-family: quicksand;
+                    border-radius: 10px;
+                    border: 1px solid transparent;
+                    transition: all 2s ease-in-out 0s;
+                }
+
+                .btn-primary:hover {
+                    padding: 10px 15px;
+                    background-color: white;
+                    color: green;
+                    font-size: 2rem;
+                    font-weight: 600;
+                    font-family: quicksand;
+                    border: 1px solid green;
+                    border-radius: 10px;
+                    transition: all 2s ease-in-out 0s;
+                }
+            }
         }
     }
 }
@@ -2238,7 +2347,7 @@ main {
         .header-middle-container {
             display: flex;
             align-items: center;
-            font-family: montserrat;
+            font-family: quicksand;
             padding: 10px 0px;
             justify-content: space-between;
             border-top: 1px solid rgba(128, 128, 128, 0.34);
@@ -2323,7 +2432,7 @@ main {
                         a {
                             text-decoration: none;
                             color: black;
-                            font-family: montserrat;
+                            font-family: quicksand;
                         }
                     }
                 }
@@ -2352,7 +2461,7 @@ main {
                         a {
                             text-decoration: none;
                             color: white;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-weight: 500;
                         }
                     }
@@ -2646,11 +2755,11 @@ main {
 
             .banner-heading {
                 font-size: 1.5rem;
-                font-weight: 900;
-                font-family: montserrat;
+                font-weight: 700;
+                font-family: quicksand;
                 padding: 0px 10px;
                 padding-right: 20px;
-                text-align: center;
+                margin-left: 10px;
                 width: 70%;
 
             }
@@ -2658,14 +2767,16 @@ main {
             .banner-paragraph {
                 font-size: 1.2rem;
                 font-weight: 400;
-                font-family: montserrat;
-                padding: 0px 55px;
+                font-family: quicksand;
+                padding: 0px 15px;
+                margin-left: 10px;
             }
 
             .sign-up {
                 align-items: center;
                 padding: 0px 0px;
-                text-align: center;
+                font-family: quicksand;
+                margin-left: 10px;
 
                 span {
 
@@ -2676,7 +2787,7 @@ main {
                         padding-left: 40px;
                         font-size: 1rem;
                         font-weight: 400;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border: 1px solid green;
                         border-radius: 10px;
                         color: green;
@@ -2689,7 +2800,7 @@ main {
                     color: white;
                     font-size: 1rem;
                     font-weight: 600;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     border-radius: 10px;
                     border: 1px solid transparent;
                     transition: all 2s ease-in-out 0s;
@@ -2702,7 +2813,7 @@ main {
                     color: green;
                     font-size: 1rem;
                     font-weight: 600;
-                    font-family: montserrat;
+                    font-family: quicksand;
                     border: 1px solid green;
                     border-radius: 10px;
                     transition: all 2s ease-in-out 0s;
@@ -2727,7 +2838,7 @@ main {
                     h1 {
                         font-size: 1.7rem;
                         font-weight: 800;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
 
@@ -2745,7 +2856,7 @@ main {
                         a {
                             text-decoration: none;
                             color: black;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: 1rem;
                             position: relative;
                             border-bottom: 1px solid transparent;
@@ -2755,7 +2866,7 @@ main {
                         a:hover {
                             text-decoration: none;
                             color: green;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: 1rem;
                             transition: all 1.5s ease-in-out 0s;
                             border-bottom: 1px solid green;
@@ -2806,7 +2917,7 @@ main {
                         .content-heading {
                             font-size: 1.3rem;
                             font-weight: 900;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 5px 0px;
                             text-align: center;
 
@@ -2815,7 +2926,7 @@ main {
                         .content-heading:hover {
                             font-size: 1.3rem;
                             font-weight: 900;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 5px 0px;
                             text-align: center;
                             color: green;
@@ -2826,7 +2937,7 @@ main {
                         .content-paragraph {
                             font-size: 1rem;
                             font-weight: 400;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 5px 0px;
                             text-align: center;
                         }
@@ -2871,7 +2982,7 @@ main {
                     .featured-heading {
                         font-size: 1rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 65%;
@@ -2881,7 +2992,7 @@ main {
                     .featured-heading:hover {
                         font-size: 1rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 65%;
@@ -2899,7 +3010,7 @@ main {
                         text-align: center;
                         font-size: .5rem;
                         font-weight: 600;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border-radius: 10px;
                         border: 1px solid transparent;
                         transition: all 2s ease-in-out 0s;
@@ -2918,7 +3029,7 @@ main {
                         font-size: .5rem;
                         font-weight: 600;
                         text-align: center;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border: 1px solid green;
                         border-radius: 10px;
                         transition: all 2s ease-in-out 0s;
@@ -2948,7 +3059,7 @@ main {
                     .featured-heading {
                         font-size: 1rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 70%;
@@ -2958,7 +3069,7 @@ main {
                     .featured-heading:hover {
                         font-size: 1rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 70%;
@@ -2976,7 +3087,7 @@ main {
                         text-align: center;
                         font-size: .5rem;
                         font-weight: 600;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border-radius: 10px;
                         border: 1px solid transparent;
                         transition: all 2s ease-in-out 0s;
@@ -2995,7 +3106,7 @@ main {
                         font-size: .5rem;
                         font-weight: 600;
                         text-align: center;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border: 1px solid green;
                         border-radius: 10px;
                         transition: all 2s ease-in-out 0s;
@@ -3024,7 +3135,7 @@ main {
                     .featured-heading {
                         font-size: 1rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 65%;
@@ -3034,7 +3145,7 @@ main {
                     .featured-heading:hover {
                         font-size: 1rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 65%;
@@ -3052,7 +3163,7 @@ main {
                         text-align: center;
                         font-size: .5rem;
                         font-weight: 600;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border-radius: 10px;
                         border: 1px solid transparent;
                         transition: all 2s ease-in-out 0s;
@@ -3071,7 +3182,7 @@ main {
                         font-size: .5rem;
                         font-weight: 600;
                         text-align: center;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border: 1px solid green;
                         border-radius: 10px;
                         transition: all 2s ease-in-out 0s;
@@ -3098,7 +3209,7 @@ main {
                     h1 {
                         font-size: 1.5rem;
                         font-weight: 800;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
 
@@ -3116,7 +3227,7 @@ main {
                         a {
                             text-decoration: none;
                             color: black;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: .7rem;
                             position: relative;
                             border-bottom: 1px solid transparent;
@@ -3126,7 +3237,7 @@ main {
                         a:hover {
                             text-decoration: none;
                             color: green;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: .7rem;
                             transition: all 1.5s ease-in-out 0s;
                             border-bottom: 1px solid green;
@@ -3340,7 +3451,7 @@ main {
                         .content-heading {
                             font-size: .5rem;
                             font-weight: 500;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 10px 15px;
                             text-align: center;
                             width: 100%;
@@ -3349,7 +3460,7 @@ main {
                         .content-paragraph {
                             font-size: .8rem;
                             font-weight: 600;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 10px 15px;
                             text-align: center;
                             width: 100%;
@@ -3378,7 +3489,7 @@ main {
                                 color: white;
                                 font-size: 1rem;
                                 font-weight: 600;
-                                font-family: montserrat;
+                                font-family: quicksand;
                                 border-radius: 5px;
                                 border: 1px solid transparent;
                                 transition: all 2s ease-in-out 0s;
@@ -3390,7 +3501,7 @@ main {
                                 color: green;
                                 font-size: 1rem;
                                 font-weight: 600;
-                                font-family: montserrat;
+                                font-family: quicksand;
                                 border: 1px solid green;
                                 border-radius: 5px;
                                 transition: all 2s ease-in-out 0s;
@@ -3423,7 +3534,7 @@ main {
                     h1 {
                         font-size: 1.7rem;
                         font-weight: 800;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
 
@@ -3441,7 +3552,7 @@ main {
                         a {
                             text-decoration: none;
                             color: black;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: 1.5rem;
                             position: relative;
                             border-bottom: 1px solid transparent;
@@ -3451,7 +3562,7 @@ main {
                         a:hover {
                             text-decoration: none;
                             color: green;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: 1.5rem;
                             transition: all 1.5s ease-in-out 0s;
                             border-bottom: 1px solid green;
@@ -3518,7 +3629,7 @@ main {
                         text-align: center;
                         font-size: 1.3rem;
                         font-weight: 600;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border-radius: 10px;
                         border: 1px solid transparent;
                         transition: all 2s ease-in-out 0s;
@@ -3538,7 +3649,7 @@ main {
                         font-size: 1rem;
                         font-weight: 600;
                         text-align: center;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border: 1px solid green;
                         border-radius: 10px;
                         transition: all 2s ease-in-out 0s;
@@ -3765,7 +3876,7 @@ main {
                             .content-heading {
                                 font-size: 1rem;
                                 font-weight: 500;
-                                font-family: montserrat;
+                                font-family: quicksand;
                                 padding: 10px 15px;
                                 text-align: center;
                                 width: 100%;
@@ -3774,7 +3885,7 @@ main {
                             .content-paragraph {
                                 font-size: 1.5rem;
                                 font-weight: 600;
-                                font-family: montserrat;
+                                font-family: quicksand;
                                 padding: 10px 15px;
                                 text-align: center;
                                 width: 100%;
@@ -3805,7 +3916,7 @@ main {
                                     color: white;
                                     font-size: 1.3rem;
                                     font-weight: 600;
-                                    font-family: montserrat;
+                                    font-family: quicksand;
                                     border-radius: 10px;
                                     border: 1px solid transparent;
                                     transition: all 2s ease-in-out 0s;
@@ -3821,7 +3932,7 @@ main {
                                     color: green;
                                     font-size: 1.3rem;
                                     font-weight: 600;
-                                    font-family: montserrat;
+                                    font-family: quicksand;
                                     border: 1px solid green;
                                     border-radius: 10px;
                                     transition: all 2s ease-in-out 0s;
@@ -3858,8 +3969,106 @@ main {
         .product-container {
             margin-top: 50px;
             display: grid;
-            grid-template-columns: repeat(1,1fr);
+            grid-template-columns: repeat(1, 1fr);
             gap: 20px;
+        }
+
+        .banner-container-1 {
+            background-image: url(../Assets/images/deals-of-the-day/banner-10.png);
+            background-position: center;
+            background-size: cover;
+            border-radius: 5px;
+            height: 600px;
+            margin-top: 30px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+            position: relative;
+    
+            img {
+                z-index: -1;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                width: 70%;
+            }
+    
+            .banner {
+                z-index: 1;
+                
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                .banner-heading {
+                    font-size: 2rem;
+                    font-weight: 700;
+                    font-family: quicksand;
+                    padding: 10px 15px;
+                    margin-left: 10px;
+                    width: 100%;
+                    color: #253D4E;
+    
+    
+                }
+    
+                .banner-paragraph {
+                    font-size: 1.5rem;
+                    font-weight: 400;
+                    font-family: quicksand;
+                    padding: 10px 15px;
+                    margin-left: 10px;
+                    color: #7E7E7E;
+                }
+    
+                .sign-up {
+                    align-items: center;
+                    padding: 0px 10px;
+                    margin-left: 10px;
+    
+                    span {
+    
+    
+                        input {
+    
+                            padding: 10px 5px;
+                            padding-left: 40px;
+                            font-size: 1rem;
+                            font-weight: 400;
+                            font-family: quicksand;
+                            border: 1px solid green;
+                            border-radius: 10px;
+                            color: green;
+                        }
+                    }
+    
+                    .btn-primary {
+                        
+                        padding: 10px 15px;
+                        background-color: green;
+                        color: white;
+                        font-size: 1rem;
+                        font-weight: 600;
+                        font-family: quicksand;
+                        border-radius: 10px;
+                        border: 1px solid transparent;
+                        transition: all 2s ease-in-out 0s;
+                    }
+    
+                    .btn-primary:hover {
+                        padding: 10px 15px;
+                        background-color: white;
+                        color: green;
+                        font-size: 1rem;
+                        font-weight: 600;
+                        font-family: quicksand;
+                        border: 1px solid green;
+                        border-radius: 10px;
+                        transition: all 2s ease-in-out 0s;
+                    }
+                }
+            }
         }
     }
 }
@@ -4357,8 +4566,8 @@ main {
 
             .banner-heading {
                 font-size: 2.5rem;
-                font-weight: 900;
-                font-family: montserrat;
+                font-weight: 700;
+                font-family: quicksand;
                 padding: 0px 15px;
                 text-align: center;
                 width: 70%;
@@ -4368,13 +4577,14 @@ main {
             .banner-paragraph {
                 font-size: 1.7rem;
                 font-weight: 400;
-                font-family: montserrat;
+                font-family: quicksand;
                 padding: 10px 55px;
             }
 
             .sign-up {
                 align-items: center;
                 padding: 0px 50px;
+                font-family: quicksand;
 
                 span {
 
@@ -4435,7 +4645,7 @@ main {
                     h1 {
                         font-size: 2.5rem;
                         font-weight: 800;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
 
@@ -4453,7 +4663,7 @@ main {
                         a {
                             text-decoration: none;
                             color: black;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: 1.5rem;
                             position: relative;
                             border-bottom: 1px solid transparent;
@@ -4463,7 +4673,7 @@ main {
                         a:hover {
                             text-decoration: none;
                             color: green;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: 1.5rem;
                             transition: all 1.5s ease-in-out 0s;
                             border-bottom: 1px solid green;
@@ -4514,7 +4724,7 @@ main {
                         .content-heading {
                             font-size: 1.3rem;
                             font-weight: 900;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 5px 0px;
                             text-align: center;
 
@@ -4523,7 +4733,7 @@ main {
                         .content-heading:hover {
                             font-size: 1.3rem;
                             font-weight: 900;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 5px 0px;
                             text-align: center;
                             color: green;
@@ -4534,7 +4744,7 @@ main {
                         .content-paragraph {
                             font-size: 1rem;
                             font-weight: 400;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 5px 0px;
                             text-align: center;
                         }
@@ -4579,7 +4789,7 @@ main {
                     .featured-heading {
                         font-size: 1rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 65%;
@@ -4589,7 +4799,7 @@ main {
                     .featured-heading:hover {
                         font-size: 1rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 65%;
@@ -4607,7 +4817,7 @@ main {
                         text-align: center;
                         font-size: .5rem;
                         font-weight: 600;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border-radius: 10px;
                         border: 1px solid transparent;
                         transition: all 2s ease-in-out 0s;
@@ -4626,7 +4836,7 @@ main {
                         font-size: .5rem;
                         font-weight: 600;
                         text-align: center;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border: 1px solid green;
                         border-radius: 10px;
                         transition: all 2s ease-in-out 0s;
@@ -4656,7 +4866,7 @@ main {
                     .featured-heading {
                         font-size: 1rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 70%;
@@ -4666,7 +4876,7 @@ main {
                     .featured-heading:hover {
                         font-size: 1rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 70%;
@@ -4684,7 +4894,7 @@ main {
                         text-align: center;
                         font-size: .5rem;
                         font-weight: 600;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border-radius: 10px;
                         border: 1px solid transparent;
                         transition: all 2s ease-in-out 0s;
@@ -4703,7 +4913,7 @@ main {
                         font-size: .5rem;
                         font-weight: 600;
                         text-align: center;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border: 1px solid green;
                         border-radius: 10px;
                         transition: all 2s ease-in-out 0s;
@@ -4732,7 +4942,7 @@ main {
                     .featured-heading {
                         font-size: 1rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 65%;
@@ -4742,7 +4952,7 @@ main {
                     .featured-heading:hover {
                         font-size: 1rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 65%;
@@ -4760,7 +4970,7 @@ main {
                         text-align: center;
                         font-size: .5rem;
                         font-weight: 600;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border-radius: 10px;
                         border: 1px solid transparent;
                         transition: all 2s ease-in-out 0s;
@@ -4779,7 +4989,7 @@ main {
                         font-size: .5rem;
                         font-weight: 600;
                         text-align: center;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border: 1px solid green;
                         border-radius: 10px;
                         transition: all 2s ease-in-out 0s;
@@ -4807,7 +5017,7 @@ main {
                     h1 {
                         font-size: 2.5rem;
                         font-weight: 800;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
 
@@ -4825,7 +5035,7 @@ main {
                         a {
                             text-decoration: none;
                             color: black;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: 1.5rem;
                             position: relative;
                             border-bottom: 1px solid transparent;
@@ -4835,7 +5045,7 @@ main {
                         a:hover {
                             text-decoration: none;
                             color: green;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: 1.5rem;
                             transition: all 1.5s ease-in-out 0s;
                             border-bottom: 1px solid green;
@@ -4913,7 +5123,7 @@ main {
                         .content-heading {
                             font-size: 1rem;
                             font-weight: 500;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 10px 15px;
                             text-align: center;
                             width: 100%;
@@ -4922,7 +5132,7 @@ main {
                         .content-paragraph {
                             font-size: 1.5rem;
                             font-weight: 600;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 10px 15px;
                             text-align: center;
                             width: 100%;
@@ -4950,7 +5160,7 @@ main {
                                 color: white;
                                 font-size: 1.3rem;
                                 font-weight: 600;
-                                font-family: montserrat;
+                                font-family: quicksand;
                                 border-radius: 10px;
                                 border: 1px solid transparent;
                                 transition: all 2s ease-in-out 0s;
@@ -4962,7 +5172,7 @@ main {
                                 color: green;
                                 font-size: 1.3rem;
                                 font-weight: 600;
-                                font-family: montserrat;
+                                font-family: quicksand;
                                 border: 1px solid green;
                                 border-radius: 10px;
                                 transition: all 2s ease-in-out 0s;
@@ -4996,7 +5206,7 @@ main {
                     h1 {
                         font-size: 2.5rem;
                         font-weight: 800;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
 
@@ -5014,7 +5224,7 @@ main {
                         a {
                             text-decoration: none;
                             color: black;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: 1.5rem;
                             position: relative;
                             border-bottom: 1px solid transparent;
@@ -5024,7 +5234,7 @@ main {
                         a:hover {
                             text-decoration: none;
                             color: green;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: 1.5rem;
                             transition: all 1.5s ease-in-out 0s;
                             border-bottom: 1px solid green;
@@ -5091,7 +5301,7 @@ main {
                         text-align: center;
                         font-size: 1.3rem;
                         font-weight: 600;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border-radius: 10px;
                         border: 1px solid transparent;
                         transition: all 2s ease-in-out 0s;
@@ -5111,7 +5321,7 @@ main {
                         font-size: 1rem;
                         font-weight: 600;
                         text-align: center;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border: 1px solid green;
                         border-radius: 10px;
                         transition: all 2s ease-in-out 0s;
@@ -5338,7 +5548,7 @@ main {
                             .content-heading {
                                 font-size: 1rem;
                                 font-weight: 500;
-                                font-family: montserrat;
+                                font-family: quicksand;
                                 padding: 10px 15px;
                                 text-align: center;
                                 width: 100%;
@@ -5347,7 +5557,7 @@ main {
                             .content-paragraph {
                                 font-size: 1.5rem;
                                 font-weight: 600;
-                                font-family: montserrat;
+                                font-family: quicksand;
                                 padding: 10px 15px;
                                 text-align: center;
                                 width: 100%;
@@ -5378,7 +5588,7 @@ main {
                                     color: white;
                                     font-size: 1.3rem;
                                     font-weight: 600;
-                                    font-family: montserrat;
+                                    font-family: quicksand;
                                     border-radius: 10px;
                                     border: 1px solid transparent;
                                     transition: all 2s ease-in-out 0s;
@@ -5394,7 +5604,7 @@ main {
                                     color: green;
                                     font-size: 1.3rem;
                                     font-weight: 600;
-                                    font-family: montserrat;
+                                    font-family: quicksand;
                                     border: 1px solid green;
                                     border-radius: 10px;
                                     transition: all 2s ease-in-out 0s;
@@ -5433,8 +5643,106 @@ main {
         .product-container {
             margin-top: 50px;
             display: grid;
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 20px;
+        }
+
+
+        .banner-container-1 {
+            background-image: url(../Assets/images/deals-of-the-day/banner-10.png);
+            background-position: center;
+            background-size: cover;
+            border-radius: 5px;
+            height: 600px;
+            margin-top: 30px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            position: relative;
+    
+            img {
+                z-index: -1;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                width: 70%;
+            }
+    
+            .banner {
+                z-index: 1;
+                
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                .banner-heading {
+                    font-size: 4rem;
+                    font-weight: 700;
+                    font-family: quicksand;
+                    padding: 10px 55px;
+                    margin-left: 10px;
+                    width: 100%;
+                    color: #253D4E;
+    
+    
+                }
+    
+                .banner-paragraph {
+                    font-size: 2rem;
+                    font-weight: 400;
+                    font-family: quicksand;
+                    padding: 10px 55px;
+                    margin-left: 10px;
+                    color: #7E7E7E;
+                }
+    
+                .sign-up {
+                    align-items: center;
+                    padding: 0px 50px;
+                    margin-left: 10px;
+    
+                    span {
+    
+    
+                        input {
+    
+                            padding: 10px 15px;
+                            padding-left: 40px;
+                            font-size: 2rem;
+                            font-weight: 400;
+                            font-family: quicksand;
+                            border: 1px solid green;
+                            border-radius: 10px;
+                            color: green;
+                        }
+                    }
+    
+                    .btn-primary {
+                        padding: 10px 15px;
+                        background-color: green;
+                        color: white;
+                        font-size: 2rem;
+                        font-weight: 600;
+                        font-family: quicksand;
+                        border-radius: 10px;
+                        border: 1px solid transparent;
+                        transition: all 2s ease-in-out 0s;
+                    }
+    
+                    .btn-primary:hover {
+                        padding: 10px 15px;
+                        background-color: white;
+                        color: green;
+                        font-size: 2rem;
+                        font-weight: 600;
+                        font-family: quicksand;
+                        border: 1px solid green;
+                        border-radius: 10px;
+                        transition: all 2s ease-in-out 0s;
+                    }
+                }
+            }
         }
     }
 }
@@ -5796,8 +6104,8 @@ main {
 
             .banner-heading {
                 font-size: 3.5rem;
-                font-weight: 900;
-                font-family: montserrat;
+                font-weight: 700;
+                font-family: quicksand;
                 padding: 10px 15px;
                 text-align: center;
                 width: 70%;
@@ -5807,13 +6115,14 @@ main {
             .banner-paragraph {
                 font-size: 2rem;
                 font-weight: 400;
-                font-family: montserrat;
+                font-family: quicksand;
                 padding: 10px 55px;
             }
 
             .sign-up {
                 align-items: center;
                 padding: 0px 50px;
+                font-family: quicksand;
 
                 span {
 
@@ -5873,7 +6182,7 @@ main {
                     h1 {
                         font-size: 2.5rem;
                         font-weight: 800;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
 
@@ -5890,7 +6199,7 @@ main {
                         a {
                             text-decoration: none;
                             color: black;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: 1.5rem;
                             position: relative;
                             border-bottom: 1px solid transparent;
@@ -5900,7 +6209,7 @@ main {
                         a:hover {
                             text-decoration: none;
                             color: green;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: 1.5rem;
                             transition: all 1.5s ease-in-out 0s;
                             border-bottom: 1px solid green;
@@ -5951,7 +6260,7 @@ main {
                         .content-heading {
                             font-size: 1.3rem;
                             font-weight: 900;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 5px 0px;
                             text-align: center;
 
@@ -5960,7 +6269,7 @@ main {
                         .content-heading:hover {
                             font-size: 1.3rem;
                             font-weight: 900;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 5px 0px;
                             text-align: center;
                             color: green;
@@ -5971,7 +6280,7 @@ main {
                         .content-paragraph {
                             font-size: 1rem;
                             font-weight: 400;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 5px 0px;
                             text-align: center;
                         }
@@ -6015,7 +6324,7 @@ main {
                     .featured-heading {
                         font-size: 1.5rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 65%;
@@ -6025,7 +6334,7 @@ main {
                     .featured-heading:hover {
                         font-size: 1.5rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 65%;
@@ -6043,7 +6352,7 @@ main {
                         text-align: center;
                         font-size: .8rem;
                         font-weight: 600;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border-radius: 10px;
                         border: 1px solid transparent;
                         transition: all 2s ease-in-out 0s;
@@ -6062,7 +6371,7 @@ main {
                         font-size: .8rem;
                         font-weight: 600;
                         text-align: center;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border: 1px solid green;
                         border-radius: 10px;
                         transition: all 2s ease-in-out 0s;
@@ -6092,7 +6401,7 @@ main {
                     .featured-heading {
                         font-size: 1.5rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 70%;
@@ -6102,7 +6411,7 @@ main {
                     .featured-heading:hover {
                         font-size: 1.5rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 70%;
@@ -6120,7 +6429,7 @@ main {
                         text-align: center;
                         font-size: .8rem;
                         font-weight: 600;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border-radius: 10px;
                         border: 1px solid transparent;
                         transition: all 2s ease-in-out 0s;
@@ -6139,7 +6448,7 @@ main {
                         font-size: .8rem;
                         font-weight: 600;
                         text-align: center;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border: 1px solid green;
                         border-radius: 10px;
                         transition: all 2s ease-in-out 0s;
@@ -6168,7 +6477,7 @@ main {
                     .featured-heading {
                         font-size: 1.5rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 65%;
@@ -6178,7 +6487,7 @@ main {
                     .featured-heading:hover {
                         font-size: 1.5rem;
                         font-weight: 900;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
                         width: 65%;
@@ -6196,7 +6505,7 @@ main {
                         text-align: center;
                         font-size: .8rem;
                         font-weight: 600;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border-radius: 10px;
                         border: 1px solid transparent;
                         transition: all 2s ease-in-out 0s;
@@ -6215,7 +6524,7 @@ main {
                         font-size: .8rem;
                         font-weight: 600;
                         text-align: center;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border: 1px solid green;
                         border-radius: 10px;
                         transition: all 2s ease-in-out 0s;
@@ -6241,7 +6550,7 @@ main {
                     h1 {
                         font-size: 2.5rem;
                         font-weight: 800;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
 
@@ -6258,7 +6567,7 @@ main {
                         a {
                             text-decoration: none;
                             color: black;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: 1.5rem;
                             position: relative;
                             border-bottom: 1px solid transparent;
@@ -6268,7 +6577,7 @@ main {
                         a:hover {
                             text-decoration: none;
                             color: green;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: 1.5rem;
                             transition: all 1.5s ease-in-out 0s;
                             border-bottom: 1px solid green;
@@ -6346,7 +6655,7 @@ main {
                         .content-heading {
                             font-size: 1rem;
                             font-weight: 500;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 10px 15px;
                             text-align: center;
                             width: 100%;
@@ -6355,7 +6664,7 @@ main {
                         .content-paragraph {
                             font-size: 1.5rem;
                             font-weight: 600;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             padding: 10px 15px;
                             text-align: center;
                             width: 100%;
@@ -6384,7 +6693,7 @@ main {
                                 color: white;
                                 font-size: 1.3rem;
                                 font-weight: 600;
-                                font-family: montserrat;
+                                font-family: quicksand;
                                 border-radius: 10px;
                                 border: 1px solid transparent;
                                 transition: all 2s ease-in-out 0s;
@@ -6396,7 +6705,7 @@ main {
                                 color: green;
                                 font-size: 1.3rem;
                                 font-weight: 600;
-                                font-family: montserrat;
+                                font-family: quicksand;
                                 border: 1px solid green;
                                 border-radius: 10px;
                                 transition: all 2s ease-in-out 0s;
@@ -6428,7 +6737,7 @@ main {
                     h1 {
                         font-size: 2.5rem;
                         font-weight: 800;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         padding: 10px 15px;
                         text-align: center;
 
@@ -6445,7 +6754,7 @@ main {
                         a {
                             text-decoration: none;
                             color: black;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: 1.5rem;
                             position: relative;
                             border-bottom: 1px solid transparent;
@@ -6455,7 +6764,7 @@ main {
                         a:hover {
                             text-decoration: none;
                             color: green;
-                            font-family: montserrat;
+                            font-family: quicksand;
                             font-size: 1.5rem;
                             transition: all 1.5s ease-in-out 0s;
                             border-bottom: 1px solid green;
@@ -6522,7 +6831,7 @@ main {
                         text-align: center;
                         font-size: 1.3rem;
                         font-weight: 600;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border-radius: 10px;
                         border: 1px solid transparent;
                         transition: all 2s ease-in-out 0s;
@@ -6542,7 +6851,7 @@ main {
                         font-size: 1rem;
                         font-weight: 600;
                         text-align: center;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         border: 1px solid green;
                         border-radius: 10px;
                         transition: all 2s ease-in-out 0s;
@@ -6769,7 +7078,7 @@ main {
                             .content-heading {
                                 font-size: 1rem;
                                 font-weight: 500;
-                                font-family: montserrat;
+                                font-family: quicksand;
                                 padding: 10px 15px;
                                 text-align: center;
                                 width: 100%;
@@ -6778,7 +7087,7 @@ main {
                             .content-paragraph {
                                 font-size: 1.5rem;
                                 font-weight: 600;
-                                font-family: montserrat;
+                                font-family: quicksand;
                                 padding: 10px 15px;
                                 text-align: center;
                                 width: 100%;
@@ -6809,7 +7118,7 @@ main {
                                     color: white;
                                     font-size: 1.3rem;
                                     font-weight: 600;
-                                    font-family: montserrat;
+                                    font-family: quicksand;
                                     border-radius: 10px;
                                     border: 1px solid transparent;
                                     transition: all 2s ease-in-out 0s;
@@ -6825,7 +7134,7 @@ main {
                                     color: green;
                                     font-size: 1.3rem;
                                     font-weight: 600;
-                                    font-family: montserrat;
+                                    font-family: quicksand;
                                     border: 1px solid green;
                                     border-radius: 10px;
                                     transition: all 2s ease-in-out 0s;
@@ -6859,348 +7168,5 @@ main {
 
         }
     }
-
-}
-
-
-
-/* responsive media query for extra-large device*/
-@media screen and (min-width:1400px) {
-    header {
-        margin: 0px 10px;
-
-        .header-top-container {
-            display: flex;
-            align-items: flex-start;
-
-            position: relative;
-            gap: 100px;
-
-            .header-top-left {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                gap: 50px;
-
-                h3 {
-                    border-right: 1px solid gray;
-                    padding-right: 20px;
-                }
-            }
-
-            .header-top-middle {
-
-                align-items: center;
-                display: flex;
-
-                p {
-                    text-align: center;
-                    font-size: 1.2rem;
-
-                }
-            }
-
-            .header-top-right {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                gap: 80px;
-
-                .header-top-right-left {
-
-
-
-
-                    p {
-                        strong {
-                            color: green;
-                            font-size: 1.5rem;
-                            padding-left: 20px;
-                        }
-
-                        strong:hover {
-                            color: blue;
-                        }
-                    }
-                }
-
-                .header-top-right-right {
-                    text-align: center;
-                    gap: 20px;
-                    display: inline-flex;
-
-                    select {
-                        border: none;
-                        border-left: 1px solid black;
-                        padding-left: 10px;
-                        font-size: 1.2rem;
-
-                        option {}
-                    }
-
-
-
-
-                }
-            }
-        }
-
-
-        .header-bottom-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-bottom: 30px;
-            padding-top: 30px;
-            border-bottom: 1px solid rgba(128, 128, 128, 0.34);
-
-            .header-bottom-nav-container {
-                display: inline-flex;
-
-                align-items: center;
-
-                ul {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    gap: 50px;
-
-                    li {
-                        list-style-type: none;
-
-                        a {
-                            background-color: green;
-                            color: white;
-                            font-weight: 700;
-                            font-size: 1.5rem;
-                            border-radius: 10px;
-                            padding: 5px 10px;
-                            text-decoration: none;
-                            border: 1px solid transparent;
-
-
-                        }
-
-                        /*.home {
-                            background-color: white;
-                            color: green;
-                            font-weight: 700;
-                            font-size: 1.5rem;
-                            border-radius: 10px;
-                            padding: 5px 10px;
-    
-                        }*/
-
-
-
-
-                    }
-
-                    .home-main {
-                        position: relative;
-
-                        ul {
-                            display: none;
-                            display: flex;
-                            flex-direction: column;
-
-                            li {
-                                display: none;
-                            }
-                        }
-                    }
-
-                    .home-main:hover {
-
-                        ul {
-                            position: absolute;
-                            display: block;
-                            display: flex;
-                            flex-direction: column;
-                            top: 32px;
-                            right: -55px;
-                            background-color: green;
-                            padding: 20px 20px;
-                            border-radius: 10px;
-
-                            width: 200px;
-
-                            li {
-                                display: block;
-
-                                a {
-                                    background-color: green;
-                                    color: white;
-                                    font-weight: 700;
-                                    font-size: 1.5rem;
-                                    border-radius: 10px;
-                                    padding: 5px 20px;
-                                    text-decoration: none;
-                                    border: 1px solid transparent;
-                                }
-                            }
-                        }
-                    }
-
-                    .home-shop {
-                        position: relative;
-
-                        ul {
-                            display: none;
-                            display: flex;
-                            flex-direction: column;
-
-                            li {
-                                display: none;
-                            }
-                        }
-                    }
-
-                    .home-shop:hover {
-
-                        ul {
-                            position: absolute;
-                            display: block;
-                            display: flex;
-                            align-items: center;
-                            flex-direction: column;
-                            top: 32px;
-                            right: -55px;
-                            background-color: green;
-                            padding: 20px 20px;
-                            border-radius: 10px;
-                            height: 500px;
-                            width: 300px;
-                            overflow: auto;
-
-                            li {
-                                display: block;
-
-                                a {
-                                    background-color: green;
-                                    color: white;
-                                    font-weight: 700;
-                                    font-size: 1.5rem;
-                                    border-radius: 10px;
-                                    padding: 5px 20px;
-                                    text-decoration: none;
-                                    border: 1px solid transparent;
-                                }
-                            }
-                        }
-                    }
-
-                    .home-mega-menu {
-                        position: relative;
-
-                        ul {
-
-                            display: flex;
-                            flex-direction: row;
-                            display: none;
-
-                            li {
-
-                                display: flex;
-                                flex-direction: column;
-                                display: none;
-
-
-
-                            }
-                        }
-                    }
-
-                    .home-mega-menu:hover {
-                        text-align: center;
-
-                        ul {
-                            position: absolute;
-                            display: block;
-                            text-align: start;
-                            align-items: center;
-                            display: flex;
-                            flex-direction: row;
-                            top: 32px;
-                            right: -300px;
-                            background-color: green;
-                            padding: 20px 20px;
-                            border-radius: 10px;
-
-                            width: 800px;
-
-
-                            li {
-                                display: block;
-                                display: flex;
-                                text-align: start;
-                                align-items: center;
-                                flex-direction: column;
-                                height: 500px;
-
-                                h1 {
-                                    font-size: 1.5rem;
-                                    font-weight: 800;
-                                    color: white;
-                                    text-align: center;
-                                }
-
-                                h1 {
-                                    background-color: green;
-                                    color: white;
-                                    font-weight: 800;
-                                    font-size: 1.5rem;
-                                    border-radius: 10px;
-                                    padding: 5px 20px;
-                                    text-decoration: none;
-                                    border: 1px solid white;
-                                }
-
-                                .meat-dairy-fruit {
-                                    p {
-                                        color: white;
-                                        font-weight: 600;
-                                        font-size: 1rem;
-                                        border-radius: 10px;
-                                        padding: 5px 20px;
-
-                                    }
-                                }
-                            }
-                        }
-                    }
-
-
-                }
-            }
-
-
-
-            .header-bottom-support-container {
-                display: inline-flex;
-                align-items: center;
-
-                gap: 20px;
-
-                img {}
-
-                p {
-                    font-size: 1.7rem;
-                    color: green;
-                    font-weight: 700;
-
-                    span {
-                        font-size: 1rem;
-                        color: black;
-                        font-weight: 300;
-                    }
-                }
-            }
-        }
-
-
-    }
-
-
 
 }
