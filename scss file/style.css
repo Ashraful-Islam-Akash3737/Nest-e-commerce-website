@@ -1346,6 +1346,9 @@ main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bott
   flex-direction: column;
   justify-content: center;
 }
+main .deals-of-the-day {
+  padding-bottom: 200px;
+}
 main .deals-of-the-day .popular-product-top {
   display: flex;
   align-items: center;
@@ -1551,6 +1554,90 @@ main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item:hover
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+main .product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+main .product-container .product-container-1 .product-container-1-heading {
+  font-size: 2rem;
+  font-family: Quicksand;
+  text-align: start;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgba(0, 128, 0, 0.272);
+}
+main .product-container .product-container-1 .product-container-1-content {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  font-family: Quicksand;
+  margin-bottom: 20px;
+}
+main .product-container .product-container-1 .product-container-1-content .popular-product-main-item-img {
+  width: 30%;
+  border-radius: 20px;
+}
+main .product-container .product-container-1 .product-container-1-content .popular-product-main-item-img img {
+  width: 70%;
+  height: 50%;
+  transition: all 2s ease-in-out 0s;
+  border-radius: 0px;
+}
+main .product-container .product-container-1 .product-container-1-content .popular-product-main-item-content {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  width: 70%;
+  border-radius: 20px;
+  transition: all 1s ease;
+}
+main .product-container .product-container-1 .product-container-1-content .popular-product-main-item-content .content-heading {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: montserrat;
+  padding: 10px 15px;
+  text-align: center;
+  width: 100%;
+}
+main .product-container .product-container-1 .product-container-1-content .popular-product-main-item-content .content-paragraph {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: montserrat;
+  padding: 10px 15px;
+  text-align: center;
+  width: 100%;
+  transition: all 1s ease;
+}
+main .product-container .product-container-1 .product-container-1-content .popular-product-main-item-content h2 {
+  color: green;
+}
+main .product-container .product-container-1 .product-container-1-content .popular-product-main-item-content h2 del {
+  color: gray;
+  font-size: 1rem;
+  padding-left: 5px;
+}
+main .product-container .product-container-1 .product-container-1-content .popular-product-main-item-content:hover {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  width: 70%;
+  border-radius: 20px;
+  transform: translateY(-10px);
+  transition: all 1s ease;
+}
+main .product-container .product-container-1 .product-container-1-content .popular-product-main-item-content:hover .content-paragraph {
+  color: green;
+  transition: all 1s ease;
 }
 
 /* main section end*/
@@ -2894,6 +2981,12 @@ main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item:hover
   main .deals-of-the-day {
     display: none;
   }
+  main .product-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
 }
 /* responsive media query for medium device*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -4107,6 +4200,12 @@ main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item:hover
   }
   main .deals-of-the-day {
     display: none;
+  }
+  main .product-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 }
 /* responsive media query for large device*/
