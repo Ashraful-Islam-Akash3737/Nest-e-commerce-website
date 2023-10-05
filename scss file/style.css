@@ -1346,6 +1346,212 @@ main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bott
   flex-direction: column;
   justify-content: center;
 }
+main .deals-of-the-day .popular-product-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+main .deals-of-the-day .popular-product-top .popular-product-top-left h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: montserrat;
+  padding: 10px 15px;
+  text-align: center;
+}
+main .deals-of-the-day .popular-product-top .popular-product-top-right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+main .deals-of-the-day .popular-product-top .popular-product-top-right p a {
+  text-decoration: none;
+  color: black;
+  font-family: montserrat;
+  font-size: 1.5rem;
+  position: relative;
+  border-bottom: 1px solid transparent;
+  transition: all 1.5s ease-in-out 0s;
+}
+main .deals-of-the-day .popular-product-top .popular-product-top-right p a i {
+  padding-left: 20px;
+}
+main .deals-of-the-day .popular-product-top .popular-product-top-right p a:hover {
+  text-decoration: none;
+  color: green;
+  font-family: montserrat;
+  font-size: 1.5rem;
+  transition: all 1.5s ease-in-out 0s;
+  border-bottom: 1px solid green;
+}
+main .deals-of-the-day .deals-of-the-day-bottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  position: relative;
+  margin-bottom: 50px;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-img {
+  height: 100%;
+  position: relative;
+  border-radius: 20px;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-img .open {
+  height: 100%;
+  display: block;
+  width: 100%;
+  transition: all 2s ease-in-out 0s;
+  border-radius: 20px;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-img:hover {
+  height: 100%;
+  transition: all 2s ease-in-out 0s;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  height: 100%;
+  width: 23%;
+  border-radius: 20px;
+  position: absolute;
+  top: 200px;
+  box-shadow: 2px 2px 2px whitesmoke;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content .content-heading {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: montserrat;
+  padding: 10px 15px;
+  text-align: center;
+  width: 100%;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content .content-paragraph {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: montserrat;
+  padding: 10px 15px;
+  text-align: center;
+  width: 100%;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content h3 {
+  margin-top: 10px;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content .price-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content .price-container del {
+  color: gray;
+  font-size: 1rem;
+  padding-left: 5px;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content .price-container .btn-primary {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: montserrat;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: all 2s ease-in-out 0s;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content .price-container .btn-primary:hover {
+  padding: 10px 20px;
+  background-color: white;
+  color: green;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: montserrat;
+  border: 1px solid green;
+  border-radius: 10px;
+  transition: all 2s ease-in-out 0s;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content:hover {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  height: 100%;
+  width: 23%;
+  border-radius: 20px;
+  position: absolute;
+  top: 200px;
+  transform: translateY(-10px);
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content:hover .content-heading {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: montserrat;
+  padding: 10px 15px;
+  text-align: center;
+  width: 100%;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content:hover .content-paragraph {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: montserrat;
+  padding: 10px 15px;
+  text-align: center;
+  width: 100%;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content:hover h3 {
+  margin-top: 10px;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content:hover .price-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content:hover .price-container del {
+  color: gray;
+  font-size: 1rem;
+  padding-left: 5px;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content:hover .price-container .btn-primary {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: montserrat;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: all 2s ease-in-out 0s;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content:hover .price-container .btn-primary:hover {
+  padding: 10px 20px;
+  background-color: white;
+  color: green;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: montserrat;
+  border: 1px solid green;
+  border-radius: 10px;
+  transition: all 2s ease-in-out 0s;
+}
+main .deals-of-the-day .deals-of-the-day-bottom .popular-product-main-item:hover {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 
 /* main section end*/
 /* footer section start*/
@@ -2685,44 +2891,8 @@ main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bott
     flex-direction: column;
     justify-content: center;
   }
-  main .deals-of-the-day .popular-product-top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    padding: 50px auto;
-  }
-  main .deals-of-the-day .popular-product-top .popular-product-top-left h1 {
-    font-size: 1.5rem;
-    font-weight: 800;
-    font-family: montserrat;
-    padding: 10px 15px;
-    text-align: center;
-  }
-  main .deals-of-the-day .popular-product-top .popular-product-top-right {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-  }
-  main .deals-of-the-day .popular-product-top .popular-product-top-right p a {
-    text-decoration: none;
-    color: black;
-    font-family: montserrat;
-    font-size: 1.5rem;
-    position: relative;
-    border-bottom: 1px solid transparent;
-    transition: all 1.5s ease-in-out 0s;
-  }
-  main .deals-of-the-day .popular-product-top .popular-product-top-right p a i {
-    padding-left: 10px;
-  }
-  main .deals-of-the-day .popular-product-top .popular-product-top-right p a:hover {
-    text-decoration: none;
-    color: green;
-    font-family: montserrat;
-    font-size: 1.5rem;
-    transition: all 1.5s ease-in-out 0s;
-    border-bottom: 1px solid green;
+  main .deals-of-the-day {
+    display: none;
   }
 }
 /* responsive media query for medium device*/
@@ -3935,43 +4105,8 @@ main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bott
     flex-direction: column;
     justify-content: center;
   }
-  main .deals-of-the-day .popular-product-top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-  }
-  main .deals-of-the-day .popular-product-top .popular-product-top-left h1 {
-    font-size: 2.5rem;
-    font-weight: 800;
-    font-family: montserrat;
-    padding: 10px 15px;
-    text-align: center;
-  }
-  main .deals-of-the-day .popular-product-top .popular-product-top-right {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-  }
-  main .deals-of-the-day .popular-product-top .popular-product-top-right p a {
-    text-decoration: none;
-    color: black;
-    font-family: montserrat;
-    font-size: 1.5rem;
-    position: relative;
-    border-bottom: 1px solid transparent;
-    transition: all 1.5s ease-in-out 0s;
-  }
-  main .deals-of-the-day .popular-product-top .popular-product-top-right p a i {
-    padding-left: 10px;
-  }
-  main .deals-of-the-day .popular-product-top .popular-product-top-right p a:hover {
-    text-decoration: none;
-    color: green;
-    font-family: montserrat;
-    font-size: 1.5rem;
-    transition: all 1.5s ease-in-out 0s;
-    border-bottom: 1px solid green;
+  main .deals-of-the-day {
+    display: none;
   }
 }
 /* responsive media query for large device*/
@@ -5085,6 +5220,9 @@ main .daily-best-sells-container .daily-best-sells-bottom .daily-best-sells-bott
     align-items: center;
     flex-direction: column;
     justify-content: center;
+  }
+  main .deals-of-the-day {
+    display: none;
   }
 }
 /* responsive media query for extra-large device*/
