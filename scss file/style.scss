@@ -8,6 +8,10 @@
 /* header section start*/
 header {
     margin: 10px 10px;
+    position: sticky;
+    background-color: white;
+    z-index: 10;
+    top: 0px;
 
     .header-top-container {
         display: flex;
@@ -226,8 +230,7 @@ header {
         padding-bottom: 30px;
         padding-top: 30px;
         border-bottom: 1px solid rgba(128, 128, 128, 0.34);
-        position: sticky;
-        top: 0px;
+
 
         .three-dot-menu {
             display: none;
@@ -257,6 +260,7 @@ header {
                         font-weight: 700;
                         font-size: 1.2rem;
                         border-radius: 10px;
+                        text-align: center;
                         padding: 5px 10px;
                         text-decoration: none;
                         border: 1px solid transparent;
@@ -268,7 +272,8 @@ header {
                         background-color: white;
                         color: green;
                         font-weight: 700;
-                        font-size: 1.5rem;
+                        font-size: 1.2rem;
+                        text-align: center;
                         border-radius: 10px;
                         padding: 5px 10px;
                         text-decoration: none;
@@ -328,7 +333,7 @@ header {
                                 background-color: green;
                                 color: white;
                                 font-weight: 700;
-                                font-size: 1.5rem;
+                                font-size: 1.3rem;
                                 border-radius: 10px;
                                 padding: 5px 20px;
                                 text-decoration: none;
@@ -376,7 +381,7 @@ header {
                                 background-color: green;
                                 color: white;
                                 font-weight: 700;
-                                font-size: 1.5rem;
+                                font-size: 1.3rem;
                                 border-radius: 10px;
                                 padding: 5px 20px;
                                 text-decoration: none;
@@ -445,7 +450,7 @@ header {
                                 background-color: green;
                                 color: white;
                                 font-weight: 800;
-                                font-size: 1.5rem;
+                                font-size: 1.3rem;
                                 border-radius: 10px;
                                 padding: 5px 20px;
                                 text-decoration: none;
@@ -502,6 +507,7 @@ header {
 main {
     padding: 30px 0px;
     margin: 0px 10px;
+    z-index: -10;
 
     .banner-container {
         background-image: url(../Assets/images/hero-slider-1.png);
@@ -2171,10 +2177,11 @@ main {
 
         .banner {
             z-index: 1;
-            
+
             display: flex;
             flex-direction: column;
             gap: 30px;
+
             .banner-heading {
                 font-size: 4rem;
                 font-weight: 700;
@@ -2240,6 +2247,47 @@ main {
                     border-radius: 10px;
                     transition: all 2s ease-in-out 0s;
                 }
+            }
+        }
+    }
+
+
+    .we-provide-container {
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 20px;
+        
+        .we-provide {
+            font-family: quicksand;
+            display: flex;
+            width: 100%;
+            background: #F4F6FA;
+            padding: 20px;
+            border-radius: 10px;
+
+            .we-provide-img {
+                width: 40%;
+
+                img {
+                    transition: all 1s ease-in-out;
+                }
+            }
+            .we-provide-img:hover {
+                width: 40%;
+
+                img {
+                    transform: translateY(-10px);
+                    transition: all 1s ease-in-out;
+                }
+            }
+
+            .we-provide-content {
+                width: 60%;
+
+                h1 {}
+
+                p {}
             }
         }
     }
@@ -3986,7 +4034,7 @@ main {
             align-items: flex-start;
             justify-content: flex-start;
             position: relative;
-    
+
             img {
                 z-index: -1;
                 position: absolute;
@@ -3994,13 +4042,14 @@ main {
                 right: 0px;
                 width: 70%;
             }
-    
+
             .banner {
                 z-index: 1;
-                
+
                 display: flex;
                 flex-direction: column;
                 gap: 30px;
+
                 .banner-heading {
                     font-size: 2rem;
                     font-weight: 700;
@@ -4009,10 +4058,10 @@ main {
                     margin-left: 10px;
                     width: 100%;
                     color: #253D4E;
-    
-    
+
+
                 }
-    
+
                 .banner-paragraph {
                     font-size: 1.5rem;
                     font-weight: 400;
@@ -4021,17 +4070,17 @@ main {
                     margin-left: 10px;
                     color: #7E7E7E;
                 }
-    
+
                 .sign-up {
                     align-items: center;
                     padding: 0px 10px;
                     margin-left: 10px;
-    
+
                     span {
-    
-    
+
+
                         input {
-    
+
                             padding: 10px 5px;
                             padding-left: 40px;
                             font-size: 1rem;
@@ -4042,9 +4091,9 @@ main {
                             color: green;
                         }
                     }
-    
+
                     .btn-primary {
-                        
+
                         padding: 10px 15px;
                         background-color: green;
                         color: white;
@@ -4055,7 +4104,7 @@ main {
                         border: 1px solid transparent;
                         transition: all 2s ease-in-out 0s;
                     }
-    
+
                     .btn-primary:hover {
                         padding: 10px 15px;
                         background-color: white;
@@ -4069,6 +4118,14 @@ main {
                     }
                 }
             }
+        }
+
+
+        .we-provide-container {
+            margin: 50px auto;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 20px;
         }
     }
 }
@@ -5661,7 +5718,7 @@ main {
             align-items: flex-start;
             justify-content: flex-start;
             position: relative;
-    
+
             img {
                 z-index: -1;
                 position: absolute;
@@ -5669,13 +5726,14 @@ main {
                 right: 0px;
                 width: 70%;
             }
-    
+
             .banner {
                 z-index: 1;
-                
+
                 display: flex;
                 flex-direction: column;
                 gap: 30px;
+
                 .banner-heading {
                     font-size: 4rem;
                     font-weight: 700;
@@ -5684,10 +5742,10 @@ main {
                     margin-left: 10px;
                     width: 100%;
                     color: #253D4E;
-    
-    
+
+
                 }
-    
+
                 .banner-paragraph {
                     font-size: 2rem;
                     font-weight: 400;
@@ -5696,17 +5754,17 @@ main {
                     margin-left: 10px;
                     color: #7E7E7E;
                 }
-    
+
                 .sign-up {
                     align-items: center;
                     padding: 0px 50px;
                     margin-left: 10px;
-    
+
                     span {
-    
-    
+
+
                         input {
-    
+
                             padding: 10px 15px;
                             padding-left: 40px;
                             font-size: 2rem;
@@ -5717,7 +5775,7 @@ main {
                             color: green;
                         }
                     }
-    
+
                     .btn-primary {
                         padding: 10px 15px;
                         background-color: green;
@@ -5729,7 +5787,7 @@ main {
                         border: 1px solid transparent;
                         transition: all 2s ease-in-out 0s;
                     }
-    
+
                     .btn-primary:hover {
                         padding: 10px 15px;
                         background-color: white;
@@ -5743,6 +5801,14 @@ main {
                     }
                 }
             }
+        }
+
+
+        .we-provide-container {
+            margin: 50px auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
         }
     }
 }

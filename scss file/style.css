@@ -8,6 +8,10 @@
 /* header section start*/
 header {
   margin: 10px 10px;
+  position: sticky;
+  background-color: white;
+  z-index: 10;
+  top: 0px;
 }
 header .header-top-container {
   display: flex;
@@ -157,8 +161,6 @@ header .header-bottom-container {
   padding-bottom: 30px;
   padding-top: 30px;
   border-bottom: 1px solid rgba(128, 128, 128, 0.34);
-  position: sticky;
-  top: 0px;
 }
 header .header-bottom-container .three-dot-menu {
   display: none;
@@ -194,6 +196,7 @@ header .header-bottom-container .header-bottom-nav-container ul li a {
   font-weight: 700;
   font-size: 1.2rem;
   border-radius: 10px;
+  text-align: center;
   padding: 5px 10px;
   text-decoration: none;
   border: 1px solid transparent;
@@ -203,7 +206,8 @@ header .header-bottom-container .header-bottom-nav-container ul li a:hover {
   background-color: white;
   color: green;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  text-align: center;
   border-radius: 10px;
   padding: 5px 10px;
   text-decoration: none;
@@ -240,7 +244,7 @@ header .header-bottom-container .header-bottom-nav-container ul .home-main:hover
   background-color: green;
   color: white;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   border-radius: 10px;
   padding: 5px 20px;
   text-decoration: none;
@@ -279,7 +283,7 @@ header .header-bottom-container .header-bottom-nav-container ul .home-shop:hover
   background-color: green;
   color: white;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   border-radius: 10px;
   padding: 5px 20px;
   text-decoration: none;
@@ -333,7 +337,7 @@ header .header-bottom-container .header-bottom-nav-container ul .home-mega-menu:
   background-color: green;
   color: white;
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   border-radius: 10px;
   padding: 5px 20px;
   text-decoration: none;
@@ -367,6 +371,7 @@ header .header-bottom-container .header-bottom-support-container p span {
 main {
   padding: 30px 0px;
   margin: 0px 10px;
+  z-index: -10;
 }
 main .banner-container {
   background-image: url(../Assets/images/hero-slider-1.png);
@@ -1726,7 +1731,36 @@ main .banner-container-1 .banner .sign-up .btn-primary:hover {
   border-radius: 10px;
   transition: all 2s ease-in-out 0s;
 }
-
+main .we-provide-container {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+main .we-provide-container .we-provide {
+  font-family: quicksand;
+  display: flex;
+  width: 100%;
+  background: #F4F6FA;
+  padding: 20px;
+  border-radius: 10px;
+}
+main .we-provide-container .we-provide .we-provide-img {
+  width: 40%;
+}
+main .we-provide-container .we-provide .we-provide-img img {
+  transition: all 1s ease-in-out;
+}
+main .we-provide-container .we-provide .we-provide-img:hover {
+  width: 40%;
+}
+main .we-provide-container .we-provide .we-provide-img:hover img {
+  transform: translateY(-10px);
+  transition: all 1s ease-in-out;
+}
+main .we-provide-container .we-provide .we-provide-content {
+  width: 60%;
+}
 /* main section end*/
 /* footer section start*/
 /* footer section end*/
@@ -3157,6 +3191,12 @@ main .banner-container-1 .banner .sign-up .btn-primary:hover {
     border-radius: 10px;
     transition: all 2s ease-in-out 0s;
   }
+  main .we-provide-container {
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
 }
 /* responsive media query for medium device*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -4458,6 +4498,12 @@ main .banner-container-1 .banner .sign-up .btn-primary:hover {
     border: 1px solid green;
     border-radius: 10px;
     transition: all 2s ease-in-out 0s;
+  }
+  main .we-provide-container {
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
   }
 }
 /* responsive media query for large device*/
