@@ -181,11 +181,14 @@ header {
         }
 
         .account-container:hover {
+            transition: all 1.5s ease-in-out 0s;
+
             i {
                 padding-right: 10px;
             }
 
             ul {
+                transition: all 1.5s ease-in-out 0s;
                 display: block;
                 position: absolute;
                 top: 140px;
@@ -198,6 +201,7 @@ header {
                 li {
                     list-style-type: none;
                     padding: 10px;
+                    transition: all 1.5s ease-in-out 0s;
 
                     a {
                         text-decoration: none;
@@ -1348,7 +1352,7 @@ main {
                 border-radius: 10px;
                 height: 100%;
                 width: 600px;
-                display: flex 0,0,auto;
+                display: flex 0, 0, auto;
                 flex-direction: column;
                 align-items: flex-start;
                 justify-content: flex-start;
@@ -1429,6 +1433,7 @@ main {
                 gap: 20px;
                 position: relative;
                 height: 100%;
+
                 .popular-product-main-item {
                     border: 1px solid gray;
                     border-radius: 20px;
@@ -1438,26 +1443,26 @@ main {
                     justify-content: center;
                     height: 100%;
                     position: relative;
-    
+
                     .popular-product-main-item-img {
                         height: 40%;
                         position: relative;
-    
+
                         .open {
                             height: 100%;
                             display: block;
                             width: 90%;
                             transition: all 2s ease-in-out 0s;
-    
+
                         }
-    
+
                         .close {
                             height: 100%;
                             display: none;
                             width: 90%;
-    
+
                         }
-    
+
                         .action {
                             text-align: center;
                             display: flex;
@@ -1470,25 +1475,25 @@ main {
                             background-color: white;
                             border: 1px solid rgba(242, 245, 243, 0.904);
                             padding: 30px 20px;
-    
+
                             i {
                                 gap: 20px;
                                 padding: 10px 10px;
                                 border-left: 1px solid green;
                                 color: green;
-    
+
                                 span {
                                     font-size: .7rem;
                                     display: none;
                                 }
                             }
-    
+
                             .fa-heart {
                                 gap: 20px;
                                 padding: 10px 10px;
                                 border-left: 1px solid green;
                                 color: green;
-    
+
                                 span {
                                     font-size: .7rem;
                                     display: none;
@@ -1496,25 +1501,25 @@ main {
                             }
                         }
                     }
-    
+
                     .popular-product-main-item-img:hover {
                         height: 40%;
                         transition: all 2s ease-in-out 0s;
-    
+
                         .open {
                             height: 100%;
                             display: none;
                             width: 90%;
-    
+
                         }
-    
+
                         .close {
                             height: 100%;
                             display: block;
                             width: 90%;
                             transition: all 2s ease-in-out 0s;
                         }
-    
+
                         .action {
                             position: absolute;
                             top: 60px;
@@ -1527,10 +1532,10 @@ main {
                             justify-content: flex-start;
                             background-color: white;
                             border-radius: 5px;
-    
+
                             i:hover {
                                 transition: all 1.5s ease-in-out 0s;
-    
+
                                 span {
                                     position: absolute;
                                     top: 10px;
@@ -1544,10 +1549,10 @@ main {
                                     transition: all 1.5s ease-in-out 0s;
                                 }
                             }
-    
+
                             .fa-heart:hover {
                                 transition: all 1.5s ease-in-out 0s;
-    
+
                                 span {
                                     position: absolute;
                                     top: 10px;
@@ -1563,16 +1568,16 @@ main {
                             }
                         }
                     }
-    
+
                     .popular-product-main-item-content {
                         display: flex;
                         align-items: center;
                         flex-direction: column;
                         justify-content: center;
                         height: 60%;
-    
+
                         .trend {
-    
+
                             p {
                                 position: absolute;
                                 left: 0px;
@@ -1585,9 +1590,9 @@ main {
                                 border-bottom-right-radius: 20px;
                             }
                         }
-    
+
                         .trend-1 {
-    
+
                             p {
                                 position: absolute;
                                 left: 0px;
@@ -1600,9 +1605,9 @@ main {
                                 border-bottom-right-radius: 20px;
                             }
                         }
-    
+
                         .trend-2 {
-    
+
                             p {
                                 position: absolute;
                                 left: 0px;
@@ -1615,9 +1620,9 @@ main {
                                 border-bottom-right-radius: 20px;
                             }
                         }
-    
+
                         .trend-3 {
-    
+
                             p {
                                 position: absolute;
                                 left: 0px;
@@ -1630,8 +1635,8 @@ main {
                                 border-bottom-right-radius: 20px;
                             }
                         }
-    
-    
+
+
                         .content-heading {
                             font-size: 1rem;
                             font-weight: 500;
@@ -1640,7 +1645,7 @@ main {
                             text-align: center;
                             width: 100%;
                         }
-    
+
                         .content-paragraph {
                             font-size: 1.5rem;
                             font-weight: 600;
@@ -1649,28 +1654,28 @@ main {
                             text-align: center;
                             width: 100%;
                         }
-    
+
                         h3 {
                             margin-top: 10px;
                         }
-    
-    
-    
+
+
+
                         .price-container {
                             display: flex;
                             flex-direction: column;
                             margin-top: 10px;
-    
+
                             del {
                                 color: gray;
                                 font-size: 1rem;
                                 padding-left: 5px;
-    
+
                             }
-    
+
                             .btn-primary {
                                 margin: 20px;
-                                padding: 10px 20px;
+                                padding: 10px 60px;
                                 background-color: green;
                                 color: white;
                                 font-size: 1.3rem;
@@ -1679,10 +1684,14 @@ main {
                                 border-radius: 10px;
                                 border: 1px solid transparent;
                                 transition: all 2s ease-in-out 0s;
+
+                                i {
+                                    padding-right: 20px;
+                                }
                             }
-    
+
                             .btn-primary:hover {
-                                padding: 10px 20px;
+                                padding: 10px 60px;
                                 background-color: white;
                                 color: green;
                                 font-size: 1.3rem;
@@ -1691,15 +1700,16 @@ main {
                                 border: 1px solid green;
                                 border-radius: 10px;
                                 transition: all 2s ease-in-out 0s;
+                                transform: translateY(-10px);
                             }
                         }
                     }
-    
-    
-    
-    
+
+
+
+
                 }
-    
+
                 .popular-product-main-item:hover {
                     border: 1px solid gray;
                     box-shadow: 2px 2px 5px gray;
@@ -3048,7 +3058,7 @@ main {
                 gap: 20px;
                 justify-content: center;
                 height: 100%;
-    
+
                 .daily-best-sells-bottom-banner {
                     background-image: url(../Assets/images/banner-4.png);
                     background-position: center;
@@ -3056,11 +3066,11 @@ main {
                     border-radius: 10px;
                     height: 100%;
                     width: 100%;
-                    display: flex 0,0,auto;
+                    display: flex 0, 0, auto;
                     flex-direction: column;
                     align-items: flex-start;
                     justify-content: flex-start;
-    
+
                     .featured-heading {
                         font-size: 2rem;
                         font-weight: 700;
@@ -3072,7 +3082,7 @@ main {
                         padding: 50px 0px;
                         margin-bottom: 120px;
                     }
-    
+
                     .featured-heading:hover {
                         font-size: 2rem;
                         font-weight: 600;
@@ -3085,11 +3095,11 @@ main {
                         margin-bottom: 120px;
                         transform: translateY(-20px);
                     }
-    
-    
-    
-    
-    
+
+
+
+
+
                     .btn-primary {
                         padding: 20px 15px;
                         background-color: green;
@@ -3103,13 +3113,13 @@ main {
                         transition: all 2s ease-in-out 0s;
                         margin-left: 30px;
                         margin-bottom: 120px;
-    
+
                         i {
                             margin-left: 10px;
                             transition: all 1s ease-in-out 0s;
                         }
                     }
-    
+
                     .btn-primary:hover {
                         padding: 10px 15px;
                         background-color: white;
@@ -3122,21 +3132,22 @@ main {
                         border-radius: 10px;
                         transition: all 2s ease-in-out 0s;
                         margin-left: 30px;
-    
+
                         i {
                             margin-left: 15px;
                             transition: all 1s ease-in-out 0s;
                         }
                     }
-    
+
                 }
-    
+
                 .daily-best-sells-bottom-container {
                     display: grid;
                     grid-template-columns: repeat(1, 1fr);
                     gap: 20px;
                     position: relative;
                     height: 100%;
+
                     .popular-product-main-item {
                         border: 1px solid gray;
                         border-radius: 20px;
@@ -3146,26 +3157,26 @@ main {
                         justify-content: center;
                         height: 100%;
                         position: relative;
-        
+
                         .popular-product-main-item-img {
                             height: 40%;
                             position: relative;
-        
+
                             .open {
                                 height: 100%;
                                 display: block;
                                 width: 90%;
                                 transition: all 2s ease-in-out 0s;
-        
+
                             }
-        
+
                             .close {
                                 height: 100%;
                                 display: none;
                                 width: 90%;
-        
+
                             }
-        
+
                             .action {
                                 text-align: center;
                                 display: flex;
@@ -3178,25 +3189,25 @@ main {
                                 background-color: white;
                                 border: 1px solid rgba(242, 245, 243, 0.904);
                                 padding: 30px 20px;
-        
+
                                 i {
                                     gap: 20px;
                                     padding: 10px 10px;
                                     border-left: 1px solid green;
                                     color: green;
-        
+
                                     span {
                                         font-size: .7rem;
                                         display: none;
                                     }
                                 }
-        
+
                                 .fa-heart {
                                     gap: 20px;
                                     padding: 10px 10px;
                                     border-left: 1px solid green;
                                     color: green;
-        
+
                                     span {
                                         font-size: .7rem;
                                         display: none;
@@ -3204,25 +3215,25 @@ main {
                                 }
                             }
                         }
-        
+
                         .popular-product-main-item-img:hover {
                             height: 40%;
                             transition: all 2s ease-in-out 0s;
-        
+
                             .open {
                                 height: 100%;
                                 display: none;
                                 width: 90%;
-        
+
                             }
-        
+
                             .close {
                                 height: 100%;
                                 display: block;
                                 width: 90%;
                                 transition: all 2s ease-in-out 0s;
                             }
-        
+
                             .action {
                                 position: absolute;
                                 top: 60px;
@@ -3235,10 +3246,10 @@ main {
                                 justify-content: flex-start;
                                 background-color: white;
                                 border-radius: 5px;
-        
+
                                 i:hover {
                                     transition: all 1.5s ease-in-out 0s;
-        
+
                                     span {
                                         position: absolute;
                                         top: 10px;
@@ -3252,10 +3263,10 @@ main {
                                         transition: all 1.5s ease-in-out 0s;
                                     }
                                 }
-        
+
                                 .fa-heart:hover {
                                     transition: all 1.5s ease-in-out 0s;
-        
+
                                     span {
                                         position: absolute;
                                         top: 10px;
@@ -3271,16 +3282,16 @@ main {
                                 }
                             }
                         }
-        
+
                         .popular-product-main-item-content {
                             display: flex;
                             align-items: center;
                             flex-direction: column;
                             justify-content: center;
                             height: 60%;
-        
+
                             .trend {
-        
+
                                 p {
                                     position: absolute;
                                     left: 0px;
@@ -3293,9 +3304,9 @@ main {
                                     border-bottom-right-radius: 20px;
                                 }
                             }
-        
+
                             .trend-1 {
-        
+
                                 p {
                                     position: absolute;
                                     left: 0px;
@@ -3308,9 +3319,9 @@ main {
                                     border-bottom-right-radius: 20px;
                                 }
                             }
-        
+
                             .trend-2 {
-        
+
                                 p {
                                     position: absolute;
                                     left: 0px;
@@ -3323,9 +3334,9 @@ main {
                                     border-bottom-right-radius: 20px;
                                 }
                             }
-        
+
                             .trend-3 {
-        
+
                                 p {
                                     position: absolute;
                                     left: 0px;
@@ -3338,8 +3349,8 @@ main {
                                     border-bottom-right-radius: 20px;
                                 }
                             }
-        
-        
+
+
                             .content-heading {
                                 font-size: 1rem;
                                 font-weight: 500;
@@ -3348,7 +3359,7 @@ main {
                                 text-align: center;
                                 width: 100%;
                             }
-        
+
                             .content-paragraph {
                                 font-size: 1.5rem;
                                 font-weight: 600;
@@ -3357,28 +3368,28 @@ main {
                                 text-align: center;
                                 width: 100%;
                             }
-        
+
                             h3 {
                                 margin-top: 10px;
                             }
-        
-        
-        
+
+
+
                             .price-container {
                                 display: flex;
                                 flex-direction: column;
                                 margin-top: 10px;
-        
+
                                 del {
                                     color: gray;
                                     font-size: 1rem;
                                     padding-left: 5px;
-        
+
                                 }
-        
+
                                 .btn-primary {
                                     margin: 20px;
-                                    padding: 10px 20px;
+                                    padding: 10px 60px;
                                     background-color: green;
                                     color: white;
                                     font-size: 1.3rem;
@@ -3387,10 +3398,14 @@ main {
                                     border-radius: 10px;
                                     border: 1px solid transparent;
                                     transition: all 2s ease-in-out 0s;
+
+                                    i {
+                                        padding-right: 20px;
+                                    }
                                 }
-        
+
                                 .btn-primary:hover {
-                                    padding: 10px 20px;
+                                    padding: 10px 60px;
                                     background-color: white;
                                     color: green;
                                     font-size: 1.3rem;
@@ -3399,15 +3414,16 @@ main {
                                     border: 1px solid green;
                                     border-radius: 10px;
                                     transition: all 2s ease-in-out 0s;
+                                    transform: translateY(-10px);
                                 }
                             }
                         }
-        
-        
-        
-        
+
+
+
+
                     }
-        
+
                     .popular-product-main-item:hover {
                         border: 1px solid gray;
                         box-shadow: 2px 2px 5px gray;
@@ -3418,7 +3434,62 @@ main {
                         justify-content: center;
                     }
                 }
-    
+
+            }
+        }
+
+
+        .deals-of-the-day {
+
+            .popular-product-top {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                padding: 50px auto;
+                .popular-product-top-left {
+                    h1 {
+                        font-size: 1.5rem;
+                        font-weight: 800;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+
+                    }
+                }
+
+                .popular-product-top-right {
+                    display: flex;
+                    align-items: center;
+                    gap: 50px;
+
+
+                    p {
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            font-family: montserrat;
+                            font-size: 1.5rem;
+                            position: relative;
+                            border-bottom: 1px solid transparent;
+                            transition: all 1.5s ease-in-out 0s;
+                            i{
+                                padding-left: 10px;
+                            }
+                        }
+
+                        a:hover {
+                            text-decoration: none;
+                            color: green;
+                            font-family: montserrat;
+                            font-size: 1.5rem;
+                            transition: all 1.5s ease-in-out 0s;
+                            border-bottom: 1px solid green;
+
+                        }
+                    }
+                }
             }
         }
 
@@ -4603,7 +4674,7 @@ main {
                 gap: 20px;
                 justify-content: center;
                 height: 100%;
-    
+
                 .daily-best-sells-bottom-banner {
                     background-image: url(../Assets/images/banner-4.png);
                     background-position: center;
@@ -4611,11 +4682,11 @@ main {
                     border-radius: 10px;
                     height: 100%;
                     width: 100%;
-                    display: flex 0,0,auto;
+                    display: flex 0, 0, auto;
                     flex-direction: column;
                     align-items: flex-start;
                     justify-content: flex-start;
-    
+
                     .featured-heading {
                         font-size: 3rem;
                         font-weight: 700;
@@ -4627,7 +4698,7 @@ main {
                         padding: 50px 0px;
                         margin-bottom: 120px;
                     }
-    
+
                     .featured-heading:hover {
                         font-size: 3rem;
                         font-weight: 600;
@@ -4640,11 +4711,11 @@ main {
                         margin-bottom: 120px;
                         transform: translateY(-20px);
                     }
-    
-    
-    
-    
-    
+
+
+
+
+
                     .btn-primary {
                         padding: 20px 15px;
                         background-color: green;
@@ -4658,13 +4729,13 @@ main {
                         transition: all 2s ease-in-out 0s;
                         margin-left: 30px;
                         margin-bottom: 120px;
-    
+
                         i {
                             margin-left: 10px;
                             transition: all 1s ease-in-out 0s;
                         }
                     }
-    
+
                     .btn-primary:hover {
                         padding: 10px 15px;
                         background-color: white;
@@ -4677,21 +4748,22 @@ main {
                         border-radius: 10px;
                         transition: all 2s ease-in-out 0s;
                         margin-left: 30px;
-    
+
                         i {
                             margin-left: 15px;
                             transition: all 1s ease-in-out 0s;
                         }
                     }
-    
+
                 }
-    
+
                 .daily-best-sells-bottom-container {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
                     gap: 20px;
                     position: relative;
                     height: 100%;
+
                     .popular-product-main-item {
                         border: 1px solid gray;
                         border-radius: 20px;
@@ -4701,26 +4773,26 @@ main {
                         justify-content: center;
                         height: 100%;
                         position: relative;
-        
+
                         .popular-product-main-item-img {
                             height: 40%;
                             position: relative;
-        
+
                             .open {
                                 height: 100%;
                                 display: block;
                                 width: 90%;
                                 transition: all 2s ease-in-out 0s;
-        
+
                             }
-        
+
                             .close {
                                 height: 100%;
                                 display: none;
                                 width: 90%;
-        
+
                             }
-        
+
                             .action {
                                 text-align: center;
                                 display: flex;
@@ -4733,25 +4805,25 @@ main {
                                 background-color: white;
                                 border: 1px solid rgba(242, 245, 243, 0.904);
                                 padding: 30px 20px;
-        
+
                                 i {
                                     gap: 20px;
                                     padding: 10px 10px;
                                     border-left: 1px solid green;
                                     color: green;
-        
+
                                     span {
                                         font-size: .7rem;
                                         display: none;
                                     }
                                 }
-        
+
                                 .fa-heart {
                                     gap: 20px;
                                     padding: 10px 10px;
                                     border-left: 1px solid green;
                                     color: green;
-        
+
                                     span {
                                         font-size: .7rem;
                                         display: none;
@@ -4759,25 +4831,25 @@ main {
                                 }
                             }
                         }
-        
+
                         .popular-product-main-item-img:hover {
                             height: 40%;
                             transition: all 2s ease-in-out 0s;
-        
+
                             .open {
                                 height: 100%;
                                 display: none;
                                 width: 90%;
-        
+
                             }
-        
+
                             .close {
                                 height: 100%;
                                 display: block;
                                 width: 90%;
                                 transition: all 2s ease-in-out 0s;
                             }
-        
+
                             .action {
                                 position: absolute;
                                 top: 60px;
@@ -4790,10 +4862,10 @@ main {
                                 justify-content: flex-start;
                                 background-color: white;
                                 border-radius: 5px;
-        
+
                                 i:hover {
                                     transition: all 1.5s ease-in-out 0s;
-        
+
                                     span {
                                         position: absolute;
                                         top: 10px;
@@ -4807,10 +4879,10 @@ main {
                                         transition: all 1.5s ease-in-out 0s;
                                     }
                                 }
-        
+
                                 .fa-heart:hover {
                                     transition: all 1.5s ease-in-out 0s;
-        
+
                                     span {
                                         position: absolute;
                                         top: 10px;
@@ -4826,16 +4898,16 @@ main {
                                 }
                             }
                         }
-        
+
                         .popular-product-main-item-content {
                             display: flex;
                             align-items: center;
                             flex-direction: column;
                             justify-content: center;
                             height: 60%;
-        
+
                             .trend {
-        
+
                                 p {
                                     position: absolute;
                                     left: 0px;
@@ -4848,9 +4920,9 @@ main {
                                     border-bottom-right-radius: 20px;
                                 }
                             }
-        
+
                             .trend-1 {
-        
+
                                 p {
                                     position: absolute;
                                     left: 0px;
@@ -4863,9 +4935,9 @@ main {
                                     border-bottom-right-radius: 20px;
                                 }
                             }
-        
+
                             .trend-2 {
-        
+
                                 p {
                                     position: absolute;
                                     left: 0px;
@@ -4878,9 +4950,9 @@ main {
                                     border-bottom-right-radius: 20px;
                                 }
                             }
-        
+
                             .trend-3 {
-        
+
                                 p {
                                     position: absolute;
                                     left: 0px;
@@ -4893,8 +4965,8 @@ main {
                                     border-bottom-right-radius: 20px;
                                 }
                             }
-        
-        
+
+
                             .content-heading {
                                 font-size: 1rem;
                                 font-weight: 500;
@@ -4903,7 +4975,7 @@ main {
                                 text-align: center;
                                 width: 100%;
                             }
-        
+
                             .content-paragraph {
                                 font-size: 1.5rem;
                                 font-weight: 600;
@@ -4912,28 +4984,28 @@ main {
                                 text-align: center;
                                 width: 100%;
                             }
-        
+
                             h3 {
                                 margin-top: 10px;
                             }
-        
-        
-        
+
+
+
                             .price-container {
                                 display: flex;
                                 flex-direction: column;
                                 margin-top: 10px;
-        
+
                                 del {
                                     color: gray;
                                     font-size: 1rem;
                                     padding-left: 5px;
-        
+
                                 }
-        
+
                                 .btn-primary {
                                     margin: 20px;
-                                    padding: 10px 20px;
+                                    padding: 10px 80px;
                                     background-color: green;
                                     color: white;
                                     font-size: 1.3rem;
@@ -4942,10 +5014,14 @@ main {
                                     border-radius: 10px;
                                     border: 1px solid transparent;
                                     transition: all 2s ease-in-out 0s;
+
+                                    i {
+                                        padding-right: 20px;
+                                    }
                                 }
-        
+
                                 .btn-primary:hover {
-                                    padding: 10px 20px;
+                                    padding: 10px 80px;
                                     background-color: white;
                                     color: green;
                                     font-size: 1.3rem;
@@ -4954,15 +5030,16 @@ main {
                                     border: 1px solid green;
                                     border-radius: 10px;
                                     transition: all 2s ease-in-out 0s;
+                                    transform: translateY(-10px);
                                 }
                             }
                         }
-        
-        
-        
-        
+
+
+
+
                     }
-        
+
                     .popular-product-main-item:hover {
                         border: 1px solid gray;
                         box-shadow: 2px 2px 5px gray;
@@ -4973,9 +5050,64 @@ main {
                         justify-content: center;
                     }
                 }
-    
+
             }
 
+        }
+
+
+        .deals-of-the-day {
+
+            .popular-product-top {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+
+                .popular-product-top-left {
+                    h1 {
+                        font-size: 2.5rem;
+                        font-weight: 800;
+                        font-family: montserrat;
+                        padding: 10px 15px;
+                        text-align: center;
+
+                    }
+                }
+
+                .popular-product-top-right {
+                    display: flex;
+                    align-items: center;
+                    gap: 50px;
+
+
+                    p {
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            font-family: montserrat;
+                            font-size: 1.5rem;
+                            position: relative;
+                            border-bottom: 1px solid transparent;
+                            transition: all 1.5s ease-in-out 0s;
+                            i{
+                                padding-left: 10px;
+                            }
+                        }
+
+                        a:hover {
+                            text-decoration: none;
+                            color: green;
+                            font-family: montserrat;
+                            font-size: 1.5rem;
+                            transition: all 1.5s ease-in-out 0s;
+                            border-bottom: 1px solid green;
+
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -6014,7 +6146,7 @@ main {
                 gap: 20px;
                 justify-content: center;
                 height: 100%;
-    
+
                 .daily-best-sells-bottom-banner {
                     background-image: url(../Assets/images/banner-4.png);
                     background-position: center;
@@ -6022,11 +6154,11 @@ main {
                     border-radius: 10px;
                     height: 100%;
                     width: 100%;
-                    display: flex 0,0,auto;
+                    display: flex 0, 0, auto;
                     flex-direction: column;
                     align-items: flex-start;
                     justify-content: flex-start;
-    
+
                     .featured-heading {
                         font-size: 4rem;
                         font-weight: 700;
@@ -6038,7 +6170,7 @@ main {
                         padding: 50px 0px;
                         margin-bottom: 120px;
                     }
-    
+
                     .featured-heading:hover {
                         font-size: 4rem;
                         font-weight: 600;
@@ -6051,11 +6183,11 @@ main {
                         margin-bottom: 120px;
                         transform: translateY(-20px);
                     }
-    
-    
-    
-    
-    
+
+
+
+
+
                     .btn-primary {
                         padding: 20px 15px;
                         background-color: green;
@@ -6069,13 +6201,13 @@ main {
                         transition: all 2s ease-in-out 0s;
                         margin-left: 30px;
                         margin-bottom: 120px;
-    
+
                         i {
                             margin-left: 10px;
                             transition: all 1s ease-in-out 0s;
                         }
                     }
-    
+
                     .btn-primary:hover {
                         padding: 10px 15px;
                         background-color: white;
@@ -6088,21 +6220,22 @@ main {
                         border-radius: 10px;
                         transition: all 2s ease-in-out 0s;
                         margin-left: 30px;
-    
+
                         i {
                             margin-left: 15px;
                             transition: all 1s ease-in-out 0s;
                         }
                     }
-    
+
                 }
-    
+
                 .daily-best-sells-bottom-container {
                     display: grid;
-                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-columns: repeat(4, 1fr);
                     gap: 20px;
                     position: relative;
                     height: 100%;
+
                     .popular-product-main-item {
                         border: 1px solid gray;
                         border-radius: 20px;
@@ -6112,26 +6245,26 @@ main {
                         justify-content: center;
                         height: 100%;
                         position: relative;
-        
+
                         .popular-product-main-item-img {
                             height: 40%;
                             position: relative;
-        
+
                             .open {
                                 height: 100%;
                                 display: block;
                                 width: 90%;
                                 transition: all 2s ease-in-out 0s;
-        
+
                             }
-        
+
                             .close {
                                 height: 100%;
                                 display: none;
                                 width: 90%;
-        
+
                             }
-        
+
                             .action {
                                 text-align: center;
                                 display: flex;
@@ -6144,25 +6277,25 @@ main {
                                 background-color: white;
                                 border: 1px solid rgba(242, 245, 243, 0.904);
                                 padding: 30px 20px;
-        
+
                                 i {
                                     gap: 20px;
                                     padding: 10px 10px;
                                     border-left: 1px solid green;
                                     color: green;
-        
+
                                     span {
                                         font-size: .7rem;
                                         display: none;
                                     }
                                 }
-        
+
                                 .fa-heart {
                                     gap: 20px;
                                     padding: 10px 10px;
                                     border-left: 1px solid green;
                                     color: green;
-        
+
                                     span {
                                         font-size: .7rem;
                                         display: none;
@@ -6170,25 +6303,25 @@ main {
                                 }
                             }
                         }
-        
+
                         .popular-product-main-item-img:hover {
                             height: 40%;
                             transition: all 2s ease-in-out 0s;
-        
+
                             .open {
                                 height: 100%;
                                 display: none;
                                 width: 90%;
-        
+
                             }
-        
+
                             .close {
                                 height: 100%;
                                 display: block;
                                 width: 90%;
                                 transition: all 2s ease-in-out 0s;
                             }
-        
+
                             .action {
                                 position: absolute;
                                 top: 60px;
@@ -6201,10 +6334,10 @@ main {
                                 justify-content: flex-start;
                                 background-color: white;
                                 border-radius: 5px;
-        
+
                                 i:hover {
                                     transition: all 1.5s ease-in-out 0s;
-        
+
                                     span {
                                         position: absolute;
                                         top: 10px;
@@ -6218,10 +6351,10 @@ main {
                                         transition: all 1.5s ease-in-out 0s;
                                     }
                                 }
-        
+
                                 .fa-heart:hover {
                                     transition: all 1.5s ease-in-out 0s;
-        
+
                                     span {
                                         position: absolute;
                                         top: 10px;
@@ -6237,16 +6370,16 @@ main {
                                 }
                             }
                         }
-        
+
                         .popular-product-main-item-content {
                             display: flex;
                             align-items: center;
                             flex-direction: column;
                             justify-content: center;
                             height: 60%;
-        
+
                             .trend {
-        
+
                                 p {
                                     position: absolute;
                                     left: 0px;
@@ -6259,9 +6392,9 @@ main {
                                     border-bottom-right-radius: 20px;
                                 }
                             }
-        
+
                             .trend-1 {
-        
+
                                 p {
                                     position: absolute;
                                     left: 0px;
@@ -6274,9 +6407,9 @@ main {
                                     border-bottom-right-radius: 20px;
                                 }
                             }
-        
+
                             .trend-2 {
-        
+
                                 p {
                                     position: absolute;
                                     left: 0px;
@@ -6289,9 +6422,9 @@ main {
                                     border-bottom-right-radius: 20px;
                                 }
                             }
-        
+
                             .trend-3 {
-        
+
                                 p {
                                     position: absolute;
                                     left: 0px;
@@ -6304,8 +6437,8 @@ main {
                                     border-bottom-right-radius: 20px;
                                 }
                             }
-        
-        
+
+
                             .content-heading {
                                 font-size: 1rem;
                                 font-weight: 500;
@@ -6314,7 +6447,7 @@ main {
                                 text-align: center;
                                 width: 100%;
                             }
-        
+
                             .content-paragraph {
                                 font-size: 1.5rem;
                                 font-weight: 600;
@@ -6323,28 +6456,28 @@ main {
                                 text-align: center;
                                 width: 100%;
                             }
-        
+
                             h3 {
                                 margin-top: 10px;
                             }
-        
-        
-        
+
+
+
                             .price-container {
                                 display: flex;
                                 flex-direction: column;
                                 margin-top: 10px;
-        
+
                                 del {
                                     color: gray;
                                     font-size: 1rem;
                                     padding-left: 5px;
-        
+
                                 }
-        
+
                                 .btn-primary {
                                     margin: 20px;
-                                    padding: 10px 20px;
+                                    padding: 10px 60px;
                                     background-color: green;
                                     color: white;
                                     font-size: 1.3rem;
@@ -6353,10 +6486,14 @@ main {
                                     border-radius: 10px;
                                     border: 1px solid transparent;
                                     transition: all 2s ease-in-out 0s;
+
+                                    i {
+                                        padding-right: 20px;
+                                    }
                                 }
-        
+
                                 .btn-primary:hover {
-                                    padding: 10px 20px;
+                                    padding: 10px 60px;
                                     background-color: white;
                                     color: green;
                                     font-size: 1.3rem;
@@ -6365,15 +6502,16 @@ main {
                                     border: 1px solid green;
                                     border-radius: 10px;
                                     transition: all 2s ease-in-out 0s;
+                                    transform: translateY(-10px);
                                 }
                             }
                         }
-        
-        
-        
-        
+
+
+
+
                     }
-        
+
                     .popular-product-main-item:hover {
                         border: 1px solid gray;
                         box-shadow: 2px 2px 5px gray;
@@ -6384,7 +6522,7 @@ main {
                         justify-content: center;
                     }
                 }
-    
+
             }
         }
     }
