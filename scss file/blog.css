@@ -73,6 +73,111 @@ main .main-banner-container ul li:hover a {
 main .main-banner-container ul .recips {
   color: black;
 }
+main .recipe-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+main .recipe-articles .recipe-article-top h1 {
+  font-size: 2rem;
+  color: green;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+  transition: all 1s ease-in-out;
+}
+main .recipe-articles .recipe-article-top h1:hover {
+  transition: all 1s ease-in-out;
+  border-bottom: 2px solid green;
+}
+main .recipe-articles .deals-of-the-day-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin-bottom: 50px;
+}
+main .recipe-articles .deals-of-the-day-bottom .popular-product-main-item {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  transition: all 1s ease-in-out 0s;
+}
+main .recipe-articles .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-img {
+  height: 100%;
+  border-radius: 20px;
+}
+main .recipe-articles .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-img .open {
+  height: 100%;
+  display: block;
+  width: 100%;
+  transition: all 2s ease-in-out 0s;
+  border-radius: 20px;
+}
+main .recipe-articles .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-img:hover {
+  height: 100%;
+  transition: all 2s ease-in-out 0s;
+}
+main .recipe-articles .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px whitesmoke;
+}
+main .recipe-articles .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content .content-paragraph {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: quicksand;
+  padding: 10px 15px;
+  text-align: center;
+  width: 100%;
+}
+main .recipe-articles .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content h3 {
+  margin-top: 10px;
+}
+main .recipe-articles .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content h4 {
+  margin-top: 10px;
+}
+main .recipe-articles .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content:hover {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+main .recipe-articles .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content:hover .content-paragraph {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: quicksand;
+  padding: 10px 15px;
+  text-align: center;
+  width: 100%;
+}
+main .recipe-articles .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content:hover h3 {
+  margin-top: 10px;
+}
+main .recipe-articles .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-content:hover h4 {
+  margin-top: 10px;
+}
+main .recipe-articles .deals-of-the-day-bottom .popular-product-main-item:hover {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(-10px);
+  transition: all 2s ease-in-out 0s;
+}
 
 /* footer section start*/
 footer {
@@ -295,6 +400,38 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
   main .main-banner-container ul li:hover a {
     color: orange;
     transition: all 1s ease-in-out;
+  }
+  main .recipe-articles {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  main .recipe-articles .recipe-article-top h1 {
+    font-size: 2rem;
+    color: green;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+    transition: all 1s ease-in-out;
+  }
+  main .recipe-articles .recipe-article-top h1:hover {
+    transition: all 1s ease-in-out;
+    border-bottom: 2px solid green;
+  }
+  main .recipe-articles .deals-of-the-day-bottom {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+  main .recipe-articles .deals-of-the-day-bottom .popular-product-main-item:hover {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(-10px);
+    transition: all 2s ease-in-out 0s;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
