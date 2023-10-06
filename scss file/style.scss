@@ -178,7 +178,7 @@ header {
                     a {
                         text-decoration: none;
                         color: black;
-                        font-family: montserrat;
+                        font-family: quicksand;
                     }
                 }
             }
@@ -196,8 +196,8 @@ header {
                 transition: all 1.5s ease-in-out 0s;
                 display: block;
                 position: absolute;
-                top: 140px;
-                right: 10px;
+                top: 110px;
+                right: 110px;
                 background-color: green;
                 padding: 20px 10px;
                 border-radius: 10px;
@@ -211,7 +211,7 @@ header {
                     a {
                         text-decoration: none;
                         color: white;
-                        font-family: montserrat;
+                        font-family: quicksand;
                         font-weight: 500;
                     }
                 }
@@ -2706,7 +2706,7 @@ footer {
                 ul {
                     display: block;
                     position: absolute;
-                    top: 140px;
+                    top: 60px;
                     right: 10px;
                     background-color: green;
                     padding: 20px 10px;
@@ -4502,6 +4502,7 @@ footer {
             .account-container {
                 h3 {
                     text-align: center;
+                    padding: 20px auto;
 
                     i {
                         padding-right: 10px;
@@ -4533,7 +4534,7 @@ footer {
                 ul {
                     display: block;
                     position: absolute;
-                    top: 140px;
+                    top: 85px;
                     right: 10px;
                     background-color: green;
                     padding: 20px 10px;
