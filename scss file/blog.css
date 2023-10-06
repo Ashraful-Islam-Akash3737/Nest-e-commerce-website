@@ -1,0 +1,323 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: auto;
+  font-family: quicksand;
+}
+
+main .main-banner-container {
+  background-image: url(../Assets/images/deals-of-the-day/banner-10.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  height: 300px;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+}
+main .main-banner-container .banner-left {
+  gap: 10px;
+}
+main .main-banner-container .banner-left h1 {
+  font-size: 4rem;
+}
+main .main-banner-container .banner-left span a {
+  color: green;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: all 1s ease-in-out;
+}
+main .main-banner-container .banner-left span a i {
+  padding-right: 10px;
+  color: green;
+  transition: all 1s ease-in-out;
+}
+main .main-banner-container .banner-left span a i:hover {
+  color: orange;
+  transition: all 1s ease-in-out;
+}
+main .main-banner-container .banner-left span a:hover {
+  color: orange;
+  transition: all 1s ease-in-out;
+}
+main .main-banner-container ul {
+  display: flex;
+  gap: 20px;
+}
+main .main-banner-container ul li {
+  list-style-type: none;
+  padding: 15px 15px;
+  background-color: white;
+  border-radius: 50px;
+  transition: all 1s ease-in-out;
+}
+main .main-banner-container ul li i {
+  padding-left: 10px;
+}
+main .main-banner-container ul li a {
+  color: green;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: all 1s ease-in-out;
+}
+main .main-banner-container ul li:hover {
+  transform: translateY(-10px);
+  transition: all 1s ease-in-out;
+}
+main .main-banner-container ul li:hover a {
+  color: orange;
+  transition: all 1s ease-in-out;
+}
+main .main-banner-container ul .recips {
+  color: black;
+}
+
+@media screen and (max-width: 576px) {
+  main .main-banner-container {
+    background-image: url(../Assets/images/deals-of-the-day/banner-10.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 400px;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  main .main-banner-container .banner-left {
+    width: 100%;
+    gap: 10px;
+  }
+  main .main-banner-container .banner-left h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  main .main-banner-container .banner-left h3 {
+    text-align: center;
+  }
+  main .main-banner-container .banner-left h3 a {
+    color: green;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container .banner-left h3 a i {
+    padding-right: 10px;
+    text-align: center;
+    color: green;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container .banner-left h3 a i:hover {
+    color: orange;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container .banner-left h3 a:hover {
+    color: orange;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container .banner-left p {
+    text-align: center;
+  }
+  main .main-banner-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  main .main-banner-container ul li {
+    list-style-type: none;
+    padding: 15px 15px;
+    background-color: white;
+    border-radius: 50px;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container ul li i {
+    padding-left: 10px;
+  }
+  main .main-banner-container ul li a {
+    color: green;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container ul li:hover {
+    transform: translateY(-10px);
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container ul li:hover a {
+    color: orange;
+    transition: all 1s ease-in-out;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  main .main-banner-container {
+    background-image: url(../Assets/images/deals-of-the-day/banner-10.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 300px;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  main .main-banner-container .banner-left {
+    width: 100%;
+    gap: 10px;
+  }
+  main .main-banner-container .banner-left h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  main .main-banner-container .banner-left h3 {
+    text-align: center;
+  }
+  main .main-banner-container .banner-left h3 a {
+    color: green;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container .banner-left h3 a i {
+    padding-right: 10px;
+    text-align: center;
+    color: green;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container .banner-left h3 a i:hover {
+    color: orange;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container .banner-left h3 a:hover {
+    color: orange;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container .banner-left p {
+    text-align: center;
+  }
+  main .main-banner-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  main .main-banner-container ul li {
+    list-style-type: none;
+    padding: 15px 15px;
+    background-color: white;
+    border-radius: 50px;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container ul li i {
+    padding-left: 10px;
+  }
+  main .main-banner-container ul li a {
+    color: green;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container ul li:hover {
+    transform: translateY(-10px);
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container ul li:hover a {
+    color: orange;
+    transition: all 1s ease-in-out;
+  }
+}
+@media screen and (min-width: 992px) {
+  main .main-banner-container {
+    background-image: url(../Assets/images/deals-of-the-day/banner-10.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 400px;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  main .main-banner-container .banner-left {
+    width: 40%;
+    gap: 10px;
+  }
+  main .main-banner-container .banner-left h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  main .main-banner-container .banner-left h3 {
+    text-align: center;
+  }
+  main .main-banner-container .banner-left h3 a {
+    color: green;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container .banner-left h3 a i {
+    padding-right: 10px;
+    text-align: center;
+    color: green;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container .banner-left h3 a i:hover {
+    color: orange;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container .banner-left h3 a:hover {
+    color: orange;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container .banner-left p {
+    text-align: center;
+  }
+  main .main-banner-container ul {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  main .main-banner-container ul li {
+    list-style-type: none;
+    padding: 15px 15px;
+    background-color: white;
+    border-radius: 50px;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container ul li i {
+    padding-left: 10px;
+  }
+  main .main-banner-container ul li a {
+    color: green;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container ul li:hover {
+    transform: translateY(-10px);
+    transition: all 1s ease-in-out;
+  }
+  main .main-banner-container ul li:hover a {
+    color: orange;
+    transition: all 1s ease-in-out;
+  }
+}/*# sourceMappingURL=blog.css.map */
