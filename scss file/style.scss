@@ -5,9 +5,9 @@
     font-family: quicksand;
 }
 body{
+    padding: auto;
+    margin: auto 10px;
     
-    margin: auto;
-    padding-left: 0px ;
     
 }
 
@@ -514,8 +514,8 @@ header {
 
 /* main section start*/
 main {
-    padding: auto;
-    margin: auto;
+   
+    
     z-index: -10;
 
     .banner-container {
@@ -3006,7 +3006,7 @@ footer {
 
 
     main {
-        padding: 30px 0px;
+        
         margin: auto;
 
         .banner-container {
@@ -4832,8 +4832,8 @@ footer {
 
 
     main {
-        padding: 30px 0px;
-        margin: auto;
+        
+      
 
         .banner-container {
             background-image: url(../Assets/images/hero-slider-1.png);
@@ -6509,8 +6509,7 @@ footer {
 
 
     main {
-        padding: 0px 0px;
-        margin: auto;
+        
         
 
         .banner-container {
@@ -7595,9 +7594,5 @@ footer {
 }
 
 @media screen and (min-width:1400px) {
-    body{
     
-        margin-left: 50px;
-        
-    }
 }

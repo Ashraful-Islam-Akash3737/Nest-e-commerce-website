@@ -6,8 +6,8 @@
 }
 
 body {
-  margin: auto;
-  padding-left: 0px;
+  padding: auto;
+  margin: auto 10px;
 }
 
 /* header section start*/
@@ -374,8 +374,6 @@ header .header-bottom-container .header-bottom-support-container p span {
 /* header section end*/
 /* main section start*/
 main {
-  padding: auto;
-  margin: auto;
   z-index: -10;
 }
 main .banner-container {
@@ -2261,7 +2259,6 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
     font-weight: 300;
   }
   main {
-    padding: 30px 0px;
     margin: auto;
   }
   main .banner-container {
@@ -3688,10 +3685,6 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
     color: black;
     font-weight: 300;
   }
-  main {
-    padding: 30px 0px;
-    margin: auto;
-  }
   main .banner-container {
     background-image: url(../Assets/images/hero-slider-1.png);
     background-position: center;
@@ -4985,10 +4978,6 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
     color: black;
     font-weight: 300;
   }
-  main {
-    padding: 0px 0px;
-    margin: auto;
-  }
   main .banner-container {
     background-image: url(../Assets/images/hero-slider-1.png);
     background-position: center;
@@ -5851,10 +5840,5 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
   }
   main .deals-of-the-day {
     display: none;
-  }
-}
-@media screen and (min-width: 1400px) {
-  body {
-    margin-left: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
