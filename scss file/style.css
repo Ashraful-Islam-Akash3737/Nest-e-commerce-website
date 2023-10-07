@@ -1,5 +1,5 @@
 * {
-  padding: 0;
+  padding: auto;
   box-sizing: border-box;
   margin: auto;
   font-family: quicksand;
@@ -7,7 +7,6 @@
 
 /* header section start*/
 header {
-  margin: 10px 10px;
   position: sticky;
   background-color: white;
   z-index: 10;
@@ -65,7 +64,7 @@ header .header-top-container .header-top-right .header-top-right-right select {
 header .header-middle-container {
   display: flex;
   align-items: center;
-  font-family: montserrat;
+  font-family: quicksand;
   padding: 10px 0px;
   justify-content: space-between;
   border-top: 1px solid rgba(128, 128, 128, 0.34);
@@ -133,6 +132,7 @@ header .header-middle-container .account-container:hover i {
   padding-right: 10px;
 }
 header .header-middle-container .account-container:hover ul {
+  z-index: 30;
   transition: all 1.5s ease-in-out 0s;
   display: block;
   position: absolute;
@@ -369,8 +369,8 @@ header .header-bottom-container .header-bottom-support-container p span {
 /* header section end*/
 /* main section start*/
 main {
-  padding: 30px 0px;
-  margin: 0px 10px;
+  padding: auto;
+  margin: auto;
   z-index: -10;
 }
 main .banner-container {
@@ -1767,7 +1767,6 @@ main .we-provide-container .we-provide .we-provide-content {
 /* main section end*/
 /* footer section start*/
 footer {
-  margin: 50px;
   border-top: 1px solid lightgray;
 }
 footer .footer-top-container {
@@ -1909,9 +1908,6 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
 /* responsive media query*/
 /* responsive media query for small device*/
 @media screen and (max-width: 576px) {
-  header {
-    margin: 0px 0px;
-  }
   header .header-top-container {
     display: flex;
     align-items: center;
@@ -2261,7 +2257,7 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
   }
   main {
     padding: 30px 0px;
-    margin: 0px 10px;
+    margin: auto;
   }
   main .banner-container {
     background-image: url(../Assets/images/hero-slider-1.png);
@@ -3346,9 +3342,6 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
 }
 /* responsive media query for medium device*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  header {
-    margin: 0px 10px;
-  }
   header .header-top-container {
     display: flex;
     align-items: center;
@@ -3407,7 +3400,7 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
   header .header-middle-container {
     display: flex;
     align-items: center;
-    font-family: montserrat;
+    font-family: quicksand;
     padding: 10px 0px;
     justify-content: space-between;
     border-top: 1px solid rgba(128, 128, 128, 0.34);
@@ -3475,7 +3468,7 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
   header .header-middle-container .account-container:hover ul {
     display: block;
     position: absolute;
-    top: 85px;
+    top: 75px;
     right: 10px;
     background-color: green;
     padding: 20px 10px;
@@ -3533,7 +3526,7 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
     background-color: green;
     color: white;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 10px;
     padding: 5px 10px;
     text-decoration: none;
@@ -3569,9 +3562,9 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
     background-color: green;
     color: white;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 10px;
-    padding: 5px 20px;
+    padding: 5px 10px;
     text-decoration: none;
     border: 1px solid transparent;
   }
@@ -3608,9 +3601,9 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
     background-color: green;
     color: white;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 10px;
-    padding: 5px 20px;
+    padding: 5px 10px;
     text-decoration: none;
     border: 1px solid transparent;
   }
@@ -3664,7 +3657,7 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
     font-weight: 800;
     font-size: 1.5rem;
     border-radius: 10px;
-    padding: 5px 20px;
+    padding: 5px 10px;
     text-decoration: none;
     border: 1px solid white;
   }
@@ -3692,7 +3685,7 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
   }
   main {
     padding: 30px 0px;
-    margin: 0px 10px;
+    margin: auto;
   }
   main .banner-container {
     background-image: url(../Assets/images/hero-slider-1.png);
@@ -4655,9 +4648,6 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
 }
 /* responsive media query for large device*/
 @media screen and (min-width: 992px) and (max-width: 1400px) {
-  header {
-    margin: 0px 10px;
-  }
   header .header-top-container {
     display: flex;
     align-items: flex-start;
@@ -4710,6 +4700,94 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
     padding-left: 10px;
     font-size: 1.2rem;
   }
+  header .header-middle-container {
+    display: flex;
+    align-items: center;
+    font-family: quicksand;
+    padding: 10px 0px;
+    justify-content: space-between;
+    border-top: 1px solid rgba(128, 128, 128, 0.34);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+  }
+  header .header-middle-container .logo-container img {
+    max-width: 90px;
+  }
+  header .header-middle-container .search-icons-container {
+    display: flex;
+    align-items: center;
+  }
+  header .header-middle-container .search-icons-container .search-category-container {
+    display: flex;
+    align-items: center;
+    border: 3px solid rgba(0, 128, 0, 0.249);
+    padding: 10px 5px;
+    border-radius: 10px;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .all-category select {
+    padding: 8px 5px;
+    padding-right: 0px;
+    border: transparent;
+    font-size: 1rem;
+    border-right: 1px solid gray;
+    outline: none;
+    overflow: hidden;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .search {
+    opacity: 0.35;
+    padding-left: 10px;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .search .search-bar {
+    padding: 8px 5px;
+    border: none;
+    font-size: 1rem;
+    margin-right: 10px;
+    outline: none;
+  }
+  header .header-middle-container .search-icons-container .search-category-container .search i {
+    font-size: 1rem;
+  }
+  header .header-middle-container .account-container h3 {
+    text-align: center;
+    padding: 20px auto;
+  }
+  header .header-middle-container .account-container h3 i {
+    padding-right: 10px;
+  }
+  header .header-middle-container .account-container ul {
+    display: none;
+    position: relative;
+  }
+  header .header-middle-container .account-container ul li {
+    list-style-type: none;
+  }
+  header .header-middle-container .account-container ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: montserrat;
+  }
+  header .header-middle-container .account-container:hover i {
+    padding-right: 10px;
+  }
+  header .header-middle-container .account-container:hover ul {
+    display: block;
+    position: absolute;
+    top: 75px;
+    right: 10px;
+    background-color: green;
+    padding: 20px 10px;
+    border-radius: 10px;
+    transition: all 2s ease 0s;
+  }
+  header .header-middle-container .account-container:hover ul li {
+    list-style-type: none;
+    padding: 10px;
+  }
+  header .header-middle-container .account-container:hover ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: montserrat;
+    font-weight: 500;
+  }
   header .header-bottom-container {
     display: flex;
     justify-content: center;
@@ -4744,7 +4822,7 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
     background-color: green;
     color: white;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 10px;
     padding: 5px 10px;
     text-decoration: none;
@@ -4780,7 +4858,7 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
     background-color: green;
     color: white;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 10px;
     padding: 5px 20px;
     text-decoration: none;
@@ -4819,7 +4897,7 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
     background-color: green;
     color: white;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 10px;
     padding: 5px 20px;
     text-decoration: none;
@@ -4903,8 +4981,9 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
     font-weight: 300;
   }
   main {
-    padding: 30px 0px;
-    margin: 0px 10px;
+    padding: 0px 0px;
+    margin: auto;
+    margin-left: 10px;
   }
   main .banner-container {
     background-image: url(../Assets/images/hero-slider-1.png);
