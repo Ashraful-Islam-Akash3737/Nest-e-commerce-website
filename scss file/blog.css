@@ -76,7 +76,7 @@ main .main-banner-container ul .recips {
 main .recipe-articles {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: auto;
 }
 main .recipe-articles .recipe-article-top h1 {
   font-size: 2rem;
@@ -112,7 +112,7 @@ main .recipe-articles .deals-of-the-day-bottom .popular-product-main-item .popul
 main .recipe-articles .deals-of-the-day-bottom .popular-product-main-item .popular-product-main-item-img .open {
   height: 100%;
   display: block;
-  width: 100%;
+  width: 90%;
   transition: all 2s ease-in-out 0s;
   border-radius: 20px;
 }
@@ -404,7 +404,7 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
   main .recipe-articles {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: auto;
   }
   main .recipe-articles .recipe-article-top h1 {
     font-size: 2rem;

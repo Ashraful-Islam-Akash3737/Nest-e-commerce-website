@@ -5,6 +5,11 @@
   font-family: quicksand;
 }
 
+body {
+  margin: auto;
+  padding-left: 0px;
+}
+
 /* header section start*/
 header {
   position: sticky;
@@ -4983,7 +4988,6 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
   main {
     padding: 0px 0px;
     margin: auto;
-    margin-left: 10px;
   }
   main .banner-container {
     background-image: url(../Assets/images/hero-slider-1.png);
@@ -5847,5 +5851,10 @@ footer .footer-bottom-container .follow-us .heading-icon .icon i {
   }
   main .deals-of-the-day {
     display: none;
+  }
+}
+@media screen and (min-width: 1400px) {
+  body {
+    margin-left: 50px;
   }
 }/*# sourceMappingURL=style.css.map */

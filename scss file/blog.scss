@@ -107,7 +107,7 @@ main {
     .recipe-articles {
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: auto;
         .recipe-article-top {
             img {}
 
@@ -150,7 +150,7 @@ main {
                     .open {
                         height: 100%;
                         display: block;
-                        width: 100%;
+                        width: 90%;
                         transition: all 2s ease-in-out 0s;
                         border-radius: 20px;
 
@@ -587,7 +587,7 @@ footer {
         .recipe-articles {
             display: flex;
             flex-direction: column;
-            gap: 50px;
+            gap: auto;
             .recipe-article-top {
                 img {}
     

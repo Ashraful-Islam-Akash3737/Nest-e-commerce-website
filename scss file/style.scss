@@ -1,8 +1,14 @@
 * {
     padding: auto;
     box-sizing: border-box;
-    margin: auto;
+    margin: auto ;
     font-family: quicksand;
+}
+body{
+    
+    margin: auto;
+    padding-left: 0px ;
+    
 }
 
 /* header section start*/
@@ -6505,7 +6511,7 @@ footer {
     main {
         padding: 0px 0px;
         margin: auto;
-        margin-left: 10px;
+        
 
         .banner-container {
             background-image: url(../Assets/images/hero-slider-1.png);
@@ -7586,4 +7592,12 @@ footer {
         }
     }
 
+}
+
+@media screen and (min-width:1400px) {
+    body{
+    
+        margin-left: 50px;
+        
+    }
 }
